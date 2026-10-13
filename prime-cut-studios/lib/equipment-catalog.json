@@ -8,7 +8,16 @@
     "imageUrl": "https://www.usa.canon.com/content/dam/canon-assets/product-assets/Cameras/cinema-eos-cameras/cinema-eos/eos-r5-c-body/product-images/5077C002_eos-r5-c_1.png",
     "officialUrl": "https://www.usa.canon.com/shop/p/eos-r5-c",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 2,
@@ -19,7 +28,16 @@
     "imageUrl": "https://www.usa.canon.com/content/dam/canon-assets-%28no-crop-applied%29/newsroom/2022/20221102-camera/5666C002_eos_r6_mark_ii_body_primary.png",
     "officialUrl": "https://www.usa.canon.com/shop/p/eos-r6-mark-ii",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 3,
@@ -30,7 +48,16 @@
     "imageUrl": "https://s7d1.scene7.com/is/image/canon/6895C002_R50_V_Body_primary?wid=800",
     "officialUrl": "https://www.usa.canon.com/shop/p/eos-r50-v",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 4,
@@ -41,7 +68,16 @@
     "imageUrl": "https://www.usa.canon.com/content/dam/canon-assets-%28no-crop-applied%29/newsroom/2023/20230524-camera/6052C022_eos-r100-two-lens-kit_primary.png",
     "officialUrl": "https://www.usa.canon.com/shop/p/eos-r100",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 5,
@@ -52,7 +88,16 @@
     "imageUrl": null,
     "officialUrl": "https://gopro.com/en/us/shop/cameras/hero12-black/CHDHX-121-master.html",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 6,
@@ -63,7 +108,16 @@
     "imageUrl": "https://static.gopro.com/assets/blta2b8522e5372af40/bltb33f565e80510d1c/66ac8acfadec83c57a2d35da/03-pdp-h13-gallery-768-375.png",
     "officialUrl": "https://gopro.com/en/us/shop/cameras/buy/hero13black/CHDHX-131-master.html",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 7,
@@ -74,7 +128,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.dji.com/mavic",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 8,
@@ -85,7 +148,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.dji.com/mavic-mini",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 9,
@@ -97,7 +169,16 @@
     "officialUrl": "https://www.usa.canon.com/shop/p/rf24-105mm-f4-l-is-usm",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "Canon RF 24-105mm F4 L IS USM"
+    "originalName": "Canon RF 24-105mm F4 L IS USM",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 10,
@@ -109,7 +190,16 @@
     "officialUrl": "https://www.usa.canon.com/shop/p/rf28-70mm-f2-8-is-stm",
     "sourceStatus": "direct-image",
     "modelNote": "La foto y el nombre corresponden a RF28-70mm F2.8 IS STM; confirmar contra la unidad física antes de autorizar alquiler.",
-    "originalName": "Canon RF 28-70mm"
+    "originalName": "Canon RF 28-70mm",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 11,
@@ -121,7 +211,16 @@
     "officialUrl": "https://www.canon.com.au/camera-lenses/ef-s-55-250mm-f-4-5-6-is-stm",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "Canon EF-S 55-250mm f/4-5.6 IS STM"
+    "originalName": "Canon EF-S 55-250mm f/4-5.6 IS STM",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 12,
@@ -133,7 +232,16 @@
     "officialUrl": "https://rokinon.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Rokinon 24mm T1.5 ED AS IF UMC Cine"
+    "originalName": "Rokinon 24mm T1.5 ED AS IF UMC Cine",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 13,
@@ -144,7 +252,16 @@
     "imageUrl": null,
     "officialUrl": "https://rokinon.com/products/35mm-t1-5-full-frame-wide-angle-cine-ds",
     "sourceStatus": "manufacturer-page",
-    "modelNote": "Variante de Rokinon 35mm T1.5 por verificar; la fotografía de una variante Cine DS podría no corresponder a esta unidad."
+    "modelNote": "Variante de Rokinon 35mm T1.5 por verificar; la fotografía de una variante Cine DS podría no corresponder a esta unidad.",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 14,
@@ -156,7 +273,16 @@
     "officialUrl": "https://rokinon.com/products/50mm-t1-5-full-frame-cine-ds",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Rokinon 50mm T1.5 AS UMC"
+    "originalName": "Rokinon 50mm T1.5 AS UMC",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 15,
@@ -168,7 +294,16 @@
     "officialUrl": "https://rokinon.com/collections/rokinon-lenses/products/85mm-t1-5-full-frame-cine-ds",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Rokinon 85mm T1.5 Cine DS"
+    "originalName": "Rokinon 85mm T1.5 Cine DS",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 16,
@@ -179,7 +314,16 @@
     "imageUrl": null,
     "officialUrl": "https://rokinon.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 17,
@@ -191,7 +335,16 @@
     "officialUrl": "https://www.venuslens.net/product/laowa-24mm-f-14-2x-macro-probe/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "LAOWA 24mm f/14 2X Macro Probe"
+    "originalName": "LAOWA 24mm f/14 2X Macro Probe",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 18,
@@ -203,7 +356,16 @@
     "officialUrl": "https://www.hkyongnuo.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Yongnuo 35mm f/2 AF"
+    "originalName": "Yongnuo 35mm f/2 AF",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 19,
@@ -215,7 +377,16 @@
     "officialUrl": "https://www.kfconcept.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "K&F Concept True Color ND2-32 & CPL"
+    "originalName": "K&F Concept True Color ND2-32 & CPL",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 20,
@@ -226,7 +397,16 @@
     "imageUrl": null,
     "officialUrl": "https://rode.com/en-us/products/rodecaster-pro-II",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 21,
@@ -237,7 +417,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.shure.com/en-US/products/microphones/sm7b",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 22,
@@ -249,7 +438,16 @@
     "officialUrl": "https://rode.com/en-us/products/wireless-pro",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "RØDE Wireless PRO Kit #1"
+    "originalName": "RØDE Wireless PRO Kit #1",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 23,
@@ -261,7 +459,16 @@
     "officialUrl": "https://rode.com/en-us/products/wireless-pro",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "RØDE Wireless PRO Kit #2"
+    "originalName": "RØDE Wireless PRO Kit #2",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 24,
@@ -272,7 +479,16 @@
     "imageUrl": null,
     "officialUrl": "https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6essential/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 25,
@@ -283,7 +499,16 @@
     "imageUrl": null,
     "officialUrl": "https://zoomcorp.com/en/us/podtrak-recorders/podcast-recorders/podtrak-p4/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 26,
@@ -295,7 +520,16 @@
     "officialUrl": "https://www.sennheiser.com/en-us",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Sennheiser MKH 416 P48"
+    "originalName": "Sennheiser MKH 416 P48",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 27,
@@ -307,7 +541,16 @@
     "officialUrl": "https://aurayaudio.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Auray BP-59A"
+    "originalName": "Auray BP-59A",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 28,
@@ -319,7 +562,16 @@
     "officialUrl": "https://rycote.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Rycote InVision INV-HG mkIII"
+    "originalName": "Rycote InVision INV-HG mkIII",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 29,
@@ -331,7 +583,16 @@
     "officialUrl": "https://aurayaudio.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Auray 7in Windshield"
+    "originalName": "Auray 7in Windshield",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 30,
@@ -342,7 +603,16 @@
     "imageUrl": null,
     "officialUrl": "https://tadeto.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 31,
@@ -354,7 +624,16 @@
     "officialUrl": "https://amarancreators.com/products/amaran-300c",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "amaran 300c"
+    "originalName": "amaran 300c",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 32,
@@ -366,7 +645,16 @@
     "officialUrl": "https://amarancreators.com/products/amaran-200x-s",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "amaran 200x S"
+    "originalName": "amaran 200x S",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 33,
@@ -377,7 +665,16 @@
     "imageUrl": null,
     "officialUrl": "https://amarancreators.com/products/amaran-cob-60x-s",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 34,
@@ -389,7 +686,16 @@
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "GVM P80Pro 80W"
+    "originalName": "GVM P80Pro 80W",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 35,
@@ -401,7 +707,16 @@
     "officialUrl": "https://fiilex.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Fiilex P3"
+    "originalName": "Fiilex P3",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 36,
@@ -413,7 +728,16 @@
     "officialUrl": "https://aputure.com/products/mc",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "Aputure MC"
+    "originalName": "Aputure MC",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 37,
@@ -425,7 +749,16 @@
     "officialUrl": "https://amarancreators.com/products/amaran-pt4c",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "amaran PT4c 4ft"
+    "originalName": "amaran PT4c 4ft",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 38,
@@ -437,7 +770,16 @@
     "officialUrl": "https://amarancreators.com/products/accent-b7c",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "Aputure Accent B7c"
+    "originalName": "Aputure Accent B7c",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 39,
@@ -449,7 +791,16 @@
     "officialUrl": "https://neewer.com/products/neewer-ap150c-150w-rgb-led-panel-video-light-kit-66606165",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "NEEWER AP150C"
+    "originalName": "NEEWER AP150C",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 40,
@@ -460,7 +811,16 @@
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 41,
@@ -472,7 +832,16 @@
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "Número de modelo GVM por confirmar.",
-    "originalName": "GVM RGB Panel"
+    "originalName": "GVM RGB Panel",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 42,
@@ -484,7 +853,16 @@
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "Número de modelo NEEWER por confirmar.",
-    "originalName": "NEEWER RGB Flashlight"
+    "originalName": "NEEWER RGB Flashlight",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 43,
@@ -496,7 +874,16 @@
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "Número de modelo NEEWER por confirmar.",
-    "originalName": "NEEWER Product Light Box"
+    "originalName": "NEEWER Product Light Box",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 44,
@@ -508,7 +895,16 @@
     "officialUrl": "https://aputure.com/products/light-dome-60",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Aputure Light Dome 60"
+    "originalName": "Aputure Light Dome 60",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 45,
@@ -520,7 +916,16 @@
     "officialUrl": "https://aputure.com/products/light-dome-mini-iii",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Aputure Light Dome Mini III"
+    "originalName": "Aputure Light Dome Mini III",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 46,
@@ -532,7 +937,16 @@
     "officialUrl": "https://www.smallrig.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "SmallRig LA-O90"
+    "originalName": "SmallRig LA-O90",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 47,
@@ -543,7 +957,16 @@
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 48,
@@ -554,7 +977,16 @@
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 49,
@@ -566,7 +998,16 @@
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "NEEWER Diffusion Fabric 20 x 5 ft"
+    "originalName": "NEEWER Diffusion Fabric 20 x 5 ft",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 50,
@@ -577,7 +1018,16 @@
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 51,
@@ -589,7 +1039,16 @@
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "GVM Bowens Softbox with Honeycomb"
+    "originalName": "GVM Bowens Softbox with Honeycomb",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 52,
@@ -601,7 +1060,16 @@
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "GVM Lantern Softbox 26in"
+    "originalName": "GVM Lantern Softbox 26in",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 53,
@@ -613,7 +1081,16 @@
     "officialUrl": null,
     "sourceStatus": "unverified",
     "modelNote": "Fabricante del reflector por confirmar.",
-    "originalName": "Reflector Flag 30 x 35in"
+    "originalName": "Reflector Flag 30 x 35in",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 54,
@@ -625,7 +1102,16 @@
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "GVM C240"
+    "originalName": "GVM C240",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 55,
@@ -637,7 +1123,16 @@
     "officialUrl": null,
     "sourceStatus": "unverified",
     "modelNote": "",
-    "originalName": "Anautin YF-ST228 9.2ft"
+    "originalName": "Anautin YF-ST228 9.2ft",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 56,
@@ -649,7 +1144,16 @@
     "officialUrl": null,
     "sourceStatus": "unverified",
     "modelNote": "Fabricante y modelo del soporte por confirmar.",
-    "originalName": "Ceiling Mount"
+    "originalName": "Ceiling Mount",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 57,
@@ -661,7 +1165,16 @@
     "officialUrl": null,
     "sourceStatus": "unverified",
     "modelNote": "",
-    "originalName": "Mippko Wall Camera Arm"
+    "originalName": "Mippko Wall Camera Arm",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 58,
@@ -672,7 +1185,16 @@
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 59,
@@ -683,7 +1205,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 60,
@@ -694,7 +1225,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.dji.com/rs-3-pro",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 61,
@@ -706,7 +1246,16 @@
     "officialUrl": "https://www.dji.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "DJI DF02"
+    "originalName": "DJI DF02",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 62,
@@ -717,7 +1266,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.dji.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 63,
@@ -729,7 +1287,16 @@
     "officialUrl": "https://www.dji.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "DJI Ronin RavenEye WV001"
+    "originalName": "DJI Ronin RavenEye WV001",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 64,
@@ -741,7 +1308,16 @@
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "GVM 48in Motorized Slider"
+    "originalName": "GVM 48in Motorized Slider",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 65,
@@ -753,7 +1329,16 @@
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "GVM GR-120QD"
+    "originalName": "GVM GR-120QD",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 66,
@@ -765,7 +1350,16 @@
     "officialUrl": "https://www.proaim.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "PROAIM 12 ft Dolly Track"
+    "originalName": "PROAIM 12 ft Dolly Track",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 67,
@@ -777,7 +1371,16 @@
     "officialUrl": "https://www.proaim.com/products/proaim-9ft-jib-arm-with-tripod-stand",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "PROAIM 9 ft Crane Jib"
+    "originalName": "PROAIM 9 ft Crane Jib",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 68,
@@ -788,7 +1391,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.smallrig.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 69,
@@ -800,7 +1412,16 @@
     "officialUrl": "https://digitalfoto.cn/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "DF DIGITALFOTO THANOS-SE"
+    "originalName": "DF DIGITALFOTO THANOS-SE",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 70,
@@ -812,7 +1433,16 @@
     "officialUrl": "https://feelworld.ltd/collections/4k-hdmi-on-camera-monitor/products/feelworld-fw568-5-5-inch-small-camera-dslr-monitor-full-hd-1920x1080-video-assist-4k-hdmi-dc-out-tilt-arm",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "FEELWORLD FW568 V3"
+    "originalName": "FEELWORLD FW568 V3",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 71,
@@ -823,7 +1453,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": "Fabricante del monitor TL-240S por confirmar."
+    "modelNote": "Fabricante del monitor TL-240S por confirmar.",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 72,
@@ -835,7 +1474,16 @@
     "officialUrl": "https://feelworld.ltd/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "FEELWORLD L4"
+    "originalName": "FEELWORLD L4",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 73,
@@ -847,7 +1495,16 @@
     "officialUrl": "https://godox.com/product-a/X3.html",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "Godox X3-C TTL"
+    "originalName": "Godox X3-C TTL",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 74,
@@ -859,7 +1516,16 @@
     "officialUrl": "https://www.godox.com/product-b/V1Pro.html",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "Godox V1Pro-C"
+    "originalName": "Godox V1Pro-C",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 75,
@@ -871,7 +1537,16 @@
     "officialUrl": "https://godox.com/product-d/AK-R1.html",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "Godox AK-R1"
+    "originalName": "Godox AK-R1",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 76,
@@ -883,7 +1558,16 @@
     "officialUrl": "https://sekonic.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Sekonic L-478D-U"
+    "originalName": "Sekonic L-478D-U",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 77,
@@ -895,7 +1579,16 @@
     "officialUrl": "https://www.dgkcolor.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "DGK Color Tools DKK 5x7"
+    "originalName": "DGK Color Tools DKK 5x7",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 78,
@@ -907,7 +1600,16 @@
     "officialUrl": "https://www.smallrig.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "SmallRig R5 C Cage"
+    "originalName": "SmallRig R5 C Cage",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 79,
@@ -919,7 +1621,16 @@
     "officialUrl": "https://www.smallrig.com/smallrig-mini-matte-box-pro-3680.html",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "SmallRig Mini Matte Box Pro"
+    "originalName": "SmallRig Mini Matte Box Pro",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 80,
@@ -931,7 +1642,16 @@
     "officialUrl": "https://ca.neewer.com/products/neewer-ps015-foldable-v-mount-battery-plate-66605630",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "NEEWER PS015 PRO"
+    "originalName": "NEEWER PS015 PRO",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 81,
@@ -943,7 +1663,16 @@
     "officialUrl": "https://www.usa.canon.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Canon EF-EOS R Mount Adapter"
+    "originalName": "Canon EF-EOS R Mount Adapter",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 82,
@@ -954,7 +1683,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 83,
@@ -966,7 +1704,16 @@
     "officialUrl": "https://neewer.com/products/neewer-ps099e-6800mah-14-5v-99wh-v-mount-battery-66603180",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "NEEWER PS099E 99Wh"
+    "originalName": "NEEWER PS099E 99Wh",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 84,
@@ -977,7 +1724,16 @@
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": "Capacidad y modelo exacto de batería por confirmar."
+    "modelNote": "Capacidad y modelo exacto de batería por confirmar.",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 85,
@@ -989,7 +1745,16 @@
     "officialUrl": "https://neewer.com/products/neewer-2pack-2600mah-sony-np-f550-570-530-replacement-battery-66600379",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "NEEWER NP-F550 2600mAh"
+    "originalName": "NEEWER NP-F550 2600mAh",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 86,
@@ -1001,7 +1766,16 @@
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "NEEWER NP-F Dual Charger"
+    "originalName": "NEEWER NP-F Dual Charger",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 87,
@@ -1012,7 +1786,16 @@
     "imageUrl": null,
     "officialUrl": "https://aputure.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 88,
@@ -1023,7 +1806,16 @@
     "imageUrl": null,
     "officialUrl": "https://amarancreators.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 89,
@@ -1035,7 +1827,16 @@
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
-    "originalName": "SanDisk Extreme PRO 128GB"
+    "originalName": "SanDisk Extreme PRO 128GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 90,
@@ -1047,7 +1848,16 @@
     "officialUrl": "https://www.delkindevices.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
-    "originalName": "Delkin BLACK 325GB"
+    "originalName": "Delkin BLACK 325GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 91,
@@ -1059,7 +1869,16 @@
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
-    "originalName": "SanDisk Extreme PRO 512GB"
+    "originalName": "SanDisk Extreme PRO 512GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 92,
@@ -1071,7 +1890,16 @@
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
-    "originalName": "SanDisk Extreme 128GB"
+    "originalName": "SanDisk Extreme 128GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 93,
@@ -1083,7 +1911,16 @@
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
-    "originalName": "SanDisk Ultra 16GB"
+    "originalName": "SanDisk Ultra 16GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 94,
@@ -1095,7 +1932,16 @@
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
-    "originalName": "SanDisk Extreme 32GB"
+    "originalName": "SanDisk Extreme 32GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 95,
@@ -1107,7 +1953,16 @@
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
-    "originalName": "SanDisk Extreme PLUS 128GB"
+    "originalName": "SanDisk Extreme PLUS 128GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 96,
@@ -1118,7 +1973,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 97,
@@ -1129,7 +1993,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.centon.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 98,
@@ -1141,7 +2014,16 @@
     "officialUrl": null,
     "sourceStatus": "unverified",
     "modelNote": "Fabricante del lector DDREADER-56 por confirmar.",
-    "originalName": "DDREADER-56"
+    "originalName": "DDREADER-56",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 99,
@@ -1153,7 +2035,16 @@
     "officialUrl": "https://www.telesin.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "TELESIN Portable Smoke/Fog Machine"
+    "originalName": "TELESIN Portable Smoke/Fog Machine",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 100,
@@ -1165,7 +2056,16 @@
     "officialUrl": "https://www.kfconcept.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "K&F Cleaning Kit"
+    "originalName": "K&F Cleaning Kit",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 101,
@@ -1176,7 +2076,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": "Fabricante y contenido del kit por confirmar."
+    "modelNote": "Fabricante y contenido del kit por confirmar.",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 102,
@@ -1188,7 +2097,16 @@
     "officialUrl": null,
     "sourceStatus": "unverified",
     "modelNote": "",
-    "originalName": "200ft BNC Cable"
+    "originalName": "200ft BNC Cable",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 103,
@@ -1200,7 +2118,16 @@
     "officialUrl": null,
     "sourceStatus": "unverified",
     "modelNote": "",
-    "originalName": "Micro HDMI to HDMI"
+    "originalName": "Micro HDMI to HDMI",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 104,
@@ -1212,7 +2139,16 @@
     "officialUrl": null,
     "sourceStatus": "unverified",
     "modelNote": "",
-    "originalName": "Lightning HDMI Adapter"
+    "originalName": "Lightning HDMI Adapter",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 105,
@@ -1223,7 +2159,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 106,
@@ -1235,7 +2180,16 @@
     "officialUrl": "https://www.pelican.com/us/en/product/cases/1720",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "Pelican 1720"
+    "originalName": "Pelican 1720",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 107,
@@ -1247,7 +2201,16 @@
     "officialUrl": "https://www.pelican.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Pelican Storm iM2400"
+    "originalName": "Pelican Storm iM2400",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 108,
@@ -1259,7 +2222,16 @@
     "officialUrl": "https://www.pelican.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Pelican iM2100"
+    "originalName": "Pelican iM2100",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 109,
@@ -1270,7 +2242,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": "Identificar tipo de producto Insignia NS-PG08591 antes de publicarlo como alquiler."
+    "modelNote": "Identificar tipo de producto Insignia NS-PG08591 antes de publicarlo como alquiler.",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 110,
@@ -1281,7 +2262,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 111,
@@ -1292,7 +2282,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 112,
@@ -1304,7 +2303,16 @@
     "officialUrl": "https://www.osee-tech.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Osee GoStream Deck HDMI Pro"
+    "originalName": "Osee GoStream Deck HDMI Pro",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 113,
@@ -1315,7 +2323,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.presonus.com/products/studio-24c",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 114,
@@ -1327,7 +2344,16 @@
     "officialUrl": "https://www.akg.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "AKG C414 XLII"
+    "originalName": "AKG C414 XLII",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 115,
@@ -1339,7 +2365,16 @@
     "officialUrl": "https://www.proaim.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "PROAIM Swift Camera Track Dolly System"
+    "originalName": "PROAIM Swift Camera Track Dolly System",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 116,
@@ -1351,7 +2386,16 @@
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "NEEWER Dual Handgrip for DJI RS3/RS3 Pro"
+    "originalName": "NEEWER Dual Handgrip for DJI RS3/RS3 Pro",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 117,
@@ -1363,7 +2407,16 @@
     "officialUrl": "https://www.smallrig.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "SmallRig D-Tap Dummy Battery LP-E6NH"
+    "originalName": "SmallRig D-Tap Dummy Battery LP-E6NH",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 118,
@@ -1375,7 +2428,16 @@
     "officialUrl": "https://www.usa.canon.com/shop/p/wireless-remote-control-br-e1",
     "sourceStatus": "direct-image",
     "modelNote": "",
-    "originalName": "Canon BR-E1 Wireless Remote"
+    "originalName": "Canon BR-E1 Wireless Remote",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 119,
@@ -1386,7 +2448,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 120,
@@ -1398,7 +2469,16 @@
     "officialUrl": null,
     "sourceStatus": "unverified",
     "modelNote": "",
-    "originalName": "SZRIG Crab Clamp + V-Lock Mount"
+    "originalName": "SZRIG Crab Clamp + V-Lock Mount",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 121,
@@ -1409,7 +2489,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 122,
@@ -1420,7 +2509,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.usa-gear.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 123,
@@ -1431,7 +2529,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.koolertron.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 124,
@@ -1443,7 +2550,16 @@
     "officialUrl": "https://www.selens-online.com/",
     "sourceStatus": "manufacturer-page",
     "modelNote": "",
-    "originalName": "Selens 2.5in Heavy Duty Grip Head"
+    "originalName": "Selens 2.5in Heavy Duty Grip Head",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 125,
@@ -1455,7 +2571,16 @@
     "officialUrl": null,
     "sourceStatus": "unverified",
     "modelNote": "",
-    "originalName": "Kimaru LP-E17 Dummy Battery/AC Adapter Kit"
+    "originalName": "Kimaru LP-E17 Dummy Battery/AC Adapter Kit",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 126,
@@ -1467,7 +2592,16 @@
     "officialUrl": null,
     "sourceStatus": "unverified",
     "modelNote": "",
-    "originalName": "CCZ Melody IEM Blue"
+    "originalName": "CCZ Melody IEM Blue",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 127,
@@ -1479,7 +2613,16 @@
     "officialUrl": null,
     "sourceStatus": "unverified",
     "modelNote": "",
-    "originalName": "CCZ Melody IEM Red"
+    "originalName": "CCZ Melody IEM Red",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 128,
@@ -1490,6 +2633,15 @@
     "imageUrl": "https://cdn.shopify.com/s/files/1/1343/1935/files/LS600cProII.png?crop=center&v=1761181845&width=1600",
     "officialUrl": "https://aputure.com/en-US/products/ls-600c-pro-ii",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   }
 ]
