@@ -33,7 +33,7 @@ export async function POST(request:Request){
   for(const entry of lines){
     if(!entry||typeof entry!=='object'||Array.isArray(entry))return reply('Invalid equipment');
     const id=(entry as {id:unknown}).id,qty=(entry as {qty:unknown}).qty;
-    if(!Number.isInteger(id)||!Number.isInteger(qty)||Number(qty)<1||Number(qty)>20||seen.has(Number(id)))return reply('Invalid item quantity');
+    if(typeof id!=='number'||typeof qty!=='number'||!Number.isInteger(id)||!Number.isInteger(qty)||qty<1||qty>20||seen.has(id))return reply('Invalid item quantity');
     const product=allowed.get(Number(id));if(!product)return reply('Unknown equipment item');
     seen.add(Number(id));
     const price=referencePriceForDates(Number(id),Number(qty),start,end);
