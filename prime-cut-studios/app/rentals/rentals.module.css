@@ -53,3 +53,23 @@
 @media(max-width:1070px){.layout{grid-template-columns:minmax(0,1fr) 310px}.sidebar{padding:16px}}
 @media(max-width:800px){.layout{grid-template-columns:1fr}.sidebar{position:relative;top:auto;grid-row:1}.fieldGrid{grid-template-columns:1fr 1fr}}
 @media(max-width:500px){.intro h2{font-size:38px}.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.productContent{padding:12px}.product h3{font-size:13px}.photo{aspect-ratio:1}.fieldGrid{grid-template-columns:1fr 1fr;gap:6px}.fieldGrid input{font-size:11px}.sidebar{padding:15px}}
+
+/* Quantity controls and operational quote checkout */
+.qtyButtons{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;border:1px solid #5f4d32;border-radius:10px;overflow:hidden;background:#211d16}
+.qtyButtons button{min-width:39px;height:39px;border:0;background:#d6b46d;color:#181209;display:grid;place-items:center;cursor:pointer}
+.qtyButtons button:disabled{background:#443d30;color:#908477;cursor:not-allowed}
+.qtyButtons span{font-size:13px;font-weight:900;color:#f2e0bd}
+.rateMore{font-size:11px;color:#a8a091;line-height:1.5;margin:0 0 14px}
+.systemNote{font-size:11px;color:#bdb2a2;line-height:1.55;margin:10px 0}
+.quoteNote{font-size:12px;line-height:1.6;color:#b0a395}
+.contactFields{display:grid;gap:12px;margin:24px 0 18px;padding-top:20px;border-top:1px solid #51402b}
+.contactFields h3{font-size:17px;margin:0;color:#ead3a0}
+.contactFields label{display:grid;gap:7px;color:#ded1ba;font-size:12px;min-width:0}
+.contactFields input,.contactFields textarea{border:1px solid #5b4b36;background:#1c1914;border-radius:9px;padding:10px 12px;color:#fff;font:13px Arial;max-width:100%;width:100%}
+.contactFields input:focus,.contactFields textarea:focus{outline:2px solid #be9f62;outline-offset:1px}
+.windowGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.contactFields .terms{display:flex;gap:10px;align-items:flex-start;line-height:1.65;font-size:11px;color:#c8b99f}
+.contactFields .terms input{width:18px;height:18px;flex:none;accent-color:#c5a56a}
+.success{border:1px solid #477d56;border-radius:10px;padding:13px;color:#c6f3cf;background:#163020;line-height:1.5;font-size:13px}
+.checkout:disabled{opacity:.45;cursor:not-allowed}
+@media(max-width:520px){.windowGrid{grid-template-columns:1fr}.products{grid-template-columns:repeat(2,minmax(0,1fr))}.rateMore{font-size:10px}.qtyButtons{gap:5px}.qtyButtons button{min-width:33px;height:37px}.qtyButtons span{font-size:12px}}
