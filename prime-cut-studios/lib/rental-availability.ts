@@ -56,7 +56,7 @@ export async function availabilityForDates(start:string,end:string):Promise<Avai
   ]);
   const byAsset=new Map(overrides.map(x=>[x.asset_id,x]));
   const now=Date.now();
-  const occupied=new Set(bookings.filter(x=>!blockedStatuses.has(x.status.toLowerCase())&&(!x.hold_expires_at||Date.parse(x.hold_expires_at)>now)).map(x=>x.asset_id));
+  const occupied=new Set(bookings.filter(x=>{const status=x.status.toLowerCase();if(blockedStatuses.has(status))return false;const isTentative=['hold','held','tentative'].includes(status);return !isTentative||!x.hold_expires_at||Date.parse(x.hold_expires_at)>now;}).map(x=>x.asset_id));
   return consolidated().map(item=>{
     const units=assetIdsFor(item.id);const ready=units.filter(x=>x.status==='ready');
     const open=ready.filter(x=>!byAsset.get(x.assetId)?.disabled&&!occupied.has(x.assetId));
