@@ -52,6 +52,7 @@ export function RentalExperience({items}:Props){
   function toggle(id:number){setSelected(s=>({...s,[id]:!s[id]}));setDateError('');}
   function createRequest(){
     if(!chosen.length){setDateError('Choose at least one item.');return;}
+    if(chosen.length>20){setDateError('Please choose 20 items or fewer per quote request.');return;}
     if(!start||!end){setDateError('Select a start and return date.');return;}
     const today=new Date();today.setHours(0,0,0,0);
     const startTime=new Date(start+'T00:00:00'),endTime=new Date(end+'T00:00:00');
