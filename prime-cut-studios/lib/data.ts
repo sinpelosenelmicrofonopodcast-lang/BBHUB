@@ -5,6 +5,7 @@ export const services = [
   {slug:'business-content',name:'Business Content',kicker:'For brands that need to be seen',price:'From $350',description:'Visual content for local businesses: promotional clips, portraits, social assets and campaigns.'},
   {slug:'music-video',name:'Music Videos',kicker:'From vision to final cut',price:'From $500',description:'Concept, planning, location shoots and editing for emerging and established artists.'},
   {slug:'custom',name:'Custom Production',kicker:'A production built for you',price:'Custom quote',description:'Interviews, multi-camera projects, live streams, documentary work and specialized shoots.'},
+  {slug:'equipment-rental-inquiry',name:'Equipment Rental Inquiry',kicker:'Gear selection · Killeen',price:'By individual quote',description:'Choose a gear list and request dates. Rental eligibility, rates, deposits and availability are individually reviewed; no instant bookings.'},
 ];
 export const faqs = [
  {q:'How far do you travel?',a:'Our base is Central Texas. Tell us the event location and we will include any travel costs in your written estimate.'},
