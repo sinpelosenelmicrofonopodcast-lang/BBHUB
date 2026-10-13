@@ -2,6 +2,7 @@ import {NextResponse} from 'next/server';
 import {requestIsSameOrigin,safeIp} from '@/lib/auth';
 import {identifyIp,normalizedEmail,clientAccountByEmail,clientLoginThrottled,recordClientLoginFailure} from '@/lib/db';
 import {setClientSession,verifyClientPassword} from '@/lib/client-auth';
+import {staffMemberForAccount} from '@/lib/operations-staff';
 export const runtime='nodejs';
 export async function POST(request:Request){
   if(!requestIsSameOrigin(request))return new Response('Forbidden',{status:403});
@@ -18,5 +19,6 @@ export async function POST(request:Request){
     return redirectTo('invalid');
   }
   await setClientSession(account);
-  return NextResponse.redirect(new URL('/client',request.url),303);
+  const staff=await staffMemberForAccount(account.id);
+  return NextResponse.redirect(new URL(staff?'/team':'/client',request.url),303);
 }

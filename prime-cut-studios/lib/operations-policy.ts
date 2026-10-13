@@ -24,7 +24,7 @@ export function staffRoleValid(s:string):s is StaffRole{return (staffRoles as re
 export type Scope={role:StaffRole,active:boolean,assignedProjectIds:readonly string[]};
 export function scopeCan(s:Scope,capability:Capability,projectId?:string){
  if(!s.active||!roleCan(s.role,capability))return false;
- if(!projectId)return s.role==='owner'||s.role==='administrator'||capability==='crm.read'||capability==='tasks.read';
+ if(!projectId)return s.role==='owner'||s.role==='administrator'||capability==='crm.read'||capability==='crm.write'||capability==='tasks.read';
  return s.role==='owner'||s.role==='administrator'||s.assignedProjectIds.includes(projectId);
 }
 // To enforce: derive Scope from server-authenticated account & pc_staff_members,
