@@ -2,6 +2,7 @@
 import {useEffect,useMemo,useState,type FormEvent} from 'react';
 import {Minus,Plus,Search,ImageOff,ShoppingCart,ShieldCheck} from 'lucide-react';
 import styles from './rentals.module.css';
+import bundleBook from '@/lib/rental-bundles.json';
 type Item={id:number;name:string;manufacturer:string;category:string;imageUrl:string|null;quantity:number};
 type Stock={id:number;ready:number;total:number;manualReview:boolean};
 type Rate={day:number;weekend:number;week:number;deposit:number|null;status:string;source:string};
@@ -10,11 +11,13 @@ type Fields={name:string;email:string;phone:string;company:string;billingAddress
 const EMPTY:Fields={name:'',email:'',phone:'',company:'',billingAddress:'',purpose:'',location:'',pickupWindow:'',returnWindow:'',notes:''};
 const USD=(n:number)=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n);
 const today=()=>new Date().toLocaleDateString('en-CA');
-function amount(rate:Rate,qty:number,start:string,end:string){
+function amount(id:number,rate:Rate,qty:number,start:string,end:string){
+ const bundle=(bundleBook as Record<string,Record<string,{day:number;weekend:number;week:number;label:string}>>)[String(id)]?.[String(qty)];
+ const applied=bundle||rate,multiplier=bundle?1:qty;
  const days=start&&end?Math.max(1,Math.round((Date.parse(end+'T00:00:00Z')-Date.parse(start+'T00:00:00Z'))/86400000)+1):1;
  const weeks=Math.floor(days/7),r=days%7;
  const weekend=r===2&&new Date(start+'T00:00:00Z').getUTCDay()===5;
- return qty*(weeks*rate.week+(r?weekend?rate.weekend:Math.min(r*rate.day,rate.week):0));
+ return multiplier*(weeks*applied.week+(r?weekend?applied.weekend:Math.min(r*applied.day,applied.week):0));
 }
 export function RentalExperienceV2({items,stock,rates}:{items:Item[];stock:Stock[];rates:Record<string,Rate>}){
  const [search,setSearch]=useState(''),[category,setCategory]=useState('all'),[selected,setSelected]=useState<Record<number,number>>({});
@@ -28,7 +31,7 @@ export function RentalExperienceV2({items,stock,rates}:{items:Item[];stock:Stock
  const categories=useMemo(()=>[...new Set(items.map(x=>x.category))].sort(),[items]);
  const filtered=items.filter(x=>(category==='all'||category===x.category)&&(x.name+' '+x.manufacturer+' '+x.category).toLowerCase().includes(search.toLowerCase()));
  const chosen=items.filter(x=>(selected[x.id]||0)>0);
- const total=chosen.reduce((sum,x)=>sum+(rates[String(x.id)]?amount(rates[String(x.id)],selected[x.id],start,end):0),0);
+ const total=chosen.reduce((sum,x)=>sum+(rates[String(x.id)]?amount(x.id,rates[String(x.id)],selected[x.id],start,end):0),0);
  const tax=total*0.0825;
  useEffect(()=>{
   setAvailable(null);setAvailabilityError('');
@@ -75,6 +78,7 @@ export function RentalExperienceV2({items,stock,rates}:{items:Item[];stock:Stock
       <p className={styles.systemNote}>{disabled?'Unavailable':(start&&end&&available?'Up to ':'Up to ')+limit+' unit'+(limit===1?'':'s')+' for inquiry · Final approval required'}</p>
       <div className={styles.rateLine}><span>{rate?.status==='suggested'?'Proposed rate · per day':'Reference rate · per day'}</span><strong>{rate?USD(rate.day):'Quote required'}</strong></div>
       {rate&&<p className={styles.rateMore}>Weekend {USD(rate.weekend)} · 7 days {USD(rate.week)}</p>}
+      {Object.keys((bundleBook as Record<string,Record<string,unknown>>)[String(x.id)]||{}).length>0&&<p className={styles.rateMore}>Multi-unit package discount available</p>}
       <div className={styles.qtyButtons}><button type="button" aria-label={'Decrease '+x.name} disabled={qty===0} onClick={()=>changeQty(x.id,-1)}><Minus size={17}/></button><span>{qty} / {limit}</span><button type="button" aria-label={'Increase '+x.name} disabled={qty>=limit||disabled} onClick={()=>changeQty(x.id,1)}><Plus size={17}/></button></div>
      </div></article>;
    })}</div>{!filtered.length&&<p className={styles.empty}>No matching equipment.</p>}
