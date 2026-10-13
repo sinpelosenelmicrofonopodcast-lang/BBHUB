@@ -49,7 +49,7 @@ async function patch(table:string,id:string,values:object,filters?:Record<string
 export type Inquiry = { id: string; name: string; email: string; phone: string | null; service: string; event_date: string | null; location: string | null; budget: string | null; details: string | null; status: string; created_at: string };
 export type Project = { id: string; inquiry_id: string | null; client_name: string; client_email: string; title: string; status: string; event_date: string | null; location: string | null; quote_amount_cents: number | null; quote_notes: string; portal_expires_at: string | null; created_at: string; updated_at: string };
 export type PortfolioEntry = {id:string;title:string;category:string;summary:string;image_filename:string;image_mime:string;video_url:string|null;consent_confirmed:boolean;published:boolean;created_at:string};
-export type Deliverable = { id: string; project_id: string; title: string; description: string; url: string | null; visible: boolean; created_at: string };
+export type Deliverable = { id: string; project_id: string; title: string; description: string; url: string | null; visible: boolean; provider?:'drive'|'lightroom'|'blackmagic'; created_at: string };
 export const statuses = ['planning','quoted','contract','deposit-pending','scheduled','shooting','editing','client-review','delivered','archived'] as const;
 
 export function hashToken(token: string) {return createHash('sha256').update(token).digest('hex');}
@@ -128,4 +128,90 @@ export async function readPortfolioImage(filename:string):Promise<ArrayBuffer>{
  const response=await fetch(`${baseUrl()}/storage/v1/object/authenticated/${BUCKET}/${filename}`,{headers:serverHeaders(),cache:'no-store'});
  if(!response.ok)throw new Error(`Storage download status ${response.status}`);
  return response.arrayBuffer();
+}
+
+// Client-account and review-link operations. All are server-only.
+export type ClientAccount = {id:string;email:string;name:string;password_hash:string;disabled:boolean;session_version:number};
+export type ClientInvite = {token_hash:string;project_id:string;email:string;expires_at:string;redeemed_at:string|null};
+export type ReviewProvider = 'drive'|'lightroom'|'blackmagic';
+export type ClientReview = Deliverable & {provider:ReviewProvider};
+export function normalizedEmail(input:string){return input.trim().toLowerCase();}
+export function validatedReviewUrl(provider:ReviewProvider,input:string):string|null {
+  if(!input.trim())return null;
+  try {
+    const url=new URL(input.trim());
+    if(url.protocol!=='https:'||url.username||url.password||url.port||url.toString().length>1000)return null;
+    const permitted:Record<ReviewProvider,string[]>={
+      drive:['drive.google.com','docs.google.com'],
+      lightroom:['lightroom.adobe.com','adobe.ly'],
+      blackmagic:['cloud.blackmagicdesign.com','bmd.link']
+    };
+    if(!permitted[provider]?.includes(url.hostname.toLowerCase()))return null;
+    return url.toString();
+  }catch{return null;}
+}
+export async function createManualProject(data:{name:string;email:string;title:string;eventDate:string|null;location:string|null}):Promise<string> {
+  const row=await insert<{id:string}>('pc_projects',{
+    client_name:data.name,client_email:normalizedEmail(data.email),title:data.title,
+    event_date:data.eventDate,location:data.location,status:'planning'
+  });
+  return row.id;
+}
+export async function issueClientInvite(projectId:string):Promise<string|null>{
+  const project=await getProject(projectId); if(!project)return null;
+  const token=randomBytes(32).toString('base64url');
+  await insert('pc_client_invites',{
+    token_hash:hashToken(token),project_id:project.id,email:normalizedEmail(project.client_email),
+    expires_at:new Date(Date.now()+7*24*3600000).toISOString()
+  });
+  return token;
+}
+export async function getClientInvite(token:string):Promise<ClientInvite|undefined>{
+  if(!/^[A-Za-z0-9_-]{43}$/.test(token))return undefined;
+  const rows=await getRows<ClientInvite>('pc_client_invites',{
+    token_hash:`eq.${hashToken(token)}`,redeemed_at:'is.null',expires_at:`gt.${new Date().toISOString()}`,select:'*',limit:'1'
+  });
+  return rows[0];
+}
+export async function clientAccountByEmail(email:string):Promise<ClientAccount|undefined>{
+  const rows=await getRows<ClientAccount>('pc_client_accounts',{email:`eq.${normalizedEmail(email)}`,select:'*',limit:'1'});
+  return rows[0];
+}
+export async function clientAccountById(id:string):Promise<ClientAccount|undefined>{
+  const rows=await getRows<ClientAccount>('pc_client_accounts',{id:`eq.${id}`,select:'*',limit:'1'});
+  return rows[0];
+}
+export async function redeemClientInvite(token:string,passwordHash:string|null,existingId:string|null):Promise<{account_id:string;project_id:string}|null>{
+  if(!/^[A-Za-z0-9_-]{43}$/.test(token))return null;
+  const rows=await api<Array<{account_id:string;project_id:string}>>('/rest/v1/rpc/pc_accept_client_invite',{
+    method:'POST',body:JSON.stringify({p_token_hash:hashToken(token),p_new_password_hash:passwordHash,p_existing_account_id:existingId})
+  });
+  return rows[0]||null;
+}
+export async function clientProjects(accountId:string):Promise<Project[]>{
+  const members=await getRows<{project_id:string}>('pc_project_members',{account_id:`eq.${accountId}`,select:'project_id',limit:'100'});
+  if(!members.length)return [];
+  const ids=members.map(m=>m.project_id).filter(x=>/^[a-f\d-]{36}$/i.test(x));
+  if(!ids.length)return [];
+  return getRows<Project>('pc_projects',{id:`in.(${ids.join(',')})`,select:'id,inquiry_id,client_name,client_email,title,status,event_date,location,quote_amount_cents,quote_notes,portal_expires_at,created_at,updated_at',order:'updated_at.desc'});
+}
+export async function clientCanAccess(accountId:string,projectId:string):Promise<boolean>{
+  if(!/^[0-9a-f-]{36}$/i.test(projectId))return false;
+  const m=await getRows<{account_id:string}>('pc_project_members',{account_id:`eq.${accountId}`,project_id:`eq.${projectId}`,select:'account_id',limit:'1'});
+  return m.length===1;
+}
+export async function clientLoginThrottled(ipHash:string):Promise<boolean>{
+  const t=new Date(Date.now()-15*60*1000).toISOString();
+  const rows=await getRows<{id:number}>('pc_client_login_attempts',{ip_hash:`eq.${ipHash}`,occurred_at:`gte.${t}`,select:'id',limit:'8'});
+  return rows.length>=8;
+}
+export async function recordClientLoginFailure(ipHash:string):Promise<void>{
+  await insert('pc_client_login_attempts',{ip_hash:ipHash});
+}
+export async function addReviewLink(projectId:string,title:string,description:string,provider:ReviewProvider,url:string):Promise<boolean>{
+  if(!await getProject(projectId))return false;
+  const checked=validatedReviewUrl(provider,url);
+  if(!checked)return false;
+  await insert('pc_deliverables',{id:randomUUID(),project_id:projectId,title,description,url:checked,provider,visible:false});
+  return true;
 }

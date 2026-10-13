@@ -1,6 +1,6 @@
 {
   "name": "primecuts-os",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "engines": {
     "node": ">=24.15.0"
@@ -12,7 +12,8 @@
     "typecheck": "tsc --noEmit",
     "generate-admin-hash": "node scripts/generate-admin-hash.cjs",
     "test:db": "node scripts/check-integration.cjs",
-    "check:integration": "node scripts/check-integration.cjs"
+    "check:integration": "node scripts/check-integration.cjs",
+    "check:portal": "node scripts/check-client-portal.cjs"
   },
   "dependencies": {
     "next": "16.4.0",

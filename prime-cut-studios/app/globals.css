@@ -51,3 +51,7 @@ h1 em,h2 em{color:var(--gold);font-weight:400}
 @media print{body{background:white!important;color:#111!important}.print-hide,.nav,.footer{display:none!important}.proposal{max-width:none;padding:0}.proposal .eyebrow,.proposal-total strong{color:#7c632b!important}.proposal .muted{color:#555!important}}
 .portfolio-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}.portfolio-card{background:#161411;border:1px solid var(--line);border-radius:18px;overflow:hidden}.portfolio-card img{width:100%;height:340px;display:block;object-fit:cover;background:#211c14}.portfolio-card-body{padding:27px}.portfolio-card h2{font:32px Georgia,serif;margin:10px 0}.portfolio-card p{line-height:1.6}.legal-copy{line-height:1.85}.legal-copy h2{font:26px Georgia,serif}.legal-copy p{margin:14px 0 25px}.legal-copy a{color:var(--gold)}
 @media(max-width:740px){.portfolio-gallery{grid-template-columns:1fr}.portfolio-card img{height:260px}}
+
+/* Private client review portal */
+.client-review-layout{align-items:start;padding-bottom:90px}.review-link{display:flex;justify-content:space-between;align-items:center;gap:22px;padding:20px 0;border-bottom:1px solid var(--line)}.review-link h3{font-size:21px;margin:6px 0}.review-link .btn{flex-shrink:0}.client-review-layout .panel{min-width:0}.client-review-layout .note{margin-top:28px}
+@media(max-width:760px){.review-link{align-items:flex-start;flex-direction:column}.review-link .btn{width:100%}.client-review-layout{display:grid;grid-template-columns:1fr}}

@@ -13,7 +13,7 @@ Official Prime Cut Studios website and business operations code. **No deployment
 ## Deploy prerequisites — DO NOT TRIGGER AUTOMATIC DEPLOYMENTS
 1. Get your project's `sb_secret_*` API key from [Supabase BBHUB / API Keys](https://supabase.com/dashboard/project/mvrszgunjwvdqogtpyqm/settings/api-keys).
 2. In your Vercel project `prime-cut-studio`, set `SUPABASE_SECRET_KEY` as a **Sensitive** environment variable, for Production/Preview/Development (never paste the secret in chat or GitHub). `SUPABASE_URL` was already configured on Vercel.
-3. Set `ADMIN_EMAIL`, `ADMIN_PASSWORD_HASH`, `SESSION_SECRET` as server-only env vars. These were provisioned privately in Vercel during integration setup; rotate the temporary password before production use. To generate a new password hash locally, run `read -rsp "New admin password: " PW; echo; printf "%s" "$PW" | node scripts/generate-admin-hash.cjs; unset PW`.
+3. Set `ADMIN_EMAIL`, `ADMIN_PASSWORD_HASH`, `SESSION_SECRET` as server-only env vars. The administrator credentials were provisioned privately in Vercel during the integration setup; rotate the temporary password before accepting production customers. To generate a replacement hash locally: `read -rsp "New admin password: " PW; echo; printf "%s" "$PW" | node scripts/generate-admin-hash.cjs; unset PW`.
 4. Verify Vercel Root Directory is `prime-cut-studios`; framework Next.js; install `npm install --no-audit --no-fund`; build `npm run build`.
 5. Ensure that other Vercel projects connected to the same repository are not accidentally deployed. Existing root app is BDG and is not the Prime Cut Studios website.
 6. Run install/build locally with network access and Node 24.x, then release only after checking the logs and core flows.
@@ -43,4 +43,16 @@ Legacy v0.1 conceptual schema is archived in `supabase/reference/` and is not ap
 
 ## Safe GitHub integration branch
 
-This code is tracked in `primecuts-supabase-integration-v03` in the existing `PRIME-CUT-STUDIO` GitHub repository. Root and nested `vercel.json` files disable automatic deployments on the integration branch only. Production `main` remains unchanged pending approval.
+This code is also tracked in `primecuts-supabase-integration-v03` of the existing `PRIME-CUT-STUDIO` GitHub repository. The root and nested `vercel.json` files disable automated deployments **on that integration branch only**. The production `main` branch stays unchanged until approved.
+
+
+## Client account / review link workflow (v0.4)
+
+1. In **/admin**, create a project manually if it was agreed offline, or convert an inquiry.
+2. Use **Generate login invitation**. Copy the one-time invitation URL and securely send it to the specific client's real email. This version does **not** send email automatically.
+3. The client uses the invitation to create a personal password of at least 12 characters, then accesses **/client** using email and password. Existing accounts log in and redeem subsequent invites, so one account can have several authorized projects.
+4. In **Reviews & files**, select **DaVinci / Blackmagic Cloud**, **Adobe Lightroom** or **Google Drive**, paste the official HTTPS share link, save the link as a hidden draft, then click **Make visible** when it is ready.
+5. Only logged-in members of that project can see its visible links at **/client/projects/[id]**. Legacy bearer-token `/client/[token]` URLs redirect to login, no longer exposing private project information.
+6. Comments/markers/favorites happen on the external Blackmagic or Adobe platform and are not synchronized into PrimeCuts OS. Client login protects the portal, **not the original provider URL**, so configure the provider's own share/invite/access settings and do not grant publicly accessible raw media unless intended.
+
+Run `npm run check:portal` and `npm run check:integration` in addition to the Next.js build. Database changes are in `supabase/migrations/20261013190000_client_review_portal.sql` and must be applied once. No additional storage services or email provider is required for this workflow.
