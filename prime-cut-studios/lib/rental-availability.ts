@@ -1,6 +1,7 @@
 import assetMap from './rental-asset-map.json';
 import catalog from './equipment-catalog.json';
 import priceBook from './rental-rates.json';
+import bundleBook from './rental-bundles.json';
 import {serverHeaders} from './db';
 
 /** Server-only: never expose asset IDs, serials, internal customer records, or Supabase keys. */
@@ -39,13 +40,16 @@ export function datesValid(start:string,end:string){
 }
 export function referenceRate(id:number){return (priceBook.rates as Record<string,{day:number;weekend:number;week:number;deposit:number|null;status:string}>)[key(id)]||null;}
 export function referencePriceForDates(id:number,qty:number,start:string,end:string){
-  const rates=referenceRate(id);if(!rates||!datesValid(start,end))return null;
+  const defaultRate=referenceRate(id);if(!defaultRate||!datesValid(start,end)||!Number.isInteger(qty)||qty<1)return null;
+  const bundles=bundleBook as Record<string,Record<string,{day:number;weekend:number;week:number}>>;
+  const rate=bundles[String(id)]?.[String(qty)]||defaultRate;
+  const multiplier=bundles[String(id)]?.[String(qty)]?1:qty;
   const count=Math.round((Date.parse(end)-Date.parse(start))/86400000)+1;
   const weeks=Math.floor(count/7),extra=count%7;
-  let amount=weeks*rates.week;
-  if(extra>0){ const weekend=(extra===2&&new Date(start+'T00:00:00Z').getUTCDay()===5);
-    amount+=weekend?rates.weekend:Math.min(extra*rates.day,rates.week);}
-  return Math.round(amount*qty*100);
+  let amount=weeks*rate.week;
+  if(extra>0){const weekend=extra===2&&new Date(start+'T00:00:00Z').getUTCDay()===5;
+    amount+=weekend?rate.weekend:Math.min(extra*rate.day,rate.week);}
+  return Math.round(amount*multiplier*100);
 }
 export async function availabilityForDates(start:string,end:string):Promise<Availability[]>{
   if(!datesValid(start,end))throw Error('INVALID_DATES');
