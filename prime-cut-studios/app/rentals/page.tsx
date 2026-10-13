@@ -6,6 +6,7 @@ import {consolidated,physicalSummary} from '@/lib/rental-availability';
 import rates from '@/lib/rental-rates.json';
 export const metadata:Metadata={title:'Equipment Rentals & Quotes | Prime Cut Studios',description:'Explore equipment, choose quantities, view daily/weekend/weekly reference prices and request a rental quote in Killeen, Texas. Booking is subject to approval.'};
 export const runtime='nodejs';
+export const dynamic='force-dynamic';
 export default function Rentals(){
  const items=consolidated();
  const stock=physicalSummary();
