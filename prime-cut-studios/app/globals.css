@@ -55,3 +55,12 @@ h1 em,h2 em{color:var(--gold);font-weight:400}
 /* Private client review portal */
 .client-review-layout{align-items:start;padding-bottom:90px}.review-link{display:flex;justify-content:space-between;align-items:center;gap:22px;padding:20px 0;border-bottom:1px solid var(--line)}.review-link h3{font-size:21px;margin:6px 0}.review-link .btn{flex-shrink:0}.client-review-layout .panel{min-width:0}.client-review-layout .note{margin-top:28px}
 @media(max-width:760px){.review-link{align-items:flex-start;flex-direction:column}.review-link .btn{width:100%}.client-review-layout{display:grid;grid-template-columns:1fr}}
+
+
+/* PrimeCuts OS Operations responsive layer */
+.ops-shell{padding-bottom:90px}.ops-links{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:22px 0;border-bottom:1px solid var(--line)}
+.ops-inline{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0}.ops-inline select{border:1px solid #433a2a;background:#12110f;color:var(--text);border-radius:12px;padding:10px}
+.ops-thread{border-left:2px solid #775e32;margin:16px 0;padding:4px 14px;background:#171511;border-radius:6px}.ops-thread p{padding:5px 0;line-height:1.6}
+.ops-shell .panel{min-width:0}.ops-shell .form input,.ops-shell .form select,.ops-shell .form textarea{max-width:100%}.ops-shell .admin-section{padding-top:36px}
+@media(max-width:700px){.ops-links{flex-direction:column;align-items:stretch}.ops-links .btn{width:100%}.ops-inline{align-items:stretch;flex-direction:column}.ops-shell .cards4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:430px){.ops-shell .cards4{grid-template-columns:1fr}}
