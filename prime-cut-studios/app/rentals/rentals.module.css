@@ -1,0 +1,75 @@
+.rentalApp{font-family:Arial,Helvetica,sans-serif;color:#f4efe6}
+.intro{display:flex;justify-content:space-between;align-items:end;gap:22px;flex-wrap:wrap;margin-bottom:30px;padding-bottom:24px;border-bottom:1px solid #302a22}
+.kicker{letter-spacing:.19em;color:#d6b46d;font-size:11px;font-weight:800}
+.intro h2{font:clamp(35px,4vw,60px)/1.1 Georgia,serif;letter-spacing:-.035em;margin:10px 0}
+.intro p{color:#afa79b;line-height:1.7;max-width:780px;font-size:15px;margin:0}
+.steps{display:flex;gap:10px;flex-wrap:wrap;color:#d8c5a3;font-size:11px}.steps span{background:#201b14;border:1px solid #443829;border-radius:30px;padding:8px 11px}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 355px;gap:26px;align-items:start}
+.filters{display:flex;gap:11px;flex-wrap:wrap;margin-bottom:16px}
+.search{flex:2 1 230px;display:flex;gap:9px;align-items:center;padding:0 14px;background:#181716;border:1px solid #493f31;border-radius:12px;color:#bca57e}
+.search input{background:transparent;color:#fff;border:0;min-height:46px;width:100%;outline:none;min-width:0}
+.filters select{flex:1 1 165px;background:#181716;color:#eee;border:1px solid #493f31;border-radius:12px;min-height:48px;padding:0 12px;min-width:0}
+.checkbox{display:flex;align-items:center;gap:9px;color:#c9c0b0;font-size:13px;padding:8px 10px}
+.checkbox input{accent-color:#d6b46d;width:17px;height:17px}
+.count{font-size:12px;color:#bcb4a5;margin:10px 0 14px}.count span{color:#d4b56e}
+.products{display:grid;grid-template-columns:repeat(auto-fill,minmax(207px,1fr));gap:15px}
+.product{background:#151413;border:1px solid #332d25;border-radius:17px;overflow:hidden;display:flex;flex-direction:column;min-width:0;transition:border-color .18s,transform .18s}
+.product:hover{border-color:#b09258;transform:translateY(-2px)}
+.photo{aspect-ratio:4/3;background:#f4f2ed;display:grid;place-items:center;overflow:hidden}
+.photo img{width:100%;height:100%;object-fit:contain}
+.noPhoto{width:100%;height:100%;color:#8c826f;background:radial-gradient(circle at 60% 15%,#383329,#211e19 68%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;font-size:11px}
+.productContent{padding:16px;display:flex;flex-direction:column;flex:1}
+.brand{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#d6b46d;font-weight:900}
+.product h3{font-size:16px;line-height:1.3;min-height:45px;margin:8px 0 5px;color:#f7f2e9;letter-spacing:0}
+.productType{margin:0 0 14px;font-size:12px;color:#9e978a}
+.rateLine{display:flex;align-items:end;gap:5px;flex-direction:column;align-items:flex-start;margin-top:auto;padding:13px 0;border-top:1px solid #302c25}
+.rateLine span{color:#9d9487;font-size:11px}.rateLine strong{color:#f4ebdc;font-size:16px}
+.add,.selected{display:flex;align-items:center;justify-content:center;gap:8px;padding:11px;border-radius:9px;border:1px solid #b49a62;background:#d6b46d;color:#17130d;font-size:13px;font-weight:900;cursor:pointer}
+.add:hover{background:#f4cf83}.selected{background:#1a2d22;color:#b5e4c2;border-color:#477553}
+.sidebar{position:sticky;top:110px;border:1px solid #6a5334;border-radius:20px;background:linear-gradient(140deg,#262014,#131210 50%);padding:22px;box-shadow:0 15px 50px #0005}
+.cartTitle{display:flex;gap:10px;align-items:center;color:#d6b46d;padding-bottom:17px;border-bottom:1px solid #433824}
+.cartTitle div{display:grid;gap:4px}.cartTitle strong{font-size:19px;color:#fff}.cartTitle span{font-size:12px;color:#b6ab9d}
+.cartItems{max-height:215px;overflow:auto;padding:9px 0}
+.cartItem{display:flex;align-items:start;justify-content:space-between;gap:8px;padding:11px 0;border-bottom:1px solid #373125;font-size:12px;color:#eee3d0;line-height:1.4}
+.cartItem button{background:transparent;color:#a9a098;border:0;cursor:pointer;padding:0}
+.cartItem button:hover{color:#fff}
+.cartEmpty{font-size:13px;color:#a9a092;padding:26px 2px;border-bottom:1px solid #373125;line-height:1.5}
+.fieldGrid{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin:20px 0}
+.fieldGrid label{display:grid;gap:7px;min-width:0}.fieldGrid label span{display:flex;align-items:center;gap:5px;font-size:12px;color:#d7c9b1}
+.fieldGrid input{color:#f4ede1;background:#201e1a;border:1px solid #5a4933;border-radius:9px;font:12px Arial;padding:10px 6px;min-height:39px;max-width:100%}
+.delivery{display:grid;gap:10px;border-top:1px solid #3d3528;padding-top:15px}
+.delivery>span{font-weight:700;font-size:13px}
+.delivery label{color:#d4cabe;display:flex;gap:7px;align-items:center;font-size:13px}.delivery input{accent-color:#d6b46d}
+.notes{display:grid;gap:9px;margin-top:18px;font-size:13px;font-weight:700}
+.notes textarea{background:#1c1a17;border:1px solid #514332;border-radius:9px;color:#fff;padding:11px;resize:vertical;width:100%;font:13px Arial}
+.total{display:flex;align-items:center;justify-content:space-between;gap:8px;border-top:1px solid #493c29;margin:20px 0 15px;padding-top:20px}
+.total span{font-size:12px;color:#aaa193}.total strong{font-size:16px;color:#f3d18a}
+.checkout{width:100%;border-radius:11px;background:linear-gradient(115deg,#e7c989,#b4924b);color:#17110a;font-size:14px;font-weight:900;border:0;padding:15px 12px;display:flex;gap:8px;align-items:center;justify-content:center;cursor:pointer}
+.checkout:hover{filter:brightness(1.12)}
+.error{font-size:12px;color:#ffbda7;line-height:1.5}
+.safeguard{display:flex;align-items:flex-start;gap:8px;font-size:11px;line-height:1.5;color:#aca394;margin-top:14px}.safeguard svg{flex:none;color:#d6b46d}
+.helpLink{display:block;text-align:center;font-size:12px;color:#d8bc81;margin-top:17px;text-decoration:underline;text-underline-offset:4px}
+.empty{border:1px dashed #493a28;border-radius:12px;padding:34px;text-align:center;color:#a79b8a}
+@media(max-width:1070px){.layout{grid-template-columns:minmax(0,1fr) 310px}.sidebar{padding:16px}}
+@media(max-width:800px){.layout{grid-template-columns:1fr}.sidebar{position:relative;top:auto;grid-row:1}.fieldGrid{grid-template-columns:1fr 1fr}}
+@media(max-width:500px){.intro h2{font-size:38px}.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.productContent{padding:12px}.product h3{font-size:13px}.photo{aspect-ratio:1}.fieldGrid{grid-template-columns:1fr 1fr;gap:6px}.fieldGrid input{font-size:11px}.sidebar{padding:15px}}
+
+/* Quantity controls and operational quote checkout */
+.qtyButtons{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:auto;border:1px solid #5f4d32;border-radius:10px;overflow:hidden;background:#211d16}
+.qtyButtons button{min-width:39px;height:39px;border:0;background:#d6b46d;color:#181209;display:grid;place-items:center;cursor:pointer}
+.qtyButtons button:disabled{background:#443d30;color:#908477;cursor:not-allowed}
+.qtyButtons span{font-size:13px;font-weight:900;color:#f2e0bd}
+.rateMore{font-size:11px;color:#a8a091;line-height:1.5;margin:0 0 14px}
+.systemNote{font-size:11px;color:#bdb2a2;line-height:1.55;margin:10px 0}
+.quoteNote{font-size:12px;line-height:1.6;color:#b0a395}
+.contactFields{display:grid;gap:12px;margin:24px 0 18px;padding-top:20px;border-top:1px solid #51402b}
+.contactFields h3{font-size:17px;margin:0;color:#ead3a0}
+.contactFields label{display:grid;gap:7px;color:#ded1ba;font-size:12px;min-width:0}
+.contactFields input,.contactFields textarea{border:1px solid #5b4b36;background:#1c1914;border-radius:9px;padding:10px 12px;color:#fff;font:13px Arial;max-width:100%;width:100%}
+.contactFields input:focus,.contactFields textarea:focus{outline:2px solid #be9f62;outline-offset:1px}
+.windowGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.contactFields .terms{display:flex;gap:10px;align-items:flex-start;line-height:1.65;font-size:11px;color:#c8b99f}
+.contactFields .terms input{width:18px;height:18px;flex:none;accent-color:#c5a56a}
+.success{border:1px solid #477d56;border-radius:10px;padding:13px;color:#c6f3cf;background:#163020;line-height:1.5;font-size:13px}
+.checkout:disabled{opacity:.45;cursor:not-allowed}
+@media(max-width:520px){.windowGrid{grid-template-columns:1fr}.products{grid-template-columns:repeat(2,minmax(0,1fr))}.rateMore{font-size:10px}.qtyButtons{gap:5px}.qtyButtons button{min-width:33px;height:37px}.qtyButtons span{font-size:12px}}
