@@ -3,6 +3,7 @@ import {redirect} from 'next/navigation';
 import {adminAuthenticated} from '@/lib/auth';
 import {listProjects} from '@/lib/db';
 import {allPhotoGalleries,galleryCategories} from '@/lib/photo-galleries';
+import {featuredLightroomAlbum} from '@/lib/featured-lightroom';
 export const runtime='nodejs';export const dynamic='force-dynamic';
 export default async function PhotoGalleries(){
  if(!await adminAuthenticated())redirect('/admin/login');
@@ -14,6 +15,21 @@ export default async function PhotoGalleries(){
   <p className="muted">Paste a shared Lightroom album link. Draft by default. You control whether each album appears inside a client's authenticated project or the public portfolio. Lightroom permissions remain independent.</p>
   <p><Link className="inline-link" href="/admin">← Owner dashboard</Link></p>
   <div className="cards4"><div className="dashmetric"><span>Saved galleries</span><b>{albums.length}</b></div><div className="dashmetric"><span>Client-only</span><b>{privateCount}</b></div><div className="dashmetric"><span>Public, approved</span><b>{publicCount}</b></div></div>
+
+  <section className="panel" style={{marginTop:24,borderColor:'#8d704c'}}>
+   <div className="eyebrow">Featured public portfolio · Lightroom live</div>
+   <h2>Conectar el álbum principal</h2>
+   <p className="muted">Ya elegiste mostrar este álbum completo en la portada y el portafolio, sin subir copias. Este panel registra el código oficial de Lightroom una sola vez; las futuras fotos se actualizan desde Adobe sin volver a modificar la página.</p>
+   <p><a className="inline-link" target="_blank" rel="noopener noreferrer" href={featuredLightroomAlbum.albumUrl}>Abrir álbum seleccionado ↗</a></p>
+   <form action="/api/admin/galleries" method="post" className="form">
+    <input type="hidden" name="action" value="featured"/>
+    <div className="field"><label>Código de inserción oficial de Lightroom</label>
+     <textarea required name="embed" rows={3} maxLength={1800} placeholder={'<iframe src="https://lightroom.adobe.com/..."></iframe>'}/></div>
+    <label><input type="checkbox" name="consent" value="yes" required/> Confirmo que tengo autorización para mostrar públicamente todas las fotografías y personas del álbum.</label>
+    <button className="btn" type="submit">Activar álbum en la portada y el portafolio</button>
+   </form>
+   <p className="small muted">En Lightroom Web: Compartir e invitar → icono &lt;/&gt; → Copiar código. No activa cargas de fotos, tareas programadas ni servicios nuevos.</p>
+  </section>
   <section className="panel" style={{marginTop:24}}><h2>Add Lightroom gallery</h2>
    <p className="muted">An album can belong to a client production or remain unassigned until a project is selected. Adding never publishes automatically.</p>
    <form className="form" method="post" action="/api/admin/galleries">

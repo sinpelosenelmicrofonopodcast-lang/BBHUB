@@ -1,13 +1,31 @@
 import {NextResponse} from 'next/server';
 import {requestIsSameOrigin,adminAuthenticated} from '@/lib/auth';
 import {getProject} from '@/lib/db';
-import {allPhotoGalleries,createPhotoGallery,photoGalleryById,setPhotoGalleryVisibility,validatedLightroomAlbumUrl,validatedLightroomEmbedUrl,galleryCategories,type GalleryType,type GalleryVisibility} from '@/lib/photo-galleries';
+import {revalidatePath,revalidateTag} from 'next/cache';
+import {featuredLightroomAlbum} from '@/lib/featured-lightroom';
+import {allPhotoGalleries,createPhotoGallery,registerFeaturedPublicAlbum,photoGalleryById,setPhotoGalleryVisibility,validatedLightroomAlbumUrl,validatedLightroomEmbedUrl,galleryCategories,type GalleryType,type GalleryVisibility} from '@/lib/photo-galleries';
 export const runtime='nodejs';
 export async function POST(req:Request){
  if(!requestIsSameOrigin(req))return new Response('Forbidden',{status:403});
  if(!await adminAuthenticated())return new Response('Unauthorized',{status:401});
  if(Number(req.headers.get('content-length')||0)>12000)return new Response('Request too large',{status:413});
  const f=await req.formData(),action=String(f.get('action')||'create');
+ if(action==='featured'){
+  const consent=String(f.get('consent')||'')==='yes';
+  const input=String(f.get('embed')||'').trim();
+  const embed=validatedLightroomEmbedUrl(input);
+  if(!consent||!embed||input.length>1800)return new Response('Official Lightroom code and permission to publish are required',{status:400});
+  await registerFeaturedPublicAlbum({
+   albumUrl:featuredLightroomAlbum.albumUrl,
+   embedUrl:embed,
+   title:featuredLightroomAlbum.title,
+   description:featuredLightroomAlbum.description
+  });
+  revalidateTag('primecuts-featured-lightroom-embed','max');
+  revalidatePath('/');
+  revalidatePath('/portfolio');
+  return NextResponse.redirect(new URL('/admin/galleries',req.url),303);
+ }
  if(action==='visibility'){
   const id=String(f.get('id')||''),visibility=String(f.get('visibility')||''),consent=String(f.get('consent')||'')==='yes';
   if(!/^[\da-f-]{36}$/i.test(id)||!['draft','client','public'].includes(visibility))return new Response('Invalid request',{status:400});
