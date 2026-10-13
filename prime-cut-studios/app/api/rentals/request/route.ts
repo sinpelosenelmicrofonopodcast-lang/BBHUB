@@ -20,7 +20,7 @@ export async function POST(request:Request){
   const name=String(form.get('name')||'').trim(),email=String(form.get('email')||'').trim().toLowerCase(),phone=String(form.get('phone')||'').trim();
   const start=String(form.get('startDate')||''),end=String(form.get('endDate')||''),notes=String(form.get('details')||'').trim();
   const today=new Date().toISOString().slice(0,10);
-  if(name.length<2||name.length>120||!/^.{1,200}@.{1,200}\..{2,}$/.test(email)||email.length>254||phone.length>40||notes.length>1200||!/^\\d{4}-\\d{2}-\\d{2}$/.test(start)||!/^\\d{4}-\\d{2}-\\d{2}$/.test(end)||start<today||end<start)return result(request.url,'invalid');
+  if(name.length<2||name.length>120||!/^.{1,200}@.{1,200}\..{2,}$/.test(email)||email.length>254||phone.length>40||notes.length>1200||!/^\d{4}-\d{2}-\d{2}$/.test(start)||!/^\d{4}-\d{2}-\d{2}$/.test(end)||start<today||end<start)return result(request.url,'invalid');
   const details='RENTAL REQUEST — NOT A BOOKING\nEquipment asset IDs: '+ids.join(', ')+'\nReturn date: '+end+'\nNotes: '+notes;
   const created=await createInquiry({name,email,phone:phone||null,service:'Custom Production',event_date:start,location:null,budget:null,details},identifyIp(safeIp(request)));
   if(!created.ok)return result(request.url,'limit');

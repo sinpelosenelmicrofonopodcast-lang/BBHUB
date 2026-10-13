@@ -98,7 +98,7 @@ BEGIN
   IF new_id IS NULL THEN RETURN; END IF;
  END IF;
  INSERT INTO public.pc_staff_members(account_id,role) VALUES(new_id,inv.role)
- ON CONFLICT(account_id) DO NOTHING;
+ ON CONFLICT ON CONSTRAINT pc_staff_members_pkey DO NOTHING;
  IF NOT FOUND THEN RETURN; END IF;
  IF inv.project_id IS NOT NULL THEN
   INSERT INTO public.pc_staff_projects(account_id,project_id) VALUES(new_id,inv.project_id) ON CONFLICT DO NOTHING;

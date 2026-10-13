@@ -1,3 +1,4 @@
+import photoSources from './equipment-catalog.json';
 /** Derived from BB ENTERTAINMENT - ASSET CONTROL SYSTEM LIVE (read 2026-10-13).
  * Public-safe subset only: NO serial numbers, purchase prices, private notes, or assignments.
  * 'ready' describes internal asset condition, NOT approved rental availability.
@@ -2113,3 +2114,16 @@ export const equipmentCatalog:EquipmentItem[] = [
 export const equipmentById=(id:string)=>equipmentCatalog.find(x=>x.id===id);
 export const equipmentCategories=Array.from(new Set(equipmentCatalog.map(x=>x.category))).sort();
 export const rentableCandidates=equipmentCatalog.filter(x=>x.inventoryStatus==='ready');
+
+/** Exact-model matching to the already verified manufacturer's image sources.
+ * No image bytes through PrimeCuts OS: browser loads vendor URL directly and lazily.
+ */
+const canonical=(s:string)=>s.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'');
+const verifiedPhotoLookup=new Map(photoSources.filter(photo=>
+  photo.sourceStatus==='direct-image' && typeof photo.imageUrl==='string'
+  && photo.imageUrl.startsWith('https://') && photo.officialUrl
+).map(photo=>[canonical(photo.name),photo.imageUrl!] as const));
+for(const equipment of equipmentCatalog){
+ const verified=verifiedPhotoLookup.get(canonical(equipment.name));
+ if(verified&&!equipment.photoUrl)equipment.photoUrl=verified;
+}

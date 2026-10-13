@@ -4,7 +4,7 @@ const fs=require('node:fs'),assert=require('node:assert/strict'),path=require('n
 const p=x=>fs.readFileSync(path.join(__dirname,'..',x),'utf8');
 const album=p('lib/featured-lightroom.ts'),showcase=p('components/LiveLightroomShowcase.tsx'),
 home=p('app/page.tsx'),portfolio=p('app/portfolio/page.tsx'),css=p('app/globals.css');
-assert.match(album,/https:\/\/adobe\.ly\/4ikEAMg/);
+assert.match(album,/https:\/\/lightroom\.adobe\.com\/shares\/5b61ae7322144a77ba85dc2cca5e866f/);
 assert.match(home,/LiveLightroomShowcase/);
 assert.match(portfolio,/LiveLightroomShowcase/);
 assert.match(showcase,/IntersectionObserver/);
