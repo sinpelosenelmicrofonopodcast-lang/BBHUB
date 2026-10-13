@@ -25,7 +25,7 @@ function EquipmentCard({item, publicView=false}: {item: EquipmentItem; publicVie
     <div className={styles.imageWrap}>
       {showImage ? <img
         src={item.imageUrl!}
-        alt={`Fotografía del fabricante: ${item.name}`}
+        alt={item.name}
         className={styles.productImage}
         loading="lazy"
         referrerPolicy="no-referrer"
@@ -37,13 +37,10 @@ function EquipmentCard({item, publicView=false}: {item: EquipmentItem; publicVie
       <p className={styles.category}>{item.category}</p>
       <h3>{item.name}</h3>
       <p className={styles.maker}>{item.manufacturer || 'Fabricante por confirmar'}{!publicView ? ` · Ref. ${String(item.id).padStart(3,'0')}` : ''}</p>
-      <p className={item.sourceStatus === 'direct-image' && !failed ? styles.goodStatus : styles.pendingStatus}>
-        {item.sourceStatus === 'direct-image' && !failed ? 'Foto del fabricante enlazada' : item.officialUrl ? 'Página del fabricante disponible' : 'Pendiente de fuente oficial'}
-      </p>
       {item.modelNote ? <p className={styles.warning}>{item.modelNote}</p> : null}
       <div className={styles.cardActions}>
         {item.officialUrl ? <a href={item.officialUrl} target="_blank" rel="noopener noreferrer">Ver fabricante <ArrowUpRight size={15} aria-hidden="true"/></a> : null}
-        {item.imageUrl ? <a href={item.imageUrl} target="_blank" rel="noopener noreferrer">Ver fotografía <ArrowUpRight size={15} aria-hidden="true"/></a> : null}
+        {item.imageUrl ? <a href={item.imageUrl} target="_blank" rel="noopener noreferrer">Abrir imagen <ArrowUpRight size={15} aria-hidden="true"/></a> : null}
       </div>
     </div>
   </article>;
