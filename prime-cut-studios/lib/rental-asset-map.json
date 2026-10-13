@@ -1,0 +1,916 @@
+{
+  "1": [
+    {
+      "assetId": "BB-CAM-0001",
+      "status": "ready"
+    }
+  ],
+  "2": [
+    {
+      "assetId": "BB-CAM-0002",
+      "status": "ready"
+    }
+  ],
+  "3": [
+    {
+      "assetId": "BB-CAM-0003",
+      "status": "ready"
+    }
+  ],
+  "4": [
+    {
+      "assetId": "BB-CAM-0004",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-CAM-0005",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-CAM-0006",
+      "status": "ready"
+    }
+  ],
+  "5": [
+    {
+      "assetId": "BB-CAM-0007",
+      "status": "ready"
+    }
+  ],
+  "6": [
+    {
+      "assetId": "BB-CAM-0008",
+      "status": "ready"
+    }
+  ],
+  "7": [
+    {
+      "assetId": "BB-CAM-0009",
+      "status": "maintenance"
+    }
+  ],
+  "8": [
+    {
+      "assetId": "BB-CAM-0010",
+      "status": "unverified"
+    }
+  ],
+  "9": [
+    {
+      "assetId": "BB-LEN-0001",
+      "status": "ready"
+    }
+  ],
+  "10": [
+    {
+      "assetId": "BB-LEN-0002",
+      "status": "ready"
+    }
+  ],
+  "11": [
+    {
+      "assetId": "BB-LEN-0003",
+      "status": "ready"
+    }
+  ],
+  "12": [
+    {
+      "assetId": "BB-LEN-0004",
+      "status": "ready"
+    }
+  ],
+  "13": [
+    {
+      "assetId": "BB-LEN-0005",
+      "status": "ready"
+    }
+  ],
+  "14": [
+    {
+      "assetId": "BB-LEN-0006",
+      "status": "ready"
+    }
+  ],
+  "15": [
+    {
+      "assetId": "BB-LEN-0007",
+      "status": "ready"
+    }
+  ],
+  "16": [
+    {
+      "assetId": "BB-LEN-0008",
+      "status": "ready"
+    }
+  ],
+  "17": [
+    {
+      "assetId": "BB-LEN-0009",
+      "status": "ready"
+    }
+  ],
+  "18": [
+    {
+      "assetId": "BB-LEN-0010",
+      "status": "ready"
+    }
+  ],
+  "19": [
+    {
+      "assetId": "BB-FLT-0001",
+      "status": "ready"
+    }
+  ],
+  "20": [
+    {
+      "assetId": "BB-AUD-0001",
+      "status": "ready"
+    }
+  ],
+  "21": [
+    {
+      "assetId": "BB-AUD-0002",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-AUD-0003",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-AUD-0004",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-AUD-0005",
+      "status": "ready"
+    }
+  ],
+  "22": [
+    {
+      "assetId": "BB-AUD-0006",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-AUD-0007",
+      "status": "ready"
+    }
+  ],
+  "23": [
+    {
+      "assetId": "BB-AUD-0006",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-AUD-0007",
+      "status": "ready"
+    }
+  ],
+  "24": [
+    {
+      "assetId": "BB-AUD-0008",
+      "status": "ready"
+    }
+  ],
+  "25": [
+    {
+      "assetId": "BB-AUD-0009",
+      "status": "ready"
+    }
+  ],
+  "26": [
+    {
+      "assetId": "BB-AUD-0010",
+      "status": "ready"
+    }
+  ],
+  "27": [
+    {
+      "assetId": "BB-AUD-0011",
+      "status": "ready"
+    }
+  ],
+  "28": [
+    {
+      "assetId": "BB-AUD-0012",
+      "status": "ready"
+    }
+  ],
+  "29": [
+    {
+      "assetId": "BB-AUD-0013",
+      "status": "ready"
+    }
+  ],
+  "30": [
+    {
+      "assetId": "BB-AUD-0014",
+      "status": "ready"
+    }
+  ],
+  "31": [
+    {
+      "assetId": "BB-LGT-0001",
+      "status": "ready"
+    }
+  ],
+  "32": [
+    {
+      "assetId": "BB-LGT-0002",
+      "status": "ready"
+    }
+  ],
+  "33": [
+    {
+      "assetId": "BB-LGT-0004",
+      "status": "ready"
+    }
+  ],
+  "34": [
+    {
+      "assetId": "BB-LGT-0005",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-LGT-0020",
+      "status": "ready"
+    }
+  ],
+  "35": [
+    {
+      "assetId": "BB-LGT-0006",
+      "status": "ready"
+    }
+  ],
+  "36": [
+    {
+      "assetId": "BB-LGT-0007",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-LGT-0008",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-LGT-0009",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-LGT-0010",
+      "status": "ready"
+    }
+  ],
+  "37": [
+    {
+      "assetId": "BB-LGT-0011",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-LGT-0012",
+      "status": "ready"
+    }
+  ],
+  "38": [
+    {
+      "assetId": "BB-LGT-0013",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-LGT-0014",
+      "status": "ready"
+    }
+  ],
+  "39": [
+    {
+      "assetId": "BB-LGT-0015",
+      "status": "ready"
+    }
+  ],
+  "40": [
+    {
+      "assetId": "BB-LGT-0016",
+      "status": "ready"
+    }
+  ],
+  "41": [
+    {
+      "assetId": "BB-LGT-0017",
+      "status": "ready"
+    }
+  ],
+  "42": [
+    {
+      "assetId": "BB-LGT-0018",
+      "status": "ready"
+    }
+  ],
+  "43": [
+    {
+      "assetId": "BB-LGT-0019",
+      "status": "ready"
+    }
+  ],
+  "44": [
+    {
+      "assetId": "BB-MOD-0001",
+      "status": "ready"
+    }
+  ],
+  "45": [
+    {
+      "assetId": "BB-MOD-0002",
+      "status": "ready"
+    }
+  ],
+  "46": [
+    {
+      "assetId": "BB-MOD-0003",
+      "status": "ready"
+    }
+  ],
+  "47": [
+    {
+      "assetId": "BB-MOD-0004",
+      "status": "ready"
+    }
+  ],
+  "48": [
+    {
+      "assetId": "BB-MOD-0005",
+      "status": "ready"
+    }
+  ],
+  "49": [
+    {
+      "assetId": "BB-MOD-0006",
+      "status": "ready"
+    }
+  ],
+  "50": [
+    {
+      "assetId": "BB-MOD-0007",
+      "status": "ready"
+    }
+  ],
+  "51": [
+    {
+      "assetId": "BB-MOD-0008",
+      "status": "ready"
+    }
+  ],
+  "52": [
+    {
+      "assetId": "BB-MOD-0009",
+      "status": "ready"
+    }
+  ],
+  "53": [
+    {
+      "assetId": "BB-MOD-0010",
+      "status": "ready"
+    }
+  ],
+  "54": [
+    {
+      "assetId": "BB-GRP-0001",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-GRP-0002",
+      "status": "ready"
+    }
+  ],
+  "55": [
+    {
+      "assetId": "BB-GRP-0003",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-GRP-0004",
+      "status": "ready"
+    }
+  ],
+  "56": [
+    {
+      "assetId": "BB-GRP-0005",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-GRP-0006",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-GRP-0007",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-GRP-0008",
+      "status": "ready"
+    }
+  ],
+  "57": [
+    {
+      "assetId": "BB-GRP-0009",
+      "status": "ready"
+    }
+  ],
+  "58": [
+    {
+      "assetId": "BB-GRP-0010",
+      "status": "ready"
+    }
+  ],
+  "59": [
+    {
+      "assetId": "BB-GRP-0011",
+      "status": "ready"
+    }
+  ],
+  "60": [
+    {
+      "assetId": "BB-MOV-0001",
+      "status": "ready"
+    }
+  ],
+  "61": [
+    {
+      "assetId": "BB-MOV-0002",
+      "status": "ready"
+    }
+  ],
+  "62": [
+    {
+      "assetId": "BB-MOV-0003",
+      "status": "ready"
+    }
+  ],
+  "63": [
+    {
+      "assetId": "BB-MOV-0004",
+      "status": "ready"
+    }
+  ],
+  "64": [
+    {
+      "assetId": "BB-MOV-0005",
+      "status": "ready"
+    }
+  ],
+  "65": [
+    {
+      "assetId": "BB-MOV-0006",
+      "status": "ready"
+    }
+  ],
+  "66": [
+    {
+      "assetId": "BB-MOV-0007",
+      "status": "ready"
+    }
+  ],
+  "67": [
+    {
+      "assetId": "BB-MOV-0008",
+      "status": "ready"
+    }
+  ],
+  "68": [
+    {
+      "assetId": "BB-MOV-0009",
+      "status": "ready"
+    }
+  ],
+  "69": [
+    {
+      "assetId": "BB-MOV-0010",
+      "status": "ready"
+    }
+  ],
+  "70": [
+    {
+      "assetId": "BB-MON-0001",
+      "status": "ready"
+    }
+  ],
+  "71": [
+    {
+      "assetId": "BB-MON-0002",
+      "status": "ready"
+    }
+  ],
+  "72": [
+    {
+      "assetId": "BB-MON-0003",
+      "status": "ready"
+    }
+  ],
+  "73": [
+    {
+      "assetId": "BB-FLS-0001",
+      "status": "ready"
+    }
+  ],
+  "74": [
+    {
+      "assetId": "BB-FLS-0002",
+      "status": "ready"
+    }
+  ],
+  "75": [
+    {
+      "assetId": "BB-FLS-0003",
+      "status": "ready"
+    }
+  ],
+  "76": [
+    {
+      "assetId": "BB-MET-0001",
+      "status": "ready"
+    }
+  ],
+  "77": [
+    {
+      "assetId": "BB-CLR-0001",
+      "status": "ready"
+    }
+  ],
+  "78": [
+    {
+      "assetId": "BB-RIG-0001",
+      "status": "ready"
+    }
+  ],
+  "79": [
+    {
+      "assetId": "BB-RIG-0002",
+      "status": "ready"
+    }
+  ],
+  "80": [
+    {
+      "assetId": "BB-RIG-0003",
+      "status": "ready"
+    }
+  ],
+  "81": [
+    {
+      "assetId": "BB-RIG-0004",
+      "status": "ready"
+    }
+  ],
+  "82": [
+    {
+      "assetId": "BB-RIG-0005",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-RIG-0006",
+      "status": "ready"
+    }
+  ],
+  "83": [
+    {
+      "assetId": "BB-PWR-0001",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-PWR-0002",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-PWR-0003",
+      "status": "ready"
+    }
+  ],
+  "84": [
+    {
+      "assetId": "BB-PWR-0004",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-PWR-0005",
+      "status": "ready"
+    }
+  ],
+  "85": [
+    {
+      "assetId": "BB-PWR-0006",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-PWR-0007",
+      "status": "ready"
+    }
+  ],
+  "86": [
+    {
+      "assetId": "BB-PWR-0008",
+      "status": "ready"
+    }
+  ],
+  "87": [
+    {
+      "assetId": "BB-PWR-0009",
+      "status": "ready"
+    }
+  ],
+  "88": [
+    {
+      "assetId": "BB-PWR-0010",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-PWR-0011",
+      "status": "ready"
+    }
+  ],
+  "89": [
+    {
+      "assetId": "BB-MED-0001",
+      "status": "ready"
+    }
+  ],
+  "90": [
+    {
+      "assetId": "BB-MED-0002",
+      "status": "ready"
+    }
+  ],
+  "91": [
+    {
+      "assetId": "BB-MED-0003",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-MED-0004",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-MED-0005",
+      "status": "ready"
+    }
+  ],
+  "92": [
+    {
+      "assetId": "BB-MED-0006",
+      "status": "ready"
+    }
+  ],
+  "93": [
+    {
+      "assetId": "BB-MED-0007",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-MED-0008",
+      "status": "ready"
+    }
+  ],
+  "94": [
+    {
+      "assetId": "BB-MED-0009",
+      "status": "ready"
+    }
+  ],
+  "95": [
+    {
+      "assetId": "BB-MED-0010",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-MED-0011",
+      "status": "ready"
+    }
+  ],
+  "96": [
+    {
+      "assetId": "BB-MED-0012",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-MED-0013",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-MED-0014",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-MED-0015",
+      "status": "ready"
+    }
+  ],
+  "97": [
+    {
+      "assetId": "BB-MED-0016",
+      "status": "ready"
+    }
+  ],
+  "98": [
+    {
+      "assetId": "BB-MED-0017",
+      "status": "ready"
+    }
+  ],
+  "99": [
+    {
+      "assetId": "BB-SFX-0001",
+      "status": "ready"
+    }
+  ],
+  "100": [
+    {
+      "assetId": "BB-ACC-0001",
+      "status": "ready"
+    }
+  ],
+  "101": [
+    {
+      "assetId": "BB-ACC-0002",
+      "status": "ready"
+    }
+  ],
+  "102": [
+    {
+      "assetId": "BB-CAB-0001",
+      "status": "ready"
+    }
+  ],
+  "103": [
+    {
+      "assetId": "BB-CAB-0002",
+      "status": "ready"
+    }
+  ],
+  "104": [
+    {
+      "assetId": "BB-CAB-0003",
+      "status": "ready"
+    }
+  ],
+  "105": [
+    {
+      "assetId": "BB-CAB-0004",
+      "status": "ready"
+    }
+  ],
+  "106": [
+    {
+      "assetId": "BB-CAS-0001",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-CAS-0002",
+      "status": "ready"
+    }
+  ],
+  "107": [
+    {
+      "assetId": "BB-CAS-0003",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-CAS-0004",
+      "status": "ready"
+    }
+  ],
+  "108": [
+    {
+      "assetId": "BB-CAS-0005",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-CAS-0006",
+      "status": "ready"
+    }
+  ],
+  "109": [],
+  "110": [
+    {
+      "assetId": "BB-PWR-0016",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-PWR-0017",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-PWR-0018",
+      "status": "ready"
+    }
+  ],
+  "111": [
+    {
+      "assetId": "BB-FLT-0002",
+      "status": "ready"
+    }
+  ],
+  "112": [
+    {
+      "assetId": "BB-MON-0004",
+      "status": "out_of_service"
+    }
+  ],
+  "113": [
+    {
+      "assetId": "BB-AUD-0015",
+      "status": "ready"
+    }
+  ],
+  "114": [
+    {
+      "assetId": "BB-AUD-0016",
+      "status": "ready"
+    }
+  ],
+  "115": [
+    {
+      "assetId": "BB-MOV-0011",
+      "status": "ready"
+    }
+  ],
+  "116": [
+    {
+      "assetId": "BB-RIG-0007",
+      "status": "ready"
+    }
+  ],
+  "117": [
+    {
+      "assetId": "BB-PWR-0012",
+      "status": "ready"
+    }
+  ],
+  "118": [
+    {
+      "assetId": "BB-ACC-0003",
+      "status": "ready"
+    }
+  ],
+  "119": [
+    {
+      "assetId": "BB-RIG-0008",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-RIG-0009",
+      "status": "ready"
+    }
+  ],
+  "120": [
+    {
+      "assetId": "BB-RIG-0010",
+      "status": "ready"
+    }
+  ],
+  "121": [
+    {
+      "assetId": "BB-MED-0018",
+      "status": "ready"
+    }
+  ],
+  "122": [
+    {
+      "assetId": "BB-CAS-0007",
+      "status": "ready"
+    }
+  ],
+  "123": [
+    {
+      "assetId": "BB-CAS-0008",
+      "status": "ready"
+    }
+  ],
+  "124": [
+    {
+      "assetId": "BB-GRP-0012",
+      "status": "ready"
+    }
+  ],
+  "125": [
+    {
+      "assetId": "BB-PWR-0013",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-PWR-0014",
+      "status": "ready"
+    },
+    {
+      "assetId": "BB-PWR-0015",
+      "status": "ready"
+    }
+  ],
+  "126": [
+    {
+      "assetId": "BB-AUD-0017",
+      "status": "ready"
+    }
+  ],
+  "127": [
+    {
+      "assetId": "BB-AUD-0018",
+      "status": "ready"
+    }
+  ],
+  "128": []
+}
