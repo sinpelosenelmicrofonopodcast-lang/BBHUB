@@ -2,14 +2,12 @@
 
 import {useMemo,useState} from 'react';
 import Link from 'next/link';
-import {ArrowRight,CalendarDays,Check,ImageOff,Minus,Plus,Search,ShieldCheck,ShoppingBag,Trash2} from 'lucide-react';
+import {ArrowRight,CalendarDays,Check,ImageOff,Plus,Search,ShieldCheck,ShoppingBag,Trash2} from 'lucide-react';
 import styles from './rentals.module.css';
 import type {EquipmentItem} from '@/app/admin/equipment/EquipmentGallery';
 
 type Props={items:EquipmentItem[]};
 type Selection=Record<number,boolean>;
-const dayText=(d:string)=>d||'Not selected';
-const known=(x:EquipmentItem)=>x.manufacturer && x.manufacturer!=='Sin identificar' && !/Fabricante y modelo|Número de modelo|Identificar tipo/.test(x.modelNote||'');
 
 function CatalogCard({item,chosen,onToggle}:{item:EquipmentItem,chosen:boolean,onToggle:(id:number)=>void}){
   const [broken,setBroken]=useState(false);
@@ -40,7 +38,7 @@ export function RentalExperience({items}:Props){
   },[items]);
   const [query,setQuery]=useState('');
   const [category,setCategory]=useState('all');
-  const [photosOnly,setPhotosOnly]=useState(false);
+  const [photosOnly,setPhotosOnly]=useState(true);
   const [selected,setSelected]=useState<Selection>({});
   const [start,setStart]=useState('');
   const [end,setEnd]=useState('');
@@ -48,7 +46,7 @@ export function RentalExperience({items}:Props){
   const [notes,setNotes]=useState('');
   const [dateError,setDateError]=useState('');
   const categories=useMemo(()=>[...new Set(catalog.map(x=>x.category))].sort((a,b)=>a.localeCompare(b)),[catalog]);
-  const visible=useMemo(()=>catalog.filter(x=>(category==='all'||x.category===category)&&(!photosOnly||Boolean(x.imageUrl))&&
+  const visible=useMemo(()=>catalog.filter(x=>(category==='all'||x.category===category)&&(!photosOnly||Boolean(x.imageUrl)||Boolean(query.trim()))&&
     (`${x.name} ${x.manufacturer} ${x.category}`.toLocaleLowerCase().includes(query.toLocaleLowerCase().trim()))),[catalog,category,photosOnly,query]);
   const chosen=useMemo(()=>catalog.filter(item=>selected[item.id]),[catalog,selected]);
   function toggle(id:number){setSelected(s=>({...s,[id]:!s[id]}));setDateError('');}
@@ -77,7 +75,7 @@ export function RentalExperience({items}:Props){
           <select aria-label="Filter by category" value={category} onChange={e=>setCategory(e.target.value)}><option value="all">All equipment</option>{categories.map(c=><option key={c} value={c}>{c}</option>)}</select>
           <label className={styles.checkbox}><input type="checkbox" checked={photosOnly} onChange={e=>setPhotosOnly(e.target.checked)}/> With product photos</label>
         </div>
-        <div className={styles.count}>{visible.length} products shown · <span>Prices upon review</span></div>
+        <div className={styles.count}>{visible.length} of {catalog.length} products shown · <span>Prices upon review</span></div>
         {visible.length?<div className={styles.products}>{visible.map(item=><CatalogCard key={item.id} item={item} chosen={!!selected[item.id]} onToggle={toggle}/>)}</div>:
         <div className={styles.empty}>No equipment matched. Try another category or search term.</div>}
       </div>
