@@ -1,0 +1,14 @@
+# Operations — checklist de activación (NO ejecutar automáticamente)
+- [ ] Comparar HEAD rama de trabajo contra última versión publicada; resolver cambios ajenos.
+- [ ] Confirmar backups de Supabase y export/restore test.
+- [ ] Ejecutar revisión de migración `20261013194500_primecuts_operations.sql` en transacción de prueba; validar rol `service_role` y cero acceso `anon/authenticated`.
+- [ ] Confirmar que el recurso `pc_client_accounts` de v0.4 ya existe (dependencia de contratos/respuestas).
+- [ ] Verificar Node 24 y Next.js build/test local; no mezclar versiones de lockfile.
+- [ ] Probar cada rol, cliente de otro proyecto, talento no asignado y rutas POST sin Origin.
+- [ ] Activar verificación de correo de talento antes de admitir datos personales masivos.
+- [ ] Acordar privacidad/retención y términos casting/contratos con asesoría apropiada.
+- [ ] Confirmar backups/versiones, enlaces de Lightroom/Blackmagic limitados por sus proveedores.
+- [ ] Aplicar migración una vez aprobada; probar RPC y RLS.
+- [ ] Ejecutar **un solo** deployment manual a `prime-cut-studios` con commit revisado, sin auto builds.
+- [ ] Verificar inicio staff/talent/cliente, políticas, interactividad, acciones y límites.
+- [ ] Conservar posibilidad de rollback; no borrar `prime-cut-studio` hasta consolidar dominios/configuración.

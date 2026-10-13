@@ -1,0 +1,12 @@
+.ops-shell{padding-top:26px;padding-bottom:70px}
+.ops-links{display:flex;gap:12px;align-items:center;flex-wrap:wrap;border-bottom:1px solid #29261f;padding:12px 0 22px}
+.ops-links .pill{margin-left:auto}
+.ops-shell .pagehero{padding-top:40px;padding-bottom:28px}
+.ops-shell .panel{margin-bottom:18px}
+.ops-shell .project-list{display:grid;gap:16px}
+.ops-shell .ops-inline{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:14px 0}
+.ops-shell .ops-inline select{max-width:260px}
+.ops-shell .review-link{padding:16px 0;border-top:1px solid #29261f;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+.ops-shell .review-link form{display:flex;flex-wrap:wrap;gap:10px}
+.ops-shell .panel .note{margin-top:12px}
+@media(max-width:780px){.ops-links .pill{margin-left:0}.ops-shell .ops-inline>*{width:100%}.ops-shell .review-link form{width:100%}}

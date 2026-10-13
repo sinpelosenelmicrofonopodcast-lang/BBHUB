@@ -1,6 +1,6 @@
-# Prime Cut Studios — PrimeCuts OS v0.3 (Supabase Edition)
+# Prime Cut Studios — Operations Suite (staged)
 
-Official Prime Cut Studios website and business operations code. **No deployment has been requested or run for v0.3.**
+Official Prime Cut Studios website and business operations code. **Operations Suite is staged, NOT DEPLOYED. v0.4 remains the last published version.**
 
 ## Persistent production storage
 - Supabase BBHUB project `mvrszgunjwvdqogtpyqm` (`https://mvrszgunjwvdqogtpyqm.supabase.co`)
@@ -12,7 +12,7 @@ Official Prime Cut Studios website and business operations code. **No deployment
 
 ## Deploy prerequisites — DO NOT TRIGGER AUTOMATIC DEPLOYMENTS
 1. Get your project's `sb_secret_*` API key from [Supabase BBHUB / API Keys](https://supabase.com/dashboard/project/mvrszgunjwvdqogtpyqm/settings/api-keys).
-2. In your Vercel project `prime-cut-studio`, set `SUPABASE_SECRET_KEY` as a **Sensitive** environment variable, for Production/Preview/Development (never paste the secret in chat or GitHub). `SUPABASE_URL` was already configured on Vercel.
+2. In the active Vercel project `prime-cut-studios`, set `SUPABASE_SECRET_KEY` as a **Sensitive** environment variable, for Production/Preview/Development (never paste the secret in chat or GitHub). `SUPABASE_URL` was already configured on Vercel.
 3. Set `ADMIN_EMAIL`, `ADMIN_PASSWORD_HASH`, `SESSION_SECRET` as server-only env vars. The administrator credentials were provisioned privately in Vercel during the integration setup; rotate the temporary password before accepting production customers. To generate a replacement hash locally: `read -rsp "New admin password: " PW; echo; printf "%s" "$PW" | node scripts/generate-admin-hash.cjs; unset PW`.
 4. Verify Vercel Root Directory is `prime-cut-studios`; framework Next.js; install `npm install --no-audit --no-fund`; build `npm run build`.
 5. Ensure that other Vercel projects connected to the same repository are not accidentally deployed. Existing root app is BDG and is not the Prime Cut Studios website.
@@ -56,3 +56,8 @@ This code is also tracked in `primecuts-supabase-integration-v03` of the existin
 6. Comments/markers/favorites happen on the external Blackmagic or Adobe platform and are not synchronized into PrimeCuts OS. Client login protects the portal, **not the original provider URL**, so configure the provider's own share/invite/access settings and do not grant publicly accessible raw media unless intended.
 
 Run `npm run check:portal` and `npm run check:integration` in addition to the Next.js build. Database changes are in `supabase/migrations/20261013190000_client_review_portal.sql` and must be applied once. No additional storage services or email provider is required for this workflow.
+
+## Operations Suite — private staging branch
+This branch adds staff roles, project access, casting calls and talent submissions, operations records, client feedback and contract acceptance evidence. Run `npm run check:operations`; a Next.js build and end-to-end security tests are still required. The new SQL migration `supabase/migrations/20261013194500_primecuts_operations.sql` has **NOT** been applied. No automated deployments are authorized.
+
+Read `docs/OPERATIONS_AUDIT_AND_ROADMAP.md`, `docs/SECURITY_REVIEW.md` and `docs/OPERATIONS_RELEASE_CHECKLIST.md` before release. Adobe, Blackmagic, emails, payments, true electronic signature providers and calendar remain external/unintegrated. DO NOT open adult casting until email verification, privacy policies, retention and rate limiting are reviewed.
