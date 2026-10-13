@@ -8,7 +8,16 @@
     "imageUrl": "https://www.usa.canon.com/content/dam/canon-assets/product-assets/Cameras/cinema-eos-cameras/cinema-eos/eos-r5-c-body/product-images/5077C002_eos-r5-c_1.png",
     "officialUrl": "https://www.usa.canon.com/shop/p/eos-r5-c",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 2,
@@ -19,7 +28,16 @@
     "imageUrl": "https://www.usa.canon.com/content/dam/canon-assets-%28no-crop-applied%29/newsroom/2022/20221102-camera/5666C002_eos_r6_mark_ii_body_primary.png",
     "officialUrl": "https://www.usa.canon.com/shop/p/eos-r6-mark-ii",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 3,
@@ -30,7 +48,16 @@
     "imageUrl": "https://s7d1.scene7.com/is/image/canon/6895C002_R50_V_Body_primary?wid=800",
     "officialUrl": "https://www.usa.canon.com/shop/p/eos-r50-v",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 4,
@@ -41,7 +68,16 @@
     "imageUrl": "https://www.usa.canon.com/content/dam/canon-assets-%28no-crop-applied%29/newsroom/2023/20230524-camera/6052C022_eos-r100-two-lens-kit_primary.png",
     "officialUrl": "https://www.usa.canon.com/shop/p/eos-r100",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 5,
@@ -52,7 +88,16 @@
     "imageUrl": null,
     "officialUrl": "https://gopro.com/en/us/shop/cameras/hero12-black/CHDHX-121-master.html",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 6,
@@ -63,7 +108,16 @@
     "imageUrl": "https://static.gopro.com/assets/blta2b8522e5372af40/bltb33f565e80510d1c/66ac8acfadec83c57a2d35da/03-pdp-h13-gallery-768-375.png",
     "officialUrl": "https://gopro.com/en/us/shop/cameras/buy/hero13black/CHDHX-131-master.html",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 7,
@@ -74,7 +128,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.dji.com/mavic",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 8,
@@ -85,51 +148,100 @@
     "imageUrl": null,
     "officialUrl": "https://www.dji.com/mavic-mini",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 9,
-    "name": "Canon RF 24-105mm F4 L IS USM",
+    "name": "Canon RF24-105mm F4 L IS USM",
     "category": "Lentes",
     "manufacturer": "Canon",
     "quantity": 1,
     "imageUrl": "https://s7d1.scene7.com/is/image/canon/2963C002_rf-24-105mm-f4-l-is-usm_primary?fmt=webp-alpha&wid=800",
     "officialUrl": "https://www.usa.canon.com/shop/p/rf24-105mm-f4-l-is-usm",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Canon RF 24-105mm F4 L IS USM",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 10,
-    "name": "Canon RF 28-70mm",
+    "name": "Canon RF28-70mm F2.8 IS STM",
     "category": "Lentes",
     "manufacturer": "Canon",
     "quantity": 1,
     "imageUrl": "https://www.canon.ca/dam/products/BUSINESS-UNIT/ITCG/Lenses/RF-Lenses/RF28-70mm-F2.8-IS-STM/RF28-70mm-F2.8-IS-STM-Thumbnail.png",
     "officialUrl": "https://www.usa.canon.com/shop/p/rf28-70mm-f2-8-is-stm",
     "sourceStatus": "direct-image",
-    "modelNote": "Variante exacta por confirmar"
+    "modelNote": "La foto y el nombre corresponden a RF28-70mm F2.8 IS STM; confirmar contra la unidad física antes de autorizar alquiler.",
+    "originalName": "Canon RF 28-70mm",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 11,
-    "name": "Canon EF-S 55-250mm f/4-5.6 IS STM",
+    "name": "Canon EF-S55-250mm f/4-5.6 IS STM",
     "category": "Lentes",
     "manufacturer": "Canon",
     "quantity": 1,
     "imageUrl": "https://www.canon.com.au/-/media/images/canon/products/ef-s-55-250mm-f-4-5-6-is-stm/ef-s-55-250mm-f-4-5-6-is-stm-hero.jpg",
     "officialUrl": "https://www.canon.com.au/camera-lenses/ef-s-55-250mm-f-4-5-6-is-stm",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Canon EF-S 55-250mm f/4-5.6 IS STM",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 12,
-    "name": "Rokinon 24mm T1.5 ED AS IF UMC Cine",
+    "name": "Rokinon 24mm T1.5 Cine Lens",
     "category": "Lentes",
     "manufacturer": "Rokinon",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://rokinon.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Rokinon 24mm T1.5 ED AS IF UMC Cine",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 13,
@@ -137,32 +249,61 @@
     "category": "Lentes",
     "manufacturer": "Rokinon",
     "quantity": 1,
-    "imageUrl": "https://rokinon.com/cdn/shop/products/35mm-t15-full-frame-wide-angle-cine-ds-694994_1800x1800.jpg?v=1647618433",
+    "imageUrl": null,
     "officialUrl": "https://rokinon.com/products/35mm-t1-5-full-frame-wide-angle-cine-ds",
-    "sourceStatus": "direct-image",
-    "modelNote": ""
+    "sourceStatus": "manufacturer-page",
+    "modelNote": "Variante de Rokinon 35mm T1.5 por verificar; la fotografía de una variante Cine DS podría no corresponder a esta unidad.",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 14,
-    "name": "Rokinon 50mm T1.5 AS UMC",
+    "name": "Rokinon 50mm T1.5 Cine Lens",
     "category": "Lentes",
     "manufacturer": "Rokinon",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://rokinon.com/products/50mm-t1-5-full-frame-cine-ds",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Rokinon 50mm T1.5 AS UMC",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 15,
-    "name": "Rokinon 85mm T1.5 Cine DS",
+    "name": "Rokinon 85mm T1.5 Cine DS Lens",
     "category": "Lentes",
     "manufacturer": "Rokinon",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://rokinon.com/collections/rokinon-lenses/products/85mm-t1-5-full-frame-cine-ds",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Rokinon 85mm T1.5 Cine DS",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 16,
@@ -173,40 +314,79 @@
     "imageUrl": null,
     "officialUrl": "https://rokinon.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 17,
-    "name": "LAOWA 24mm f/14 2X Macro Probe",
+    "name": "Laowa 24mm f/14 2X Macro Probe Lens",
     "category": "Lentes",
     "manufacturer": "LAOWA",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.venuslens.net/product/laowa-24mm-f-14-2x-macro-probe/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "LAOWA 24mm f/14 2X Macro Probe",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 18,
-    "name": "Yongnuo 35mm f/2 AF",
+    "name": "YONGNUO 35mm f/2 Autofocus Lens",
     "category": "Lentes",
     "manufacturer": "Yongnuo",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.hkyongnuo.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Yongnuo 35mm f/2 AF",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 19,
-    "name": "K&F Concept True Color ND2-32 & CPL",
+    "name": "K&F Concept True Color Variable ND2-32 & CPL Filter",
     "category": "Filtros",
     "manufacturer": "K&F",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.kfconcept.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "K&F Concept True Color ND2-32 & CPL",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 20,
@@ -215,9 +395,18 @@
     "manufacturer": "RØDE",
     "quantity": 1,
     "imageUrl": null,
-    "officialUrl": "https://rode.com/en-us/products/rodecaster-pro-ii",
+    "officialUrl": "https://rode.com/en-us/products/rodecaster-pro-II",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 21,
@@ -228,29 +417,58 @@
     "imageUrl": null,
     "officialUrl": "https://www.shure.com/en-US/products/microphones/sm7b",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 22,
-    "name": "RØDE Wireless PRO Kit #1",
+    "name": "RØDE Wireless PRO",
     "category": "Audio",
     "manufacturer": "RØDE",
     "quantity": 1,
     "imageUrl": "https://help.rode.com/hc/article_attachments/12088121471631",
     "officialUrl": "https://rode.com/en-us/products/wireless-pro",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "RØDE Wireless PRO Kit #1",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 23,
-    "name": "RØDE Wireless PRO Kit #2",
+    "name": "RØDE Wireless PRO",
     "category": "Audio",
     "manufacturer": "RØDE",
     "quantity": 1,
     "imageUrl": "https://help.rode.com/hc/article_attachments/12088121471631",
     "officialUrl": "https://rode.com/en-us/products/wireless-pro",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "RØDE Wireless PRO Kit #2",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 24,
@@ -261,7 +479,16 @@
     "imageUrl": null,
     "officialUrl": "https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6essential/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 25,
@@ -272,51 +499,100 @@
     "imageUrl": null,
     "officialUrl": "https://zoomcorp.com/en/us/podtrak-recorders/podcast-recorders/podtrak-p4/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 26,
-    "name": "Sennheiser MKH 416 P48",
+    "name": "Sennheiser MKH 416-P48",
     "category": "Audio",
     "manufacturer": "Sennheiser",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.sennheiser.com/en-us",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Sennheiser MKH 416 P48",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 27,
-    "name": "Auray BP-59A",
+    "name": "Auray BP-59A Boom Pole",
     "category": "Audio",
     "manufacturer": "Auray",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://aurayaudio.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Auray BP-59A",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 28,
-    "name": "Rycote InVision INV-HG mkIII",
+    "name": "Rycote InVision INV-HG mkIII Shockmount",
     "category": "Audio",
     "manufacturer": "Rycote",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://rycote.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Rycote InVision INV-HG mkIII",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 29,
-    "name": "Auray 7in Windshield",
+    "name": "Auray 7-inch Windshield",
     "category": "Audio",
     "manufacturer": "Auray",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://aurayaudio.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Auray 7in Windshield",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 30,
@@ -327,29 +603,58 @@
     "imageUrl": null,
     "officialUrl": "https://tadeto.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 31,
-    "name": "amaran 300c",
+    "name": "amaran 300c Full-Color LED Light",
     "category": "Iluminación",
     "manufacturer": "amaran",
     "quantity": 1,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0862/5432/1947/products/amaran300cblack_9.png?v=1714609563",
     "officialUrl": "https://amarancreators.com/products/amaran-300c",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "amaran 300c",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 32,
-    "name": "amaran 200x S",
+    "name": "amaran 200x S Bi-Color LED Light",
     "category": "Iluminación",
     "manufacturer": "amaran",
     "quantity": 2,
     "imageUrl": null,
     "officialUrl": "https://amarancreators.com/products/amaran-200x-s",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "amaran 200x S",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 33,
@@ -360,73 +665,142 @@
     "imageUrl": null,
     "officialUrl": "https://amarancreators.com/products/amaran-cob-60x-s",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 34,
-    "name": "GVM P80Pro 80W",
+    "name": "GVM P80Pro 80W LED Video Light",
     "category": "Iluminación",
     "manufacturer": "GVM",
     "quantity": 2,
     "imageUrl": null,
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "GVM P80Pro 80W",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 35,
-    "name": "Fiilex P3",
+    "name": "Fiilex P3 Portable LED Light",
     "category": "Iluminación",
     "manufacturer": "Fiilex",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://fiilex.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Fiilex P3",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 36,
-    "name": "Aputure MC",
+    "name": "Aputure MC RGBWW LED Light",
     "category": "Iluminación",
     "manufacturer": "Aputure",
     "quantity": 4,
     "imageUrl": "https://cdn.sanity.io/images/sv8q1vrl/production/bdb66ba63350ca5350baa1bcfc4f5ae97e1546ee-1000x808.webp?auto=format&q=90&w=1000",
     "officialUrl": "https://aputure.com/products/mc",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Aputure MC",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 37,
-    "name": "amaran PT4c 4ft",
+    "name": "amaran PT4c RGBWW Pixel Tube (4 ft)",
     "category": "Iluminación",
     "manufacturer": "amaran",
     "quantity": 2,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0862/5432/1947/products/PT4c.png?crop=center&height=1000&v=1710517436&width=1000",
     "officialUrl": "https://amarancreators.com/products/amaran-pt4c",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "amaran PT4c 4ft",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 38,
-    "name": "Aputure Accent B7c",
+    "name": "Aputure Accent B7c RGBWW LED Bulb",
     "category": "Iluminación",
     "manufacturer": "Aputure",
     "quantity": 2,
     "imageUrl": "https://cdn.shopify.com/s/files/1/0862/5432/1947/files/NEW-b7c-8.webp?v=1715122220",
     "officialUrl": "https://amarancreators.com/products/accent-b7c",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Aputure Accent B7c",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 39,
-    "name": "NEEWER AP150C",
+    "name": "NEEWER AP150C 150W RGB LED Panel Video Light Kit",
     "category": "Iluminación",
     "manufacturer": "NEEWER",
     "quantity": 1,
     "imageUrl": "https://neewer.com/cdn/shop/files/10104918.jpg?v=1732001901",
     "officialUrl": "https://neewer.com/products/neewer-ap150c-150w-rgb-led-panel-video-light-kit-66606165",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "NEEWER AP150C",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 40,
@@ -437,73 +811,142 @@
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 41,
-    "name": "GVM RGB Panel",
+    "name": "GVM RGB LED Video Panel",
     "category": "Iluminación",
     "manufacturer": "GVM",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "Número de modelo GVM por confirmar.",
+    "originalName": "GVM RGB Panel",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 42,
-    "name": "NEEWER RGB Flashlight",
+    "name": "NEEWER RGB LED Flashlight",
     "category": "Iluminación",
     "manufacturer": "NEEWER",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "Número de modelo NEEWER por confirmar.",
+    "originalName": "NEEWER RGB Flashlight",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 43,
-    "name": "NEEWER Product Light Box",
+    "name": "NEEWER Photography Light Box",
     "category": "Iluminación",
     "manufacturer": "NEEWER",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "Número de modelo NEEWER por confirmar.",
+    "originalName": "NEEWER Product Light Box",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 44,
-    "name": "Aputure Light Dome 60",
+    "name": "Aputure Light Dome 60 Softbox",
     "category": "Modificadores / Grip",
     "manufacturer": "Aputure",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://aputure.com/products/light-dome-60",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Aputure Light Dome 60",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 45,
-    "name": "Aputure Light Dome Mini III",
+    "name": "Aputure Light Dome Mini III Softbox",
     "category": "Modificadores / Grip",
     "manufacturer": "Aputure",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://aputure.com/products/light-dome-mini-iii",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Aputure Light Dome Mini III",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 46,
-    "name": "SmallRig LA-O90",
+    "name": "SmallRig LA-O90 Octagonal Softbox",
     "category": "Modificadores / Grip",
     "manufacturer": "SmallRig",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.smallrig.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "SmallRig LA-O90",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 47,
@@ -514,7 +957,16 @@
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 48,
@@ -525,18 +977,37 @@
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 49,
-    "name": "NEEWER Diffusion Fabric 20 x 5 ft",
+    "name": "NEEWER Diffusion Fabric (20 × 5 ft)",
     "category": "Modificadores / Grip",
     "manufacturer": "NEEWER",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "NEEWER Diffusion Fabric 20 x 5 ft",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 50,
@@ -547,84 +1018,163 @@
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 51,
-    "name": "GVM Bowens Softbox with Honeycomb",
+    "name": "GVM Bowens-Mount Softbox with Honeycomb Grid",
     "category": "Modificadores / Grip",
     "manufacturer": "GVM",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "GVM Bowens Softbox with Honeycomb",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 52,
-    "name": "GVM Lantern Softbox 26in",
+    "name": "GVM 26-inch Lantern Softbox",
     "category": "Modificadores / Grip",
     "manufacturer": "GVM",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "GVM Lantern Softbox 26in",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 53,
-    "name": "Reflector Flag 30 x 35in",
+    "name": "Reflector Flag (30 × 35 in)",
     "category": "Modificadores / Grip",
     "manufacturer": "Sin identificar",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "Fabricante del reflector por confirmar.",
+    "originalName": "Reflector Flag 30 x 35in",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 54,
-    "name": "GVM C240",
+    "name": "GVM C240 C-Stand Kit",
     "category": "Grip / Soporte",
     "manufacturer": "GVM",
     "quantity": 2,
     "imageUrl": null,
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "GVM C240",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 55,
-    "name": "Anautin YF-ST228 9.2ft",
+    "name": "Anautin YF-ST228 Light Stand (9.2 ft)",
     "category": "Grip / Soporte",
     "manufacturer": "Anautin",
     "quantity": 2,
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Anautin YF-ST228 9.2ft",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 56,
-    "name": "Ceiling Mount",
+    "name": "Ceiling Light Mount",
     "category": "Grip / Soporte",
     "manufacturer": "Sin identificar",
     "quantity": 4,
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "Fabricante y modelo del soporte por confirmar.",
+    "originalName": "Ceiling Mount",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 57,
-    "name": "Mippko Wall Camera Arm",
+    "name": "Mippko Wall-Mount Camera Arm",
     "category": "Grip / Soporte",
     "manufacturer": "Mippko",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Mippko Wall Camera Arm",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 58,
@@ -635,7 +1185,16 @@
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 59,
@@ -646,7 +1205,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 60,
@@ -657,18 +1225,37 @@
     "imageUrl": null,
     "officialUrl": "https://www.dji.com/rs-3-pro",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 61,
-    "name": "DJI DF02",
+    "name": "DJI LiDAR Range Finder (DF02)",
     "category": "Movimiento",
     "manufacturer": "DJI",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.dji.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "DJI DF02",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 62,
@@ -679,62 +1266,121 @@
     "imageUrl": null,
     "officialUrl": "https://www.dji.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 63,
-    "name": "DJI Ronin RavenEye WV001",
+    "name": "DJI Ronin RavenEye Image Transmission System (WV001)",
     "category": "Movimiento",
     "manufacturer": "DJI",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.dji.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "DJI Ronin RavenEye WV001",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 64,
-    "name": "GVM 48in Motorized Slider",
+    "name": "GVM 48-inch Motorized Camera Slider",
     "category": "Movimiento",
     "manufacturer": "GVM",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "GVM 48in Motorized Slider",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 65,
-    "name": "GVM GR-120QD",
+    "name": "GVM GR-120QD Camera Dolly",
     "category": "Movimiento",
     "manufacturer": "GVM",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://gvmled.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "GVM GR-120QD",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 66,
-    "name": "PROAIM 12 ft Dolly Track",
+    "name": "Proaim Dolly Track (12 ft)",
     "category": "Movimiento",
     "manufacturer": "PROAIM",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.proaim.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "PROAIM 12 ft Dolly Track",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 67,
-    "name": "PROAIM 9 ft Crane Jib",
+    "name": "Proaim 9 ft Jib Arm with Tripod Stand",
     "category": "Movimiento",
     "manufacturer": "PROAIM",
     "quantity": 1,
     "imageUrl": "https://i.shgcdn.com/bb765086-ea40-40d9-99b8-acb77c6fd0b4/-/format/auto/-/preview/3000x3000/-/quality/best/",
     "officialUrl": "https://www.proaim.com/products/proaim-9ft-jib-arm-with-tripod-stand",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "PROAIM 9 ft Crane Jib",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 68,
@@ -745,29 +1391,58 @@
     "imageUrl": null,
     "officialUrl": "https://www.smallrig.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 69,
-    "name": "DF DIGITALFOTO THANOS-SE",
+    "name": "DIGITALFOTO THANOS-SE Support Vest Rig",
     "category": "Movimiento",
     "manufacturer": "DF DIGITALFOTO",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://digitalfoto.cn/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "DF DIGITALFOTO THANOS-SE",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 70,
-    "name": "FEELWORLD FW568 V3",
+    "name": "FEELWORLD FW568 V3 5.5-inch Monitor",
     "category": "Monitoreo / Live",
     "manufacturer": "FEELWORLD",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://feelworld.ltd/collections/4k-hdmi-on-camera-monitor/products/feelworld-fw568-5-5-inch-small-camera-dslr-monitor-full-hd-1920x1080-video-assist-4k-hdmi-dc-out-tilt-arm",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "FEELWORLD FW568 V3",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 71,
@@ -778,117 +1453,226 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "Fabricante del monitor TL-240S por confirmar.",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 72,
-    "name": "FEELWORLD L4",
+    "name": "FEELWORLD L4 Video Switcher",
     "category": "Monitoreo / Live",
     "manufacturer": "FEELWORLD",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://feelworld.ltd/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "FEELWORLD L4",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 73,
-    "name": "Godox X3-C TTL",
+    "name": "Godox X3-C TTL Flash Trigger",
     "category": "Foto / Flash",
     "manufacturer": "Godox",
     "quantity": 1,
     "imageUrl": "https://www.godox.com/static/upload/image/20240129/1706513251186148.jpg",
     "officialUrl": "https://godox.com/product-a/X3.html",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Godox X3-C TTL",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 74,
-    "name": "Godox V1Pro-C",
+    "name": "Godox V1Pro-C Round Head Flash",
     "category": "Foto / Flash",
     "manufacturer": "Godox",
     "quantity": 1,
     "imageUrl": "https://www.godox.com/static/upload/image/20240119/1705632063457404.gif",
     "officialUrl": "https://www.godox.com/product-b/V1Pro.html",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Godox V1Pro-C",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 75,
-    "name": "Godox AK-R1",
+    "name": "Godox AK-R1 Accessory Kit",
     "category": "Foto / Flash",
     "manufacturer": "Godox",
     "quantity": 1,
     "imageUrl": "https://godox.com/static/upload/image/20220218/1645178548511012.jpg",
     "officialUrl": "https://godox.com/product-d/AK-R1.html",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Godox AK-R1",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 76,
-    "name": "Sekonic L-478D-U",
+    "name": "Sekonic L-478D-U LiteMaster Pro Light Meter",
     "category": "Medición",
     "manufacturer": "Sekonic",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://sekonic.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Sekonic L-478D-U",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 77,
-    "name": "DGK Color Tools DKK 5x7",
+    "name": "DGK Color Tools DKK 5 × 7-inch Color Reference Chart",
     "category": "Color",
     "manufacturer": "DGK Color Tools",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.dgkcolor.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "DGK Color Tools DKK 5x7",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 78,
-    "name": "SmallRig R5 C Cage",
+    "name": "SmallRig Camera Cage for Canon EOS R5 C",
     "category": "Rigging",
     "manufacturer": "SmallRig",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.smallrig.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "SmallRig R5 C Cage",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 79,
-    "name": "SmallRig Mini Matte Box Pro",
+    "name": "SmallRig mini Matte Box Pro (3680)",
     "category": "Rigging",
     "manufacturer": "SmallRig",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.smallrig.com/smallrig-mini-matte-box-pro-3680.html",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "SmallRig Mini Matte Box Pro",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 80,
-    "name": "NEEWER PS015 PRO",
+    "name": "NEEWER PS015 PRO V-Mount Battery Plate",
     "category": "Rigging",
     "manufacturer": "NEEWER",
     "quantity": 1,
     "imageUrl": "https://ca.neewer.com/cdn/shop/files/9_deeea708-574c-4b03-8b48-63d74c712b15.jpg?v=1745811103&width=1600",
     "officialUrl": "https://ca.neewer.com/products/neewer-ps015-foldable-v-mount-battery-plate-66605630",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "NEEWER PS015 PRO",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 81,
-    "name": "Canon EF-EOS R Mount Adapter",
+    "name": "Canon Mount Adapter EF-EOS R",
     "category": "Rigging",
     "manufacturer": "Canon",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.usa.canon.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Canon EF-EOS R Mount Adapter",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 82,
@@ -899,18 +1683,37 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 83,
-    "name": "NEEWER PS099E 99Wh",
+    "name": "NEEWER PS099E 99Wh V-Mount Battery",
     "category": "Power",
     "manufacturer": "NEEWER",
     "quantity": 3,
     "imageUrl": null,
     "officialUrl": "https://neewer.com/products/neewer-ps099e-6800mah-14-5v-99wh-v-mount-battery-66603180",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "NEEWER PS099E 99Wh",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 84,
@@ -921,29 +1724,58 @@
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "Capacidad y modelo exacto de batería por confirmar.",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 85,
-    "name": "NEEWER NP-F550 2600mAh",
+    "name": "NEEWER NP-F550 2600mAh Battery",
     "category": "Power",
     "manufacturer": "NEEWER",
     "quantity": 2,
     "imageUrl": "https://neewer.com/cdn/shop/products/55.webp?v=1662536619&width=1500",
     "officialUrl": "https://neewer.com/products/neewer-2pack-2600mah-sony-np-f550-570-530-replacement-battery-66600379",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "NEEWER NP-F550 2600mAh",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 86,
-    "name": "NEEWER NP-F Dual Charger",
+    "name": "NEEWER Dual NP-F Battery Charger",
     "category": "Power",
     "manufacturer": "NEEWER",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "NEEWER NP-F Dual Charger",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 87,
@@ -954,7 +1786,16 @@
     "imageUrl": null,
     "officialUrl": "https://aputure.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 88,
@@ -965,84 +1806,163 @@
     "imageUrl": null,
     "officialUrl": "https://amarancreators.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 89,
-    "name": "SanDisk Extreme PRO 128GB",
+    "name": "SanDisk Extreme PRO 128GB CFexpress Type B Card",
     "category": "Media",
     "manufacturer": "SanDisk",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
+    "originalName": "SanDisk Extreme PRO 128GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 90,
-    "name": "Delkin BLACK 325GB",
+    "name": "Delkin Devices BLACK 325GB CFexpress Type B Card",
     "category": "Media",
     "manufacturer": "Delkin",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.delkindevices.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
+    "originalName": "Delkin BLACK 325GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 91,
-    "name": "SanDisk Extreme PRO 512GB",
+    "name": "SanDisk Extreme PRO 512GB SDXC Card",
     "category": "Media",
     "manufacturer": "SanDisk",
     "quantity": 3,
     "imageUrl": null,
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
+    "originalName": "SanDisk Extreme PRO 512GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 92,
-    "name": "SanDisk Extreme 128GB",
+    "name": "SanDisk Extreme 128GB SDXC Card",
     "category": "Media",
     "manufacturer": "SanDisk",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
+    "originalName": "SanDisk Extreme 128GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 93,
-    "name": "SanDisk Ultra 16GB",
+    "name": "SanDisk Ultra 16GB SD Card",
     "category": "Media",
     "manufacturer": "SanDisk",
     "quantity": 2,
     "imageUrl": null,
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
+    "originalName": "SanDisk Ultra 16GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 94,
-    "name": "SanDisk Extreme 32GB",
+    "name": "SanDisk Extreme 32GB SDHC Card",
     "category": "Media",
     "manufacturer": "SanDisk",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
+    "originalName": "SanDisk Extreme 32GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 95,
-    "name": "SanDisk Extreme PLUS 128GB",
+    "name": "SanDisk Extreme PLUS 128GB microSD Card",
     "category": "Media",
     "manufacturer": "SanDisk",
     "quantity": 2,
     "imageUrl": null,
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "Velocidad/clase exacta de la tarjeta por confirmar.",
+    "originalName": "SanDisk Extreme PLUS 128GB",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 96,
@@ -1053,7 +1973,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.sandisk.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 97,
@@ -1064,40 +1993,79 @@
     "imageUrl": null,
     "officialUrl": "https://www.centon.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 98,
-    "name": "DDREADER-56",
+    "name": "DDREADER-56 Memory Card Reader",
     "category": "Media",
     "manufacturer": "Sin identificar",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "Fabricante del lector DDREADER-56 por confirmar.",
+    "originalName": "DDREADER-56",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 99,
-    "name": "TELESIN Portable Smoke/Fog Machine",
+    "name": "TELESIN Portable Smoke Machine",
     "category": "Special Effects",
     "manufacturer": "TELESIN",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.telesin.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "TELESIN Portable Smoke/Fog Machine",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 100,
-    "name": "K&F Cleaning Kit",
+    "name": "K&F Concept Camera Cleaning Kit",
     "category": "Accesorios",
     "manufacturer": "K&F",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.kfconcept.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "K&F Cleaning Kit",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 101,
@@ -1108,40 +2076,79 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "Fabricante y contenido del kit por confirmar.",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 102,
-    "name": "200ft BNC Cable",
+    "name": "BNC Cable (200 ft)",
     "category": "Cables",
     "manufacturer": "Sin identificar",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "200ft BNC Cable",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 103,
-    "name": "Micro HDMI to HDMI",
+    "name": "Micro HDMI to HDMI Cable",
     "category": "Cables",
     "manufacturer": "Sin identificar",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Micro HDMI to HDMI",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 104,
-    "name": "Lightning HDMI Adapter",
+    "name": "Lightning to HDMI Adapter",
     "category": "Cables",
     "manufacturer": "Sin identificar",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Lightning HDMI Adapter",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 105,
@@ -1152,40 +2159,79 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 106,
-    "name": "Pelican 1720",
+    "name": "Pelican 1720 Protector Long Case",
     "category": "Cases",
     "manufacturer": "Pelican",
     "quantity": 2,
     "imageUrl": "https://media.pelican.com/img/products/cases/1720/pelican-1720-gen-2-protector-long-case-black-front.jpg",
     "officialUrl": "https://www.pelican.com/us/en/product/cases/1720",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Pelican 1720",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 107,
-    "name": "Pelican Storm iM2400",
+    "name": "Pelican Storm iM2400 Case",
     "category": "Cases",
     "manufacturer": "Pelican",
     "quantity": 2,
     "imageUrl": null,
     "officialUrl": "https://www.pelican.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Pelican Storm iM2400",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 108,
-    "name": "Pelican iM2100",
+    "name": "Pelican Storm iM2100 Case",
     "category": "Cases",
     "manufacturer": "Pelican",
     "quantity": 2,
     "imageUrl": null,
     "officialUrl": "https://www.pelican.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Pelican iM2100",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 109,
@@ -1196,7 +2242,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "Identificar tipo de producto Insignia NS-PG08591 antes de publicarlo como alquiler.",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 110,
@@ -1207,7 +2262,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 111,
@@ -1218,18 +2282,37 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 112,
-    "name": "Osee GoStream Deck HDMI Pro",
+    "name": "OSEE GoStream Deck HDMI Pro Video Switcher",
     "category": "Monitoreo / Live",
     "manufacturer": "Osee",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.osee-tech.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Osee GoStream Deck HDMI Pro",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 113,
@@ -1240,62 +2323,121 @@
     "imageUrl": null,
     "officialUrl": "https://www.presonus.com/products/studio-24c",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 114,
-    "name": "AKG C414 XLII",
+    "name": "AKG C414 XLII Multi-Pattern Condenser Microphone",
     "category": "Audio",
     "manufacturer": "AKG",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.akg.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "AKG C414 XLII",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 115,
-    "name": "PROAIM Swift Camera Track Dolly System",
+    "name": "Proaim Swift Camera Track Dolly System",
     "category": "Movimiento",
     "manufacturer": "PROAIM",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.proaim.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "PROAIM Swift Camera Track Dolly System",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 116,
-    "name": "NEEWER Dual Handgrip for DJI RS3/RS3 Pro",
+    "name": "NEEWER Dual Handgrip for DJI RS 3 / RS 3 Pro",
     "category": "Rigging",
     "manufacturer": "NEEWER",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://neewer.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "NEEWER Dual Handgrip for DJI RS3/RS3 Pro",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 117,
-    "name": "SmallRig D-Tap Dummy Battery LP-E6NH",
+    "name": "SmallRig D-Tap to LP-E6NH Dummy Battery Adapter",
     "category": "Power",
     "manufacturer": "SmallRig",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.smallrig.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "SmallRig D-Tap Dummy Battery LP-E6NH",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 118,
-    "name": "Canon BR-E1 Wireless Remote",
+    "name": "Canon Wireless Remote Control BR-E1",
     "category": "Accesorios",
     "manufacturer": "Canon",
     "quantity": 1,
     "imageUrl": "https://s7d1.scene7.com/is/image/canon/2140C001_wireless-remote-control-br-e1_primary?fmt=webp-alpha&hei=800&wid=800",
     "officialUrl": "https://www.usa.canon.com/shop/p/wireless-remote-control-br-e1",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Canon BR-E1 Wireless Remote",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 119,
@@ -1306,18 +2448,37 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 120,
-    "name": "SZRIG Crab Clamp + V-Lock Mount",
+    "name": "SZRIG Crab Clamp with V-Lock Mount",
     "category": "Rigging",
     "manufacturer": "SZRIG",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "SZRIG Crab Clamp + V-Lock Mount",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 121,
@@ -1328,7 +2489,16 @@
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 122,
@@ -1339,7 +2509,16 @@
     "imageUrl": null,
     "officialUrl": "https://www.usa-gear.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 123,
@@ -1350,51 +2529,100 @@
     "imageUrl": null,
     "officialUrl": "https://www.koolertron.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 124,
-    "name": "Selens 2.5in Heavy Duty Grip Head",
+    "name": "Selens 2.5-inch Heavy-Duty Grip Head",
     "category": "Grip / Soporte",
     "manufacturer": "Selens",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": "https://www.selens-online.com/",
     "sourceStatus": "manufacturer-page",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Selens 2.5in Heavy Duty Grip Head",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 125,
-    "name": "Kimaru LP-E17 Dummy Battery/AC Adapter Kit",
+    "name": "Kimaru LP-E17 Dummy Battery AC Adapter Kit",
     "category": "Power",
     "manufacturer": "Kimaru",
     "quantity": 3,
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "Kimaru LP-E17 Dummy Battery/AC Adapter Kit",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 126,
-    "name": "CCZ Melody IEM Blue",
+    "name": "CCZ Melody In-Ear Monitors (Blue)",
     "category": "Audio",
     "manufacturer": "CCZ",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "CCZ Melody IEM Blue",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 127,
-    "name": "CCZ Melody IEM Red",
+    "name": "CCZ Melody In-Ear Monitors (Red)",
     "category": "Audio",
     "manufacturer": "CCZ",
     "quantity": 1,
     "imageUrl": null,
     "officialUrl": null,
     "sourceStatus": "unverified",
-    "modelNote": ""
+    "modelNote": "",
+    "originalName": "CCZ Melody IEM Red",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   },
   {
     "id": 128,
@@ -1405,6 +2633,15 @@
     "imageUrl": "https://cdn.shopify.com/s/files/1/1343/1935/files/LS600cProII.png?crop=center&v=1761181845&width=1600",
     "officialUrl": "https://aputure.com/en-US/products/ls-600c-pro-ii",
     "sourceStatus": "direct-image",
-    "modelNote": ""
+    "modelNote": "",
+    "rental": {
+      "status": "pending_approval",
+      "dailyRateUsd": null,
+      "depositUsd": null,
+      "availability": "unconfirmed",
+      "insuranceRequirement": "to_be_determined",
+      "minimumDays": null,
+      "deliveryOption": "by_quote"
+    }
   }
 ]
