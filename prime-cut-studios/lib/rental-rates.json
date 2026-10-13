@@ -1,0 +1,1031 @@
+{
+  "taxRate": 0.0825,
+  "priceBookUpdated": "2026-10-13",
+  "disclaimer": "Published reference rates for quote estimates only. Every rental requires written approval, verified inventory, identity checks, signed agreement, and deposit/security authorization as applicable. No online reservation or payment.",
+  "rates": {
+    "1": {
+      "day": 110,
+      "weekend": 180,
+      "week": 385,
+      "deposit": 3000,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "2": {
+      "day": 85,
+      "weekend": 140,
+      "week": 300,
+      "deposit": 1600,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "3": {
+      "day": 45,
+      "weekend": 75,
+      "week": 160,
+      "deposit": 500,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "4": {
+      "day": 35,
+      "weekend": 56,
+      "week": 123,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "5": {
+      "day": 35,
+      "weekend": 55,
+      "week": 120,
+      "deposit": 300,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "6": {
+      "day": 35,
+      "weekend": 55,
+      "week": 120,
+      "deposit": 300,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "7": {
+      "day": 75,
+      "weekend": 120,
+      "week": 263,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "8": {
+      "day": 60,
+      "weekend": 96,
+      "week": 210,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "9": {
+      "day": 35,
+      "weekend": 60,
+      "week": 125,
+      "deposit": 1000,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "10": {
+      "day": 45,
+      "weekend": 72,
+      "week": 158,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "11": {
+      "day": 20,
+      "weekend": 32,
+      "week": 70,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "12": {
+      "day": 30,
+      "weekend": 48,
+      "week": 105,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "13": {
+      "day": 30,
+      "weekend": 48,
+      "week": 105,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "14": {
+      "day": 30,
+      "weekend": 48,
+      "week": 105,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "15": {
+      "day": 30,
+      "weekend": 48,
+      "week": 105,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "16": {
+      "day": 25,
+      "weekend": 40,
+      "week": 88,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "17": {
+      "day": 65,
+      "weekend": 104,
+      "week": 228,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "18": {
+      "day": 18,
+      "weekend": 29,
+      "week": 63,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "19": {
+      "day": 15,
+      "weekend": 24,
+      "week": 53,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "20": {
+      "day": 75,
+      "weekend": 120,
+      "week": 260,
+      "deposit": 575,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "21": {
+      "day": 25,
+      "weekend": 40,
+      "week": 85,
+      "deposit": 325,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "22": {
+      "day": 45,
+      "weekend": 72,
+      "week": 158,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "23": {
+      "day": 45,
+      "weekend": 72,
+      "week": 158,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "24": {
+      "day": 35,
+      "weekend": 55,
+      "week": 120,
+      "deposit": 250,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "25": {
+      "day": 28,
+      "weekend": 45,
+      "week": 98,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "26": {
+      "day": 45,
+      "weekend": 75,
+      "week": 155,
+      "deposit": 800,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "27": {
+      "day": 15,
+      "weekend": 24,
+      "week": 53,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "28": {
+      "day": 15,
+      "weekend": 24,
+      "week": 53,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "29": {
+      "day": 10,
+      "weekend": 16,
+      "week": 35,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "30": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "31": {
+      "day": 45,
+      "weekend": 75,
+      "week": 155,
+      "deposit": 450,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "32": {
+      "day": 30,
+      "weekend": 48,
+      "week": 105,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "33": {
+      "day": 20,
+      "weekend": 32,
+      "week": 70,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "34": {
+      "day": 25,
+      "weekend": 40,
+      "week": 88,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "35": {
+      "day": 30,
+      "weekend": 48,
+      "week": 105,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "36": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "37": {
+      "day": 25,
+      "weekend": 40,
+      "week": 88,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "38": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "39": {
+      "day": 30,
+      "weekend": 50,
+      "week": 105,
+      "deposit": 250,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "40": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "41": {
+      "day": 15,
+      "weekend": 24,
+      "week": 53,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "42": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "43": {
+      "day": 18,
+      "weekend": 29,
+      "week": 63,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "44": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "45": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "46": {
+      "day": 15,
+      "weekend": 24,
+      "week": 53,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "47": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "48": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "49": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "50": {
+      "day": 10,
+      "weekend": 16,
+      "week": 35,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "51": {
+      "day": 15,
+      "weekend": 24,
+      "week": 53,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "52": {
+      "day": 15,
+      "weekend": 24,
+      "week": 53,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "53": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "54": {
+      "day": 20,
+      "weekend": 32,
+      "week": 70,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "55": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "56": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "57": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "58": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "59": {
+      "day": 7,
+      "weekend": 11,
+      "week": 25,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "60": {
+      "day": 75,
+      "weekend": 120,
+      "week": 263,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "61": {
+      "day": 20,
+      "weekend": 32,
+      "week": 70,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "62": {
+      "day": 15,
+      "weekend": 24,
+      "week": 53,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "63": {
+      "day": 25,
+      "weekend": 40,
+      "week": 88,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "64": {
+      "day": 60,
+      "weekend": 95,
+      "week": 200,
+      "deposit": 300,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "65": {
+      "day": 25,
+      "weekend": 40,
+      "week": 88,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "66": {
+      "day": 50,
+      "weekend": 80,
+      "week": 175,
+      "deposit": 250,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "67": {
+      "day": 65,
+      "weekend": 105,
+      "week": 225,
+      "deposit": 200,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "68": {
+      "day": 15,
+      "weekend": 24,
+      "week": 53,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "69": {
+      "day": 45,
+      "weekend": 72,
+      "week": 158,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "70": {
+      "day": 20,
+      "weekend": 32,
+      "week": 70,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "71": {
+      "day": 20,
+      "weekend": 32,
+      "week": 70,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "72": {
+      "day": 40,
+      "weekend": 65,
+      "week": 140,
+      "deposit": 325,
+      "source": "PrimeCuts 2026 Financial Model",
+      "status": "published-reference"
+    },
+    "73": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "74": {
+      "day": 25,
+      "weekend": 40,
+      "week": 88,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "75": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "76": {
+      "day": 25,
+      "weekend": 40,
+      "week": 88,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "77": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "78": {
+      "day": 10,
+      "weekend": 16,
+      "week": 35,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "79": {
+      "day": 15,
+      "weekend": 24,
+      "week": 53,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "80": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "81": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "82": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "83": {
+      "day": 15,
+      "weekend": 24,
+      "week": 53,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "84": {
+      "day": 16,
+      "weekend": 26,
+      "week": 56,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "85": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "86": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "87": {
+      "day": 10,
+      "weekend": 16,
+      "week": 35,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "88": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "89": {
+      "day": 15,
+      "weekend": 24,
+      "week": 53,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "90": {
+      "day": 30,
+      "weekend": 48,
+      "week": 105,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "91": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "92": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "93": {
+      "day": 4,
+      "weekend": 6,
+      "week": 14,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "94": {
+      "day": 4,
+      "weekend": 6,
+      "week": 14,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "95": {
+      "day": 4,
+      "weekend": 6,
+      "week": 14,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "96": {
+      "day": 2,
+      "weekend": 3,
+      "week": 7,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "97": {
+      "day": 2,
+      "weekend": 3,
+      "week": 7,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "98": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "99": {
+      "day": 25,
+      "weekend": 40,
+      "week": 88,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "100": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "101": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "102": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "103": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "104": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "105": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "106": {
+      "day": 25,
+      "weekend": 40,
+      "week": 88,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "107": {
+      "day": 20,
+      "weekend": 32,
+      "week": 70,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "108": {
+      "day": 15,
+      "weekend": 24,
+      "week": 53,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "109": {
+      "day": 10,
+      "weekend": 16,
+      "week": 35,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "110": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "111": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "112": {
+      "day": 45,
+      "weekend": 72,
+      "week": 158,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "113": {
+      "day": 25,
+      "weekend": 40,
+      "week": 88,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "114": {
+      "day": 65,
+      "weekend": 104,
+      "week": 228,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "115": {
+      "day": 45,
+      "weekend": 72,
+      "week": 158,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "116": {
+      "day": 10,
+      "weekend": 16,
+      "week": 35,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "117": {
+      "day": 6,
+      "weekend": 10,
+      "week": 21,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "118": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "119": {
+      "day": 6,
+      "weekend": 10,
+      "week": 21,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "120": {
+      "day": 6,
+      "weekend": 10,
+      "week": 21,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "121": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "122": {
+      "day": 12,
+      "weekend": 19,
+      "week": 42,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "123": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "124": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "125": {
+      "day": 5,
+      "weekend": 8,
+      "week": 18,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "126": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "127": {
+      "day": 8,
+      "weekend": 13,
+      "week": 28,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    },
+    "128": {
+      "day": 80,
+      "weekend": 128,
+      "week": 280,
+      "deposit": null,
+      "source": "Suggested planning adjustment — pending owner review",
+      "status": "suggested"
+    }
+  }
+}
