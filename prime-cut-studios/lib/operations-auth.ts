@@ -21,13 +21,13 @@ export async function opsActor():Promise<Actor|null>{
  return s&&!s.disabled&&s.session_version===c.version?{kind:'staff',id:s.id,role:s.role,name:s.name,all_projects:s.all_projects}:null;
 }
 export async function opsTalent():Promise<Talent|null>{const c=await read(TALENT_COOKIE);if(!c)return null;const x=await opsTalentById(c.id);return x&&!x.disabled&&x.session_version===c.version?x:null;}
-export type Area='projects'|'casting'|'tasks'|'schedule'|'creative'|'media'|'finance'|'documents'|'contracts'|'team'|'audit';
+export type Area='projects'|'casting'|'tasks'|'schedule'|'creative'|'media'|'finance'|'documents'|'contracts'|'team'|'audit'|'equipment';
 const POLICY:Record<StaffRole,Area[]>={
- manager:['projects','casting','tasks','schedule','creative','media','finance','documents','contracts','audit'],
- secretary:['projects','casting','tasks','schedule','creative','documents','contracts'],
- producer:['projects','casting','tasks','schedule','creative','media','documents','contracts'],
- editor:['tasks','creative','media'],crew:['tasks','schedule'],
- accountant:['finance','documents','contracts'],casting:['casting','creative','schedule']
+ manager:['projects','casting','tasks','schedule','creative','media','finance','documents','contracts','audit','equipment'],
+ secretary:['projects','casting','tasks','schedule','creative','documents','contracts','equipment'],
+ producer:['projects','casting','tasks','schedule','creative','media','documents','contracts','equipment'],
+ editor:['tasks','creative','media'],crew:['tasks','schedule','equipment'],
+ accountant:['finance','documents','contracts','equipment'],casting:['casting','creative','schedule']
 };
 export function canArea(actor:Actor|null,area:Area){return !!actor&&(actor.kind==='owner'||POLICY[actor.role].includes(area));}
 export async function canProject(actor:Actor|null,projectId:string){if(!actor)return false;if(actor.kind==='owner')return true;return actor.all_projects||await opsAssignedStaff(actor.id,projectId);}
