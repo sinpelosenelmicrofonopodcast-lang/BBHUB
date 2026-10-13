@@ -1,0 +1,42 @@
+{
+  "21": {
+    "4": {
+      "day": 80,
+      "weekend": 128,
+      "week": 272,
+      "label": "4-microphone package"
+    }
+  },
+  "34": {
+    "2": {
+      "day": 45,
+      "weekend": 75,
+      "week": 155,
+      "label": "GVM P80Pro lighting pair"
+    }
+  },
+  "36": {
+    "4": {
+      "day": 40,
+      "weekend": 65,
+      "week": 140,
+      "label": "Aputure MC four-light kit"
+    }
+  },
+  "37": {
+    "2": {
+      "day": 45,
+      "weekend": 75,
+      "week": 155,
+      "label": "amaran PT4c tube-light pair"
+    }
+  },
+  "38": {
+    "2": {
+      "day": 20,
+      "weekend": 35,
+      "week": 70,
+      "label": "Aputure Accent B7c pair"
+    }
+  }
+}
