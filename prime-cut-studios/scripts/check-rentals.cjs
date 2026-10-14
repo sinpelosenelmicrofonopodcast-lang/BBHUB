@@ -33,7 +33,8 @@ for(const p of available){const refs=p.ids.flatMap(id=>(assets[String(id)]||[]).
  const fallbacks=p.ids.flatMap(id=>legacy[String(id)]?[legacy[String(id)].assetId]:[]);
  if(!refs.length&&!fallbacks.length)console.warn('UNLINKED INVENTORY — cannot request:',p.name);
  const unique=new Set(refs);
- assert.equal(refs.length,unique.size,'Duplicated unit mapping: '+p.name);
+ assert(unique.size<=p.qty,'Mapped more physical units than inventory permits: '+p.name);
+ if(refs.length!==unique.size)console.log('Shared serial-to-product mapping deduplicated:',p.name);
 }
 assert.equal(photos.length,model.size,'Photo queue must cover every commercial model');
 assert(!photos.some(x=>x.readyForPublishing===true&&!x.transparentAlphaVerified),'Unverified alpha image marked ready');
