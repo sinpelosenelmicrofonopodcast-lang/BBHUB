@@ -1,0 +1,226 @@
+{
+  "1": [
+    {
+      "legacyEquipmentId": "790e987d-8440-400c-bd3f-7cba2787b74e",
+      "unitAssetIds": [
+        "BB-CAM-0001"
+      ]
+    }
+  ],
+  "2": [
+    {
+      "legacyEquipmentId": "1bdd92fb-a93d-4350-b230-f76f88e4a1ce",
+      "unitAssetIds": [
+        "BB-CAM-0002"
+      ]
+    }
+  ],
+  "3": [
+    {
+      "legacyEquipmentId": "0d50c5f8-1c96-4903-81db-55a083b18f44",
+      "unitAssetIds": [
+        "BB-CAM-0003"
+      ]
+    }
+  ],
+  "5": [
+    {
+      "legacyEquipmentId": "46a49726-ff8a-4de3-a53e-c30f6fcc7071",
+      "unitAssetIds": [
+        "BB-CAM-0007"
+      ]
+    }
+  ],
+  "6": [
+    {
+      "legacyEquipmentId": "c714ef5a-78ca-41d5-9798-be21d8d26e9d",
+      "unitAssetIds": [
+        "BB-CAM-0008"
+      ]
+    }
+  ],
+  "9": [
+    {
+      "legacyEquipmentId": "3f8eb3a2-9b1c-4899-8553-0fa0f8492494",
+      "unitAssetIds": [
+        "BB-LEN-0001"
+      ]
+    }
+  ],
+  "12": [
+    {
+      "legacyEquipmentId": "a3dab569-71a8-4048-9108-85f139a17016",
+      "unitAssetIds": [
+        "BB-LEN-0004"
+      ]
+    }
+  ],
+  "13": [
+    {
+      "legacyEquipmentId": "a3dab569-71a8-4048-9108-85f139a17016",
+      "unitAssetIds": [
+        "BB-LEN-0005"
+      ]
+    }
+  ],
+  "14": [
+    {
+      "legacyEquipmentId": "a3dab569-71a8-4048-9108-85f139a17016",
+      "unitAssetIds": [
+        "BB-LEN-0006"
+      ]
+    }
+  ],
+  "15": [
+    {
+      "legacyEquipmentId": "a3dab569-71a8-4048-9108-85f139a17016",
+      "unitAssetIds": [
+        "BB-LEN-0007"
+      ]
+    }
+  ],
+  "16": [
+    {
+      "legacyEquipmentId": "a3dab569-71a8-4048-9108-85f139a17016",
+      "unitAssetIds": [
+        "BB-LEN-0008"
+      ]
+    }
+  ],
+  "20": [
+    {
+      "legacyEquipmentId": "27290a7e-3bf4-4997-ac30-e1d0ec8be8e9",
+      "unitAssetIds": [
+        "BB-AUD-0001"
+      ]
+    }
+  ],
+  "21": [
+    {
+      "legacyEquipmentId": "afffcb44-9e4e-406f-ade3-47d2f1fb695b",
+      "unitAssetIds": [
+        "BB-AUD-0002"
+      ]
+    },
+    {
+      "legacyEquipmentId": "a8fd8270-6c97-410a-bee7-0aee0017f02c",
+      "unitAssetIds": [
+        "BB-AUD-0003"
+      ]
+    },
+    {
+      "legacyEquipmentId": "36ee520c-7b3b-43ae-9d2f-f37812f8586f",
+      "unitAssetIds": [
+        "BB-AUD-0004"
+      ]
+    },
+    {
+      "legacyEquipmentId": "537a251f-b6fa-41aa-a91d-e2e169aba384",
+      "unitAssetIds": [
+        "BB-AUD-0005"
+      ]
+    }
+  ],
+  "24": [
+    {
+      "legacyEquipmentId": "5565d160-3c31-40b0-89eb-75dc6b01616a",
+      "unitAssetIds": [
+        "BB-AUD-0008"
+      ]
+    }
+  ],
+  "26": [
+    {
+      "legacyEquipmentId": "bf4c27a1-fd3c-4d12-b4db-eaacb25db687",
+      "unitAssetIds": [
+        "BB-AUD-0010"
+      ]
+    }
+  ],
+  "31": [
+    {
+      "legacyEquipmentId": "03ce6fca-e913-4ec6-900c-26e14eab1d12",
+      "unitAssetIds": [
+        "BB-LGT-0001"
+      ]
+    }
+  ],
+  "34": [
+    {
+      "legacyEquipmentId": "3d60f980-e21e-42ef-a009-137c935f345f",
+      "unitAssetIds": [
+        "BB-LGT-0005"
+      ]
+    },
+    {
+      "legacyEquipmentId": "c10070bd-524a-4f42-a348-b05fdb9ffe39",
+      "unitAssetIds": [
+        "BB-LGT-0020"
+      ]
+    }
+  ],
+  "39": [
+    {
+      "legacyEquipmentId": "f32c15ab-f9a2-470d-b1de-9935f68ec081",
+      "unitAssetIds": [
+        "BB-LGT-0015"
+      ]
+    }
+  ],
+  "60": [
+    {
+      "legacyEquipmentId": "d89981c6-edee-4cc9-b7a2-721f6eb61fcd",
+      "unitAssetIds": [
+        "BB-MOV-0001"
+      ]
+    }
+  ],
+  "61": [
+    {
+      "legacyEquipmentId": "d89981c6-edee-4cc9-b7a2-721f6eb61fcd",
+      "unitAssetIds": [
+        "BB-MOV-0002"
+      ]
+    }
+  ],
+  "64": [
+    {
+      "legacyEquipmentId": "77eaced1-b694-43a3-b7ba-e25c7d591013",
+      "unitAssetIds": [
+        "BB-MOV-0005"
+      ]
+    }
+  ],
+  "66": [
+    {
+      "legacyEquipmentId": "124b6490-c260-4bed-87b6-39120b73932e",
+      "unitAssetIds": [
+        "BB-MOV-0007"
+      ]
+    }
+  ],
+  "67": [
+    {
+      "legacyEquipmentId": "dc3b7b32-d979-4d27-a51d-777bca952d47",
+      "unitAssetIds": [
+        "BB-MOV-0008"
+      ]
+    }
+  ],
+  "69": [
+    {
+      "legacyEquipmentId": "512ac5dd-8868-4d9b-86d9-39f169319406",
+      "unitAssetIds": [
+        "BB-MOV-0010"
+      ]
+    }
+  ],
+  "72": [
+    {
+      "legacyEquipmentId": "0e6090c0-6e82-422a-895a-47c0496b",
+      "unitAssetIds": [
+        "BB-MON-0003"
+      ]
+    }
+  ]
+}
