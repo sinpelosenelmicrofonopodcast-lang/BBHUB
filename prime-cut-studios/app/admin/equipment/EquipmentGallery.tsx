@@ -49,26 +49,42 @@ function EquipmentCard({item}: {item: EquipmentItem}) {
   </article>;
 }
 
+function groupManufacturerModels(items:EquipmentItem[]):EquipmentItem[]{
+ const groups=new Map<string,EquipmentItem>();
+ for(const item of items){
+  const name=item.name.trim().replace(/\s+#\d+$/,'');
+  const key=item.category+'|'+name.normalize('NFKD').toLocaleLowerCase('en-US');
+  const found=groups.get(key);
+  if(!found){groups.set(key,{...item,name});continue;}
+  found.quantity+=item.quantity;
+  if(!found.imageUrl&&item.imageUrl)found.imageUrl=item.imageUrl;
+  if(!found.officialUrl&&item.officialUrl)found.officialUrl=item.officialUrl;
+  if(item.sourceStatus==='direct-image'&&item.imageUrl)found.sourceStatus='direct-image';
+ }
+ return [...groups.values()];
+}
+
 export function EquipmentGallery({items}: {items: EquipmentItem[]}) {
+  const models=useMemo(()=>groupManufacturerModels(items),[items]);
   const [search, setSearch] = useState('');
   const [category, setCategory] = useState('all');
   const [status, setStatus] = useState<Filter>('all');
-  const categories = useMemo(() => [...new Set(items.map(item => item.category))].sort((a,b) => a.localeCompare(b, 'es')), [items]);
-  const totalPhotos = items.filter(item => item.imageUrl).length;
-  const totalSources = items.filter(item => item.officialUrl).length;
-  const filtered = useMemo(() => items.filter(item => {
+  const categories = useMemo(() => [...new Set(models.map(item => item.category))].sort((a,b) => a.localeCompare(b, 'es')), [items]);
+  const totalPhotos = models.filter(item => item.imageUrl).length;
+  const totalSources = models.filter(item => item.officialUrl).length;
+  const filtered = useMemo(() => models.filter(item => {
     const term=search.trim().toLocaleLowerCase();
     const text=`${item.name} ${item.manufacturer} ${item.category}`.toLocaleLowerCase();
     return (!term || text.includes(term)) &&
       (category==='all' || item.category===category) &&
       (status==='all' || item.sourceStatus===status);
-  }), [items,search,category,status]);
+  }), [models,search,category,status]);
   return <div className={styles.catalog}>
     <div className={styles.metrics}>
-      <div><strong>{items.length}</strong><span>Modelos y referencias</span></div>
+      <div><strong>{models.length}</strong><span>Modelos únicos</span></div>
       <div><strong>{totalPhotos}</strong><span>Fotos directas enlazadas</span></div>
       <div><strong>{totalSources}</strong><span>Fuentes de producto</span></div>
-      <div><strong>{items.length-totalPhotos}</strong><span>Fotos pendientes</span></div>
+      <div><strong>{models.length-totalPhotos}</strong><span>Fotos pendientes</span></div>
     </div>
     <div className={styles.notice}><ShieldCheck size={20} aria-hidden="true"/><p><b>Catálogo interno.</b> Las imágenes son enlaces externos a material real de producto, no fotografías del inventario físico. La disponibilidad para alquiler no está habilitada ni se presume. Algunos modelos y variantes siguen pendientes de validación.</p></div>
     <div className={styles.filters}>
@@ -80,7 +96,7 @@ export function EquipmentGallery({items}: {items: EquipmentItem[]}) {
       <label className={styles.selectField}><span className={styles.srOnly}>Categoría</span><select value={category} onChange={e=>setCategory(e.target.value)}><option value="all">Todas las categorías</option>{categories.map(c=><option value={c} key={c}>{c}</option>)}</select></label>
       <label className={styles.selectField}><span className={styles.srOnly}>Disponibilidad de fotografía</span><select value={status} onChange={e=>setStatus(e.target.value as Filter)}><option value="all">Todas las fuentes</option><option value="direct-image">Foto directa</option><option value="manufacturer-page">Página del fabricante</option><option value="unverified">Sin fuente verificada</option></select></label>
     </div>
-    <p className={styles.count}><Camera size={16} aria-hidden="true"/> Mostrando {filtered.length} de {items.length} referencias</p>
+    <p className={styles.count}><Camera size={16} aria-hidden="true"/> Mostrando {filtered.length} de {models.length} modelos</p>
     {filtered.length ? <div className={styles.grid}>{filtered.map(item=><EquipmentCard item={item} key={item.id}/>)}</div> : <div className={styles.noResults}>No encontramos equipos con esos filtros.</div>}
   </div>;
 }
