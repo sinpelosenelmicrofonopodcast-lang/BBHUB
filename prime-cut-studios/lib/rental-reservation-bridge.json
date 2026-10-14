@@ -159,6 +159,20 @@
       ]
     }
   ],
+  "35": [
+    {
+      "legacyEquipmentId": "d8b2a950-11be-47a1-be09-141cfaa0e587",
+      "unitAssetIds": [
+        "BB-LGT-0006"
+      ]
+    },
+    {
+      "legacyEquipmentId": "26bd136a-e604-4192-95d8-6817aedcc4a0",
+      "unitAssetIds": [
+        "BB-LGT-0006"
+      ]
+    }
+  ],
   "39": [
     {
       "legacyEquipmentId": "f32c15ab-f9a2-470d-b1de-9935f68ec081",
