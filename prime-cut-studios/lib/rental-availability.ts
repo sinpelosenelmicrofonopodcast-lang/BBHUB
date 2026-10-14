@@ -84,10 +84,26 @@ export async function availabilityForDates(start:string,end:string):Promise<Avai
       rateDay:referenceRate(item.id)?.day||null,bookable:approved.length+legacyApproved>0};
   });
 }
-export function physicalSummary(){
-  return consolidated().map(item=>{
-    const units=assetIdsFor(item.id);
-    const quantity=units.length?units.filter(x=>x.status==='ready').length:0;
-    return {id:item.id,ready:quantity,total:units.length,manualReview:units.length===0};
-  });
+export async function physicalSummary(){
+  const legacyEntries=Object.entries(legacyMap as Record<string,LegacyUnit>);
+  const legacyIds=legacyEntries.map(([,x])=>x.assetId);
+  try{
+    const [overrides,legacyUnits]=await Promise.all([
+      privateRows<Override>('pc_equipment_overrides',{select:'asset_id,rental_approved,disabled,daily_rate_cents',limit:'1000'}),
+      legacyIds.length?privateRows<LegacyEquipment>('equipment',{select:'id,name,rental_enabled,status',id:'in.('+legacyIds.join(',')+')',limit:'100'}):Promise.resolve([])
+    ]);
+    const blocked=new Set(overrides.filter(x=>x.disabled).map(x=>x.asset_id));
+    const live=new Map(legacyUnits.map(x=>[x.id,x]));
+    return consolidated().map(item=>{
+      const units=assetIdsFor(item.id);
+      const ready=units.filter(x=>x.status==='ready'&&!blocked.has(x.assetId)).length;
+      const fallback=(legacyMap as Record<string,LegacyUnit>)[String(item.id)];
+      const legacy=fallback?live.get(fallback.assetId):undefined;
+      const legacyReady=legacy&&!['damaged','retired','lost','maintenance','out_of_service'].includes(legacy.status.toLowerCase())?1:0;
+      return {id:item.id,ready:ready+legacyReady,total:units.length+(legacy?1:0),manualReview:units.length===0&&!legacy};
+    });
+  }catch(error){
+    console.error('Unable to verify inventory',error);
+    return consolidated().map(item=>({id:item.id,ready:0,total:0,manualReview:true}));
+  }
 }
