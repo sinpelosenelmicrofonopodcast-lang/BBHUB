@@ -1,6 +1,6 @@
 import {NextResponse} from 'next/server';
 import {randomUUID} from 'node:crypto';
-import {requestIsSameOrigin} from '@/lib/auth';
+import {requestIsSameOrigin,sameOriginRedirect} from '@/lib/auth';
 import {serverHeaders,storageConfigured} from '@/lib/db';
 import {castingById,requireCapability,updateCastingPresentation,audit} from '@/lib/operations-db';
 export const runtime='nodejs';
@@ -37,6 +37,6 @@ export async function POST(request:Request){
   const saved=await updateCastingPresentation(id,{...(call.presentation||{}),image:url});
   if(saved!==1)return new Response('Imagen subida, pero no pudo asociarse al casting',{status:503});
   await audit('casting.cover.upload','casting_call',id,actor,call.project_id,{storagePath:key,size:file.size});
-  return NextResponse.redirect(new URL('/team/casting/'+id+'/edit?uploaded=1',request.url),303);
+  return NextResponse.redirect(sameOriginRedirect(request,'/team/casting/'+id+'/edit?uploaded=1'),303);
  }catch(e){console.error('Casting cover upload failed',e);return new Response('Error al procesar la portada',{status:503});}
 }
