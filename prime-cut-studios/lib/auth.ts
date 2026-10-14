@@ -31,7 +31,7 @@ export async function adminAuthenticated(){
 export async function setAdminSession(value:string){(await cookies()).set(COOKIE,value,{httpOnly:true,secure:process.env.NODE_ENV==='production',sameSite:'strict',path:'/',maxAge:MAX_AGE});}
 export async function clearAdminSession(){(await cookies()).delete(COOKIE);}
 const PRIMARY_SITE='prime-cut-studios.vercel.app';
-const TRUSTED_PROJECT_HOST=/^prime-cut-studios(?:-[a-z0-9-]+)?\\.vercel\\.app$/i;
+const TRUSTED_PROJECT_HOST=/^prime-cut-studios(?:-[a-z0-9-]+)?\.vercel\.app$/i;
 function requestHosts(request:Request){
   const hosts=[request.headers.get('host'),request.headers.get('x-forwarded-host'),new URL(request.url).host];
   return hosts.filter((host):host is string=>Boolean(host))
