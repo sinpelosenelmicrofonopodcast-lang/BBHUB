@@ -3,7 +3,7 @@ import type {Metadata} from 'next';
 import {SiteHeader} from '@/components/SiteHeader';
 import {Footer} from '@/components/Footer';
 import {castingCalls} from '@/lib/operations-db';
-import {castingPresentation} from '@/lib/casting-presentation';
+import {presentationFor} from '@/lib/casting-editor';
 import styles from './casting.module.css';
 
 export const metadata:Metadata={
@@ -26,10 +26,10 @@ export default async function Casting({searchParams}:{searchParams:Promise<{sent
    {params.sent==='1'&&<div role="status" className={styles.message}>Gracias. Tu solicitud ha sido recibida. Revisaremos tu perfil y contactaremos a las personas preseleccionadas. Enviar una solicitud no garantiza selección.</div>}
    <div className={styles.grid}>
     {active.map(c=>{
-      const meta=castingPresentation[c.id];
+      const meta=presentationFor(c);
       return <article className={styles.card} key={c.id}>
         <div className={styles.cardPhoto}>
-          {meta?<img src={meta.image} alt={meta.shortTitle+' — imagen conceptual del videoclip'} loading="lazy"/>:
+          {meta?.image?<img src={meta.image} alt={meta.shortTitle+' — imagen conceptual del videoclip'} loading="lazy"/>:
             <div style={{height:'100%',display:'grid',placeItems:'center',color:'#c9b68b'}}>PRIME CUT STUDIOS</div>}
           <span className={styles.photoBadge}>CASTING ABIERTO</span>
           {meta&&<span className={styles.photoCaption}>Imagen de referencia conceptual · No es el elenco definitivo</span>}
