@@ -13,7 +13,8 @@
     "generate-admin-hash": "node scripts/generate-admin-hash.cjs",
     "test:db": "node scripts/check-integration.cjs",
     "check:integration": "node scripts/check-integration.cjs",
-    "check:portal": "node scripts/check-client-portal.cjs"
+    "check:portal": "node scripts/check-client-portal.cjs",
+    "check:rentals": "node scripts/check-rentals.cjs"
   },
   "dependencies": {
     "next": "16.4.0",
