@@ -109,13 +109,13 @@ export default async function ProjectOperations({params}:{params:Promise<{id:str
                 {task.description&&<p>{task.description}</p>}
                 <div className="pcos-task-footer"><small>Vence: {dateLabel(task.due_at)}</small>
                 {taskEditor&&<form action="/api/team/tasks" method="post" className="pcos-inline-form">
-                  <input type="hidden" name="action" value="status"/><input type="hidden" name="id" value={task.id}/>
+                  <input type="hidden" name="returnToProject" value="1"/><input type="hidden" name="action" value="status"/><input type="hidden" name="id" value={task.id}/>
                   <select name="status" defaultValue={task.status} aria-label={'Estado de '+task.title}><option value="todo">Pendiente</option><option value="doing">En proceso</option><option value="blocked">Bloqueado</option><option value="done">Completado</option></select>
                   <button type="submit">Guardar</button>
                 </form>}</div>
               </article>)}</div>:<p className="pcos-empty">No hay tareas registradas para este proyecto.</p>}
               {taskEditor&&<details className="pcos-add"><summary>+ Nueva tarea</summary><form action="/api/team/tasks" method="post" className="pcos-task-create">
-                <input type="hidden" name="projectId" value={project.id}/>
+                <input type="hidden" name="returnToProject" value="1"/><input type="hidden" name="projectId" value={project.id}/>
                 <label>Tarea<input name="title" minLength={2} maxLength={180} placeholder="Ej. Confirmar locación" required/></label>
                 <label>Detalles<textarea name="description" maxLength={2000} rows={3}/></label>
                 <label>Fecha límite<input name="dueDate" type="date"/></label>
