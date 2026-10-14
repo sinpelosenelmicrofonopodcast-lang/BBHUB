@@ -66,10 +66,10 @@ export function sameOriginRedirect(request:Request,path:string){
   if(rawOrigin&&rawOrigin!=='null'&&requestIsSameOrigin(request)){
     try{return new URL(path,new URL(rawOrigin));}catch{}
   }
-  const forwarded=request.headers.get('x-forwarded-host')?.split(',')[0]?.trim().toLowerCase();
-  if(forwarded&&TRUSTED_PROJECT_HOST.test(forwarded))return new URL(path,'https://'+forwarded);
   const host=request.headers.get('host')?.trim().toLowerCase();
-  if(host&&(host==='localhost:3000'||TRUSTED_PROJECT_HOST.test(host)))return new URL(path,(host.startsWith('localhost')?'http://':'https://')+host);
+  if(host&&/^localhost(?::\d+)?$/.test(host))return new URL(path,'http://'+host);
+  // With no Origin (Safari edge case), use the known canonical site rather
+  // than an internal Vercel deployment URL whose cookies are not shared.
   return new URL(path,'https://'+PRIMARY_SITE);
 }
 export function safeIp(request:Request){return request.headers.get('x-real-ip')||request.headers.get('x-forwarded-for')?.split(',')[0]?.trim()||'unknown';}
