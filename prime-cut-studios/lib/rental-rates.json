@@ -1026,6 +1026,14 @@
       "deposit": null,
       "source": "Suggested planning adjustment — pending owner review",
       "status": "suggested"
+    },
+    "129": {
+      "day": 20,
+      "weekend": 32,
+      "week": 70,
+      "deposit": null,
+      "source": "Suggested accessory rental rate; owner review required",
+      "status": "suggested"
     }
   }
 }
