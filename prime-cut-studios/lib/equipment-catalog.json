@@ -2643,5 +2643,16 @@
       "minimumDays": null,
       "deliveryOption": "by_quote"
     }
+  },
+  {
+    "id": 129,
+    "name": "Aputure F10 Fresnel",
+    "category": "Modificadores / Grip",
+    "manufacturer": "Aputure",
+    "quantity": 1,
+    "imageUrl": null,
+    "officialUrl": "https://aputure.com/products/f10-fresnel/",
+    "sourceStatus": "manufacturer-page",
+    "modelNote": "Accesorio de LS 600c Pro II: uso individual y compatibilidad sujetos a confirmación."
   }
 ]
