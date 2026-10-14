@@ -72,6 +72,7 @@ export async function castingById(id:string,publicOnly=false){return (await rows
 export async function createCastingCall(d:Omit<CastingCall,'id'|'created_at'>){return insert<CastingCall>('pc_casting_calls',{...d,id:randomUUID()})}
 export async function changeCastingStatus(id:string,status:CastingCall['status']){return update('pc_casting_calls',{id:'eq.'+id},{status,published_at:status==='open'?new Date().toISOString():null})}
 export async function updateCastingCall(id:string,d:Pick<CastingCall,'title'|'description'|'requirements'|'location'|'pay_details'|'closes_at'|'presentation'|'status'>){return update('pc_casting_calls',{id:'eq.'+id},{...d,published_at:d.status==='open'?new Date().toISOString():null})}
+export async function updateCastingPresentation(id:string,presentation:PresentationData){return update('pc_casting_calls',{id:'eq.'+id},{presentation})}
 export async function castingApplications(callIds:string[]){
  if(!callIds.length)return [];
  return rows<CastingApplication>('pc_casting_applications',{select:'id,casting_call_id,full_name,email,phone,city,portfolio_url,headshot_url,experience,availability,status,private_notes,created_at',casting_call_id:'in.('+callIds.join(',')+')',order:'created_at.desc',limit:'300'});
