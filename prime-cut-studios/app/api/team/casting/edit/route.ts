@@ -1,5 +1,5 @@
 import {NextResponse} from 'next/server';
-import {requestIsSameOrigin} from '@/lib/auth';
+import {requestIsSameOrigin,sameOriginRedirect} from '@/lib/auth';
 import {castingById,requireCapability,updateCastingCall,audit} from '@/lib/operations-db';
 import {safeHttpsImage,type PresentationData} from '@/lib/casting-editor';
 
@@ -43,6 +43,6 @@ export async function POST(request:Request){
    closes_at:closesAt?closesAt+'T23:59:59Z':null,status:status as 'draft'|'open'|'closed'|'archived',presentation});
   if(saved!==1)return fail('No se guardaron los cambios',409);
   await audit('casting.edit','casting_call',id,actor,call.project_id,{fields:['copy','pay','roles','image','public_status'],status});
-  return NextResponse.redirect(new URL('/team/casting/'+id+'/edit?saved=1',request.url),303);
+  return NextResponse.redirect(sameOriginRedirect(request,'/team/casting/'+id+'/edit?saved=1'),303);
  }catch(e){console.error('Casting save failed',e);return fail('No se pudo guardar la convocatoria',503);}
 }
