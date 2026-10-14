@@ -1,8 +1,56 @@
 import Link from 'next/link';
-import {SiteHeader} from '@/components/SiteHeader';import {Footer} from '@/components/Footer';
+import type {Metadata} from 'next';
+import {SiteHeader} from '@/components/SiteHeader';
+import {Footer} from '@/components/Footer';
 import {castingCalls} from '@/lib/operations-db';
+import {castingPresentation} from '@/lib/casting-presentation';
+import styles from './casting.module.css';
+
+export const metadata:Metadata={
+ title:'Castings abiertos | Prime Cut Studios',
+ description:'Convocatorias de videoclips y producciones en Central Texas. Descubre roles, compensación, requisitos y aplica de forma segura.'
+};
 export const runtime='nodejs';export const dynamic='force-dynamic';
-export default async function Casting(){
- const calls=(await castingCalls(true)).filter(c=>!c.closes_at||Date.parse(c.closes_at)>Date.now());
- return <><SiteHeader/><main className="shell pagehero"><div className="eyebrow">Prime Cut Studios · Talent opportunities</div><h1>Open casting calls</h1><p className="muted">Apply here directly. We keep applications within our production workspace; never send personal details in public comments or social DMs.</p><div className="grid">{calls.map(c=><div className="panel" key={c.id}><div className="eyebrow">Open casting</div><h2>{c.title}</h2><p>{c.description}</p><p className="muted">Location: {c.location||'To be announced'}</p><p className="muted">Compensation: {c.pay_details||'Discussed during selection'}</p><Link className="btn" href={'/casting/'+c.id}>Apply</Link></div>)}{calls.length===0&&<div className="panel"><h3>No open casting calls right now</h3><p>Upcoming opportunities will appear here as soon as the production team publishes them.</p></div>}</div></main><Footer/></>;
+
+export default async function Casting({searchParams}:{searchParams:Promise<{sent?:string}>}){
+ const [params,calls]=await Promise.all([searchParams,castingCalls(true)]);
+ const active=calls.filter(c=>!c.closes_at||Date.parse(c.closes_at)>Date.now());
+ return <><SiteHeader/><main className={styles.page}>
+  <div className={styles.container}>
+   <header className={styles.indexHero}>
+    <span className={styles.eyebrow}>PRIME CUT STUDIOS · CASTING EN CENTRAL TEXAS</span>
+    <h1 className={styles.heading}>Tu próximo papel<br/><em>comienza aquí.</em></h1>
+    <p className={styles.lede}>Explora nuestras convocatorias, conoce el concepto de cada producción y solicita tu participación directamente. Los datos de los aspirantes se revisan de manera privada.</p>
+    <div className={styles.count}>{active.length} {active.length===1?'convocatoria abierta':'convocatorias abiertas'}</div>
+   </header>
+   {params.sent==='1'&&<div role="status" className={styles.message}>Gracias. Tu solicitud ha sido recibida. Revisaremos tu perfil y contactaremos a las personas preseleccionadas. Enviar una solicitud no garantiza selección.</div>}
+   <div className={styles.grid}>
+    {active.map(c=>{
+      const meta=castingPresentation[c.id];
+      return <article className={styles.card} key={c.id}>
+        <div className={styles.cardPhoto}>
+          {meta?<img src={meta.image} alt={meta.shortTitle+' — imagen conceptual del videoclip'} loading="lazy"/>:
+            <div style={{height:'100%',display:'grid',placeItems:'center',color:'#c9b68b'}}>PRIME CUT STUDIOS</div>}
+          <span className={styles.photoBadge}>CASTING ABIERTO</span>
+          {meta&&<span className={styles.photoCaption}>Imagen de referencia conceptual · No es el elenco definitivo</span>}
+        </div>
+        <div className={styles.cardBody}>
+          <span className={styles.eyebrow}>{meta?.tag||'OPORTUNIDAD DE CASTING'}</span>
+          <h2>{meta?.shortTitle||c.title}</h2>
+          <p className={styles.summary}>{meta?.story||c.description}</p>
+          <div style={{display:'flex',gap:8,flexWrap:'wrap',margin:'14px 0'}}>
+            <span className={meta?.compensated?styles.pill:styles.pillPending}>{meta?.paymentLabel||c.pay_details||'Compensación pendiente de confirmar'}</span>
+          </div>
+          <div className={styles.metrics}>
+            <div className={styles.metric}><small>Ubicación</small>{c.location||'Central Texas'}</div>
+            <div className={styles.metric}><small>Perfiles</small>{meta?.facts.find(f=>f.label==='Perfiles')?.value||meta?.tag||'Talento frente a cámara'}</div>
+          </div>
+          <Link className={styles.primary} href={'/casting/'+c.id}>Ver casting y aplicar <span aria-hidden>↗</span></Link>
+        </div>
+      </article>;
+    })}
+    {active.length===0&&<div className={styles.empty}>No hay convocatorias abiertas en este momento. Vuelve a consultar esta página para próximas oportunidades.</div>}
+   </div>
+  </div>
+ </main><Footer/></>;
 }
