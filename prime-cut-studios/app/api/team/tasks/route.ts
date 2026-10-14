@@ -5,10 +5,12 @@ export const runtime='nodejs';
 export async function POST(req:Request){
  if(!requestIsSameOrigin(req))return new Response('Forbidden',{status:403});
  const f=await req.formData(),action=String(f.get('action')||'create');
+ let destinationProjectId:string|null=null;
  if(action==='status'){
   const id=String(f.get('id')||''),status=String(f.get('status')||'');
   if(!/^[a-f\d-]{36}$/i.test(id)||!['todo','doing','blocked','done'].includes(status))return new Response('Bad request',{status:400});
   const t=await taskById(id);if(!t)return new Response('Not found',{status:404});
+  destinationProjectId=t.project_id;
   const access=await requireCapability('tasks.write',t.project_id);if(!access)return new Response('Forbidden',{status:403});
   await setTaskStatus(id,status as 'todo'|'doing'|'blocked'|'done');await audit('task.status','task',id,access,t.project_id,{status});
  }else{
@@ -16,6 +18,8 @@ export async function POST(req:Request){
   if(!/^[a-f\d-]{36}$/i.test(projectId)||title.length<2||title.length>180||description.length>2000||(dueDate&&!/^\d{4}-\d{2}-\d{2}$/.test(dueDate)))return new Response('Invalid task',{status:400});
   const access=await requireCapability('tasks.write',projectId);if(!access)return new Response('Forbidden',{status:403});
   const t=await createTask(projectId,title,description,dueDate?dueDate+'T12:00:00Z':null);await audit('task.create','task',t.id,access,projectId);
+  destinationProjectId=projectId;
  }
- return NextResponse.redirect(new URL('/team#tasks',req.url),303);
+ const destination=String(f.get('returnToProject')||'')==='1'&&destinationProjectId?'/team/projects/'+destinationProjectId+'#tareas':'/team#tasks';
+ return NextResponse.redirect(new URL(destination,req.url),303);
 }
