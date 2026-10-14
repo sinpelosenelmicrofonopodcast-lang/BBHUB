@@ -64,12 +64,14 @@ export async function createTask(projectId:string,title:string,description:strin
 }
 export async function taskById(id:string){return (await rows<OpsTask>('pc_operational_tasks',{id:'eq.'+id,select:'*',limit:'1'}))[0]||null}
 export async function setTaskStatus(id:string,status:OpsTask['status']){return update('pc_operational_tasks',{id:'eq.'+id},{status})}
-export type CastingCall={id:string;project_id:string;title:string;description:string;requirements:string;location:string|null;pay_details:string|null;status:'draft'|'open'|'closed'|'archived';closes_at:string|null;created_at:string};
+import type {PresentationData} from '@/lib/casting-editor';
+export type CastingCall={id:string;project_id:string;title:string;description:string;requirements:string;location:string|null;pay_details:string|null;presentation:PresentationData;status:'draft'|'open'|'closed'|'archived';closes_at:string|null;created_at:string};
 export type CastingApplication={id:string;casting_call_id:string;full_name:string;email:string;phone:string|null;city:string|null;portfolio_url:string|null;headshot_url:string|null;experience:string|null;availability:string|null;status:string;private_notes:string;created_at:string};
 export async function castingCalls(publicOnly=false){return rows<CastingCall>('pc_casting_calls',{select:'*',...(publicOnly?{status:'eq.open'}:{}),order:'created_at.desc',limit:'100'})}
 export async function castingById(id:string,publicOnly=false){return (await rows<CastingCall>('pc_casting_calls',{id:'eq.'+id,select:'*',...(publicOnly?{status:'eq.open'}:{}),limit:'1'}))[0]||null}
 export async function createCastingCall(d:Omit<CastingCall,'id'|'created_at'>){return insert<CastingCall>('pc_casting_calls',{...d,id:randomUUID()})}
 export async function changeCastingStatus(id:string,status:CastingCall['status']){return update('pc_casting_calls',{id:'eq.'+id},{status,published_at:status==='open'?new Date().toISOString():null})}
+export async function updateCastingCall(id:string,d:Pick<CastingCall,'title'|'description'|'requirements'|'location'|'pay_details'|'closes_at'|'presentation'|'status'>){return update('pc_casting_calls',{id:'eq.'+id},{...d,published_at:d.status==='open'?new Date().toISOString():null})}
 export async function castingApplications(callIds:string[]){
  if(!callIds.length)return [];
  return rows<CastingApplication>('pc_casting_applications',{select:'id,casting_call_id,full_name,email,phone,city,portfolio_url,headshot_url,experience,availability,status,private_notes,created_at',casting_call_id:'in.('+callIds.join(',')+')',order:'created_at.desc',limit:'300'});
