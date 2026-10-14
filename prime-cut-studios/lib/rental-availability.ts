@@ -3,6 +3,7 @@ import catalog from './equipment-catalog.json';
 import priceBook from './rental-rates.json';
 import bundleBook from './rental-bundles.json';
 import legacyMap from './rental-legacy-map.json';
+import reservationBridge from './rental-reservation-bridge.json';
 import {serverHeaders} from './db';
 
 /** Server-only: never expose asset IDs, serials, internal customer records, or Supabase keys. */
@@ -59,7 +60,8 @@ export async function availabilityForDates(start:string,end:string):Promise<Avai
   if(!datesValid(start,end))throw Error('INVALID_DATES');
   const bufferEnd=addDays(end,1); // next day reserved for inspection & recharging
   const legacyEntries=Object.entries(legacyMap as Record<string,LegacyUnit>);
-  const legacyIds=legacyEntries.map(([,x])=>x.assetId);
+  const bridge=reservationBridge as Record<string,Array<{legacyEquipmentId:string;unitAssetIds:string[]}>>;
+  const legacyIds=[...new Set([...legacyEntries.map(([,x])=>x.assetId),...Object.values(bridge).flat().map(x=>x.legacyEquipmentId)])];
   const [overrides,bookings,legacyUnits,legacyReservations]=await Promise.all([
     privateRows<Override>('pc_equipment_overrides',{select:'asset_id,rental_approved,disabled,daily_rate_cents',limit:'1000'}),
     privateRows<Booking>('pc_equipment_bookings',{select:'asset_id,start_date,end_date,status,hold_expires_at',start_date:'lte.'+bufferEnd,end_date:'gte.'+start,limit:'3000'}),
@@ -71,6 +73,14 @@ export async function availabilityForDates(start:string,end:string):Promise<Avai
   const occupied=new Set(bookings.filter(x=>{const status=x.status.toLowerCase();if(blockedStatuses.has(status))return false;const isTentative=['hold','held','tentative'].includes(status);return !isTentative||!x.hold_expires_at||Date.parse(x.hold_expires_at)>now;}).map(x=>x.asset_id));
   for(const b of legacyReservations){if(!blockedStatuses.has(b.status.toLowerCase()))occupied.add(b.equipment_id)}
   const legacyById=new Map(legacyUnits.map(x=>[x.id,x]));
+  const notReady=new Set(['damaged','retired','lost','maintenance','out_of_service']);
+  for(const associations of Object.values(bridge)){
+    for(const a of associations){const record=legacyById.get(a.legacyEquipmentId);
+      if(occupied.has(a.legacyEquipmentId)||record&&notReady.has(record.status.toLowerCase())){
+        for(const assetId of a.unitAssetIds)occupied.add(assetId);
+      }
+    }
+  }
   return consolidated().map(item=>{
     const units=assetIdsFor(item.id);const ready=units.filter(x=>x.status==='ready');
     const open=ready.filter(x=>!byAsset.get(x.assetId)?.disabled&&!occupied.has(x.assetId));
@@ -86,7 +96,8 @@ export async function availabilityForDates(start:string,end:string):Promise<Avai
 }
 export async function physicalSummary(){
   const legacyEntries=Object.entries(legacyMap as Record<string,LegacyUnit>);
-  const legacyIds=legacyEntries.map(([,x])=>x.assetId);
+  const bridge=reservationBridge as Record<string,Array<{legacyEquipmentId:string;unitAssetIds:string[]}>>;
+  const legacyIds=[...new Set([...legacyEntries.map(([,x])=>x.assetId),...Object.values(bridge).flat().map(x=>x.legacyEquipmentId)])];
   try{
     const [overrides,legacyUnits]=await Promise.all([
       privateRows<Override>('pc_equipment_overrides',{select:'asset_id,rental_approved,disabled,daily_rate_cents',limit:'1000'}),
@@ -94,6 +105,12 @@ export async function physicalSummary(){
     ]);
     const blocked=new Set(overrides.filter(x=>x.disabled).map(x=>x.asset_id));
     const live=new Map(legacyUnits.map(x=>[x.id,x]));
+    const notReady=new Set(['damaged','retired','lost','maintenance','out_of_service']);
+    for(const associations of Object.values(bridge)){
+      for(const association of associations){const record=live.get(association.legacyEquipmentId);
+        if(record&&notReady.has(record.status.toLowerCase()))for(const assetId of association.unitAssetIds)blocked.add(assetId);
+      }
+    }
     return consolidated().map(item=>{
       const units=assetIdsFor(item.id);
       const ready=units.filter(x=>x.status==='ready'&&!blocked.has(x.assetId)).length;
