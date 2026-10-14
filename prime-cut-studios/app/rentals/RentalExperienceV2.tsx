@@ -10,7 +10,12 @@ type Availability={id:number;openQty:number;approvalRequired:boolean;bookable:bo
 type Fields={name:string;email:string;phone:string;company:string;billingAddress:string;purpose:string;location:string;pickupWindow:string;returnWindow:string;notes:string};
 const EMPTY:Fields={name:'',email:'',phone:'',company:'',billingAddress:'',purpose:'',location:'',pickupWindow:'',returnWindow:'',notes:''};
 const USD=(n:number)=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n);
-const today=()=>new Date().toLocaleDateString('en-CA');
+const today=()=>{const d=new Date();return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-');};
+function EquipmentPhoto({name,src}:{name:string;src:string|null}){
+ const [broken,setBroken]=useState(false);
+ return src&&!broken?<img loading="lazy" src={src} alt={name} referrerPolicy="no-referrer" onError={()=>setBroken(true)}/>:
+ <div className={styles.noPhoto}><ImageOff size={30}/><span>Image being prepared</span></div>;
+}
 function amount(id:number,rate:Rate,qty:number,start:string,end:string){
  const bundle=(bundleBook as Record<string,Record<string,{day:number;weekend:number;week:number;label:string}>>)[String(id)]?.[String(qty)];
  const applied=bundle||rate,multiplier=bundle?1:qty;
@@ -34,7 +39,7 @@ export function RentalExperienceV2({items,stock,rates}:{items:Item[];stock:Stock
  const total=chosen.reduce((sum,x)=>sum+(rates[String(x.id)]?amount(x.id,rates[String(x.id)],selected[x.id],start,end):0),0);
  const tax=total*0.0825;
  useEffect(()=>{
-  setAvailable(null);setAvailabilityError('');
+  setAvailable(null);setAvailabilityError('');setChecking(false);
   if(!start||!end||end<start)return;
   const controller=new AbortController();setChecking(true);
   fetch('/api/rentals/availability?'+new URLSearchParams({start,end}),{cache:'no-store',signal:controller.signal})
@@ -70,12 +75,12 @@ export function RentalExperienceV2({items,stock,rates}:{items:Item[];stock:Stock
   <div className={styles.intro}><div><span className={styles.kicker}>PRIME CUT STUDIOS · RENTALS</span><h2>Build your equipment rental.</h2><p>Choose equipment and quantities for your shoot. Prices are before tax and subject to final written approval; inventory is checked by date before your quote request is accepted.</p></div><div className={styles.steps}><span>Choose gear</span><span>Check dates</span><span>Request quote</span></div></div>
   <div className={styles.layout}><div>
    <div className={styles.filters}><label className={styles.search}><Search size={17}/><input aria-label="Search equipment" value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search gear, brand, model..."/></label><select aria-label="Category" value={category} onChange={e=>setCategory(e.target.value)}><option value="all">All categories</option>{categories.map(c=><option key={c}>{c}</option>)}</select></div>
-   <p className={styles.count}>{filtered.length} product models · Quantities limited to inventory · No internal asset numbers</p>
+   <p className={styles.count}>{filtered.length} product models · Select quantities and dates to check stock</p>
    <div className={styles.products}>{filtered.map(x=>{
     const qty=selected[x.id]||0,limit=max(x.id),rate=rates[String(x.id)],disabled=limit===0;
-    return <article className={styles.product} key={x.id}><div className={styles.photo}>{x.imageUrl?<img loading="lazy" src={x.imageUrl} alt={x.name} referrerPolicy="no-referrer"/>:<div className={styles.noPhoto}><ImageOff size={30}/><span>Product image pending</span></div>}</div>
+    return <article className={styles.product} key={x.id}><div className={styles.photo}><EquipmentPhoto name={x.name} src={x.imageUrl}/></div>
       <div className={styles.productContent}><span className={styles.brand}>{x.manufacturer==='Sin identificar'?'Production gear':x.manufacturer}</span><h3>{x.name}</h3><p className={styles.productType}>{x.category}</p>
-      <p className={styles.systemNote}>{disabled?'Unavailable':(start&&end&&available?'Up to ':'Up to ')+limit+' unit'+(limit===1?'':'s')+' for inquiry · Final approval required'}</p>
+      <p className={styles.systemNote}>{start&&end&&!available?'Select valid dates to check stock':disabled?'Unavailable':('Up to '+limit+' unit'+(limit===1?'':'s')+' for inquiry · Final approval required')}</p>
       <div className={styles.rateLine}><span>{rate?.status==='suggested'?'Proposed rate · per day':'Reference rate · per day'}</span><strong>{rate?USD(rate.day):'Quote required'}</strong></div>
       {rate&&<p className={styles.rateMore}>Weekend {USD(rate.weekend)} · 7 days {USD(rate.week)}</p>}
       {Object.keys((bundleBook as Record<string,Record<string,unknown>>)[String(x.id)]||{}).length>0&&<p className={styles.rateMore}>Multi-unit package discount available</p>}
