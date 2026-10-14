@@ -4,14 +4,14 @@ import type {Metadata} from 'next';
 import {SiteHeader} from '@/components/SiteHeader';
 import {Footer} from '@/components/Footer';
 import {castingById} from '@/lib/operations-db';
-import {castingPresentation} from '@/lib/casting-presentation';
+import {presentationFor} from '@/lib/casting-editor';
 import styles from '../casting.module.css';
 export const runtime='nodejs';export const dynamic='force-dynamic';
 
 export async function generateMetadata({params}:{params:Promise<{id:string}>}):Promise<Metadata>{
  const {id}=await params;
  const c=/^[\da-f-]{36}$/i.test(id)?await castingById(id,true):null;
- return {title:c?((castingPresentation[id]?.shortTitle||c.title)+' | Casting Prime Cut Studios'):'Casting | Prime Cut Studios'};
+ return {title:c?((presentationFor(c)?.shortTitle||c.title)+' | Casting Prime Cut Studios'):'Casting | Prime Cut Studios'};
 }
 
 export default async function Apply({params}:{params:Promise<{id:string}>}){
@@ -19,7 +19,7 @@ export default async function Apply({params}:{params:Promise<{id:string}>}){
  if(!/^[\da-f-]{36}$/i.test(id))notFound();
  const call=await castingById(id,true);
  if(!call)notFound();
- const meta=castingPresentation[id];
+ const meta=presentationFor(call);
  const closed=Boolean(call.closes_at&&Date.parse(call.closes_at)<=Date.now());
  return <><SiteHeader/><main className={styles.page}>
   <div className={styles.container}>
@@ -39,7 +39,7 @@ export default async function Apply({params}:{params:Promise<{id:string}>}){
       <div className={styles.heroCTA}><a className={styles.primary} href="#solicitud">Solicitar participación ↗</a></div>
      </div>
      <div className={styles.heroImage}>
-      {meta?<img src={meta.image} alt={'Concepto cinematográfico para '+meta.shortTitle}/>:
+      {meta?.image?<img src={meta.image} alt={'Concepto cinematográfico para '+meta.shortTitle}/>:
        <div style={{height:'100%',display:'grid',placeItems:'center',color:'#ccb787'}}>PRIME CUT STUDIOS</div>}
       <small>Imagen conceptual de referencia. No representa al elenco, artista ni locación definitiva.</small>
      </div>
