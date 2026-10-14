@@ -48,7 +48,7 @@ export function groupRentalCatalog(units:RentalUnit[]):RentalModel[]{
       manufacturerUrl:records.find(r=>r.manufacturerUrl)?.manufacturerUrl||null,
       manualUrl:records.find(r=>r.manualUrl)?.manualUrl||null,
       specs:records.find(r=>r.specs.length>0)?.specs||[],
-      rentalApproval:approval?'approved':'review_required',
+      rentalApproval:approval?('approved' as const):('review_required' as const),
       priceCents:uniformRate
     };
   }).sort((a,b)=>a.category.localeCompare(b.category)||a.name.localeCompare(b.name));

@@ -49,9 +49,9 @@
     "category": "Cámaras",
     "manufacturer": "GoPro",
     "quantity": 1,
-    "imageUrl": null,
+    "imageUrl": "/equipment/BB-CAM-0007_GoPro_HERO12_Black.png",
     "officialUrl": "https://gopro.com/en/us/shop/cameras/hero12-black/CHDHX-121-master.html",
-    "sourceStatus": "manufacturer-page",
+    "sourceStatus": "direct-image",
     "modelNote": ""
   },
   {
@@ -126,9 +126,9 @@
     "category": "Lentes",
     "manufacturer": "Rokinon",
     "quantity": 1,
-    "imageUrl": null,
+    "imageUrl": "/equipment/BB-LEN-0004_Rokinon_24mm_T1.5_Cine.png",
     "officialUrl": "https://rokinon.com/",
-    "sourceStatus": "manufacturer-page",
+    "sourceStatus": "direct-image",
     "modelNote": ""
   },
   {
@@ -170,9 +170,9 @@
     "category": "Lentes",
     "manufacturer": "Rokinon",
     "quantity": 1,
-    "imageUrl": null,
+    "imageUrl": "/equipment/BB-LEN-0008_Rokinon_14mm_F2.8.png",
     "officialUrl": "https://rokinon.com/",
-    "sourceStatus": "manufacturer-page",
+    "sourceStatus": "direct-image",
     "modelNote": ""
   },
   {
@@ -181,9 +181,9 @@
     "category": "Lentes",
     "manufacturer": "LAOWA",
     "quantity": 1,
-    "imageUrl": null,
+    "imageUrl": "/equipment/BB-LEN-0009_Laowa_24mm_f14_2X_Macro_Probe.png",
     "officialUrl": "https://www.venuslens.net/product/laowa-24mm-f-14-2x-macro-probe/",
-    "sourceStatus": "manufacturer-page",
+    "sourceStatus": "direct-image",
     "modelNote": ""
   },
   {
@@ -192,9 +192,9 @@
     "category": "Lentes",
     "manufacturer": "Yongnuo",
     "quantity": 1,
-    "imageUrl": null,
+    "imageUrl": "/equipment/BB-LEN-0010_Yongnuo_35mm_F2_AF.png",
     "officialUrl": "https://www.hkyongnuo.com/",
-    "sourceStatus": "manufacturer-page",
+    "sourceStatus": "direct-image",
     "modelNote": ""
   },
   {
@@ -258,9 +258,9 @@
     "category": "Audio",
     "manufacturer": "Zoom",
     "quantity": 1,
-    "imageUrl": null,
+    "imageUrl": "/equipment/BB-AUD-0008_Zoom_H6essential.png",
     "officialUrl": "https://zoomcorp.com/en/us/handheld-recorders/handheld-recorders/h6essential/",
-    "sourceStatus": "manufacturer-page",
+    "sourceStatus": "direct-image",
     "modelNote": ""
   },
   {
