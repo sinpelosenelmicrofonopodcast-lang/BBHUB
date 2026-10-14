@@ -6,6 +6,7 @@ import {serverHeaders,hashToken,normalizedEmail} from '@/lib/db';
 import {adminAuthenticated} from '@/lib/auth';
 import {clientAuthenticated} from '@/lib/client-auth';
 import {scopeCan,staffRoleValid,type StaffRole,type Capability,type Scope} from '@/lib/operations-policy';
+import type {PresentationData} from '@/lib/casting-editor';
 const base=()=>process.env.SUPABASE_URL||'';
 async function rest<T>(path:string,init:RequestInit={}):Promise<T>{
  const r=await fetch(base()+'/rest/v1/'+path,{...init,cache:'no-store',headers:serverHeaders({'Content-Type':'application/json',...(init.headers as Record<string,string>||{})})});
@@ -64,8 +65,7 @@ export async function createTask(projectId:string,title:string,description:strin
 }
 export async function taskById(id:string){return (await rows<OpsTask>('pc_operational_tasks',{id:'eq.'+id,select:'*',limit:'1'}))[0]||null}
 export async function setTaskStatus(id:string,status:OpsTask['status']){return update('pc_operational_tasks',{id:'eq.'+id},{status})}
-import type {PresentationData} from '@/lib/casting-editor';
-export type CastingCall={id:string;project_id:string;title:string;description:string;requirements:string;location:string|null;pay_details:string|null;presentation:PresentationData;status:'draft'|'open'|'closed'|'archived';closes_at:string|null;created_at:string};
+export type CastingCall={id:string;project_id:string;title:string;description:string;requirements:string;location:string|null;pay_details:string|null;presentation?:PresentationData|null;status:'draft'|'open'|'closed'|'archived';closes_at:string|null;created_at:string};
 export type CastingApplication={id:string;casting_call_id:string;full_name:string;email:string;phone:string|null;city:string|null;portfolio_url:string|null;headshot_url:string|null;experience:string|null;availability:string|null;status:string;private_notes:string;created_at:string};
 export async function castingCalls(publicOnly=false){return rows<CastingCall>('pc_casting_calls',{select:'*',...(publicOnly?{status:'eq.open'}:{}),order:'created_at.desc',limit:'100'})}
 export async function castingById(id:string,publicOnly=false){return (await rows<CastingCall>('pc_casting_calls',{id:'eq.'+id,select:'*',...(publicOnly?{status:'eq.open'}:{}),limit:'1'}))[0]||null}
