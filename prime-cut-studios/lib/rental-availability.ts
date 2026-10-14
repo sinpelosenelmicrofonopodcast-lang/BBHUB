@@ -2,12 +2,16 @@ import assetMap from './rental-asset-map.json';
 import catalog from './equipment-catalog.json';
 import priceBook from './rental-rates.json';
 import bundleBook from './rental-bundles.json';
+import legacyMap from './rental-legacy-map.json';
 import {serverHeaders} from './db';
 
 /** Server-only: never expose asset IDs, serials, internal customer records, or Supabase keys. */
 type Booking={asset_id:string;start_date:string;end_date:string;status:string;hold_expires_at:string|null};
 type Override={asset_id:string;rental_approved:boolean;disabled:boolean;daily_rate_cents:number|null};
 type Unit={assetId:string;status:string};
+type LegacyUnit={assetId:string;source:string};
+type LegacyEquipment={id:string;name:string;rental_enabled:boolean;status:string};
+type LegacyReservation={equipment_id:string;status:string;starts_at:string;ends_at:string};
 export type Availability={id:number;physicalQty:number;openQty:number;approvalRequired:boolean;rateDay:number|null;bookable:boolean};
 
 export function consolidated(){
@@ -54,19 +58,30 @@ export function referencePriceForDates(id:number,qty:number,start:string,end:str
 export async function availabilityForDates(start:string,end:string):Promise<Availability[]>{
   if(!datesValid(start,end))throw Error('INVALID_DATES');
   const bufferEnd=addDays(end,1); // next day reserved for inspection & recharging
-  const [overrides,bookings]=await Promise.all([
+  const legacyEntries=Object.entries(legacyMap as Record<string,LegacyUnit>);
+  const legacyIds=legacyEntries.map(([,x])=>x.assetId);
+  const [overrides,bookings,legacyUnits,legacyReservations]=await Promise.all([
     privateRows<Override>('pc_equipment_overrides',{select:'asset_id,rental_approved,disabled,daily_rate_cents',limit:'1000'}),
-    privateRows<Booking>('pc_equipment_bookings',{select:'asset_id,start_date,end_date,status,hold_expires_at',start_date:'lte.'+bufferEnd,end_date:'gte.'+start,limit:'3000'})
+    privateRows<Booking>('pc_equipment_bookings',{select:'asset_id,start_date,end_date,status,hold_expires_at',start_date:'lte.'+bufferEnd,end_date:'gte.'+start,limit:'3000'}),
+    legacyIds.length?privateRows<LegacyEquipment>('equipment',{select:'id,name,rental_enabled,status',id:'in.('+legacyIds.join(',')+')',limit:'100'}):Promise.resolve([]),
+    legacyIds.length?privateRows<LegacyReservation>('equipment_reservations',{select:'equipment_id,status,starts_at,ends_at',equipment_id:'in.('+legacyIds.join(',')+')',starts_at:'lt.'+addDays(end,2)+'T00:00:00Z',ends_at:'gte.'+start+'T00:00:00Z',limit:'1000'}):Promise.resolve([])
   ]);
   const byAsset=new Map(overrides.map(x=>[x.asset_id,x]));
   const now=Date.now();
   const occupied=new Set(bookings.filter(x=>{const status=x.status.toLowerCase();if(blockedStatuses.has(status))return false;const isTentative=['hold','held','tentative'].includes(status);return !isTentative||!x.hold_expires_at||Date.parse(x.hold_expires_at)>now;}).map(x=>x.asset_id));
+  for(const b of legacyReservations){if(!blockedStatuses.has(b.status.toLowerCase()))occupied.add(b.equipment_id)}
+  const legacyById=new Map(legacyUnits.map(x=>[x.id,x]));
   return consolidated().map(item=>{
     const units=assetIdsFor(item.id);const ready=units.filter(x=>x.status==='ready');
     const open=ready.filter(x=>!byAsset.get(x.assetId)?.disabled&&!occupied.has(x.assetId));
     const approved=open.filter(x=>byAsset.get(x.assetId)?.rental_approved);
-    return {id:item.id,physicalQty:ready.length,openQty:open.length,approvalRequired:approved.length<open.length,
-      rateDay:referenceRate(item.id)?.day||null,bookable:approved.length>0};
+    const legacyRecord=(legacyMap as Record<string,LegacyUnit>)[String(item.id)];
+    const legacyUnit=legacyRecord?legacyById.get(legacyRecord.assetId):undefined;
+    const legacyReady=legacyUnit&&!['damaged','retired','lost','maintenance','out_of_service'].includes(legacyUnit.status.toLowerCase())?1:0;
+    const legacyOpen=legacyReady&&legacyRecord&&!occupied.has(legacyRecord.assetId)?1:0;
+    const legacyApproved=legacyOpen&&legacyUnit?.rental_enabled?1:0;
+    return {id:item.id,physicalQty:ready.length+legacyReady,openQty:open.length+legacyOpen,approvalRequired:approved.length+legacyApproved<open.length+legacyOpen,
+      rateDay:referenceRate(item.id)?.day||null,bookable:approved.length+legacyApproved>0};
   });
 }
 export function physicalSummary(){
