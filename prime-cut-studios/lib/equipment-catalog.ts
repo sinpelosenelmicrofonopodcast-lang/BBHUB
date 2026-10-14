@@ -57,7 +57,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-CAM-0004",
-    "name": "Canon EOS R100 #1",
+    "name": "Canon EOS R100",
     "category": "Cameras",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -73,7 +73,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-CAM-0005",
-    "name": "Canon EOS R100 #2",
+    "name": "Canon EOS R100",
     "category": "Cameras",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -89,7 +89,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-CAM-0006",
-    "name": "Canon EOS R100 #3",
+    "name": "Canon EOS R100",
     "category": "Cameras",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -158,7 +158,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LEN-0001",
-    "name": "Canon RF 24-105mm F4 L IS USM",
+    "name": "Canon RF24-105mm F4 L IS USM",
     "category": "Lenses",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -174,7 +174,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LEN-0002",
-    "name": "Canon RF 28-70mm",
+    "name": "Canon RF28-70mm F2.8 IS STM",
     "category": "Lenses",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -246,7 +246,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LEN-0008",
-    "name": "Rokinon 14mm f/2.8",
+    "name": "Rokinon 14mm F2.8",
     "category": "Lenses",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -258,7 +258,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LEN-0009",
-    "name": "LAOWA 24mm f/14 2X Macro Probe",
+    "name": "Laowa 24mm f/14 2X Macro Probe",
     "category": "Lenses",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -270,7 +270,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LEN-0010",
-    "name": "Yongnuo 35mm f/2 AF",
+    "name": "Yongnuo 35mm F2 AF",
     "category": "Lenses",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -310,7 +310,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-AUD-0002",
-    "name": "Shure SM7B #1",
+    "name": "Shure SM7B",
     "category": "Audio",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -326,7 +326,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-AUD-0003",
-    "name": "Shure SM7B #2",
+    "name": "Shure SM7B",
     "category": "Audio",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -342,7 +342,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-AUD-0004",
-    "name": "Shure SM7B #3",
+    "name": "Shure SM7B",
     "category": "Audio",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -358,7 +358,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-AUD-0005",
-    "name": "Shure SM7B #4",
+    "name": "Shure SM7B",
     "category": "Audio",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -374,7 +374,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-AUD-0006",
-    "name": "RØDE Wireless PRO Kit #1",
+    "name": "RØDE Wireless PRO",
     "category": "Audio",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -390,7 +390,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-AUD-0007",
-    "name": "RØDE Wireless PRO Kit #2",
+    "name": "RØDE Wireless PRO",
     "category": "Audio",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -509,7 +509,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LGT-0002",
-    "name": "amaran 200x S #1",
+    "name": "amaran 200x S",
     "category": "Lighting",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -557,7 +557,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LGT-0007",
-    "name": "Aputure MC #1",
+    "name": "Aputure MC",
     "category": "Lighting",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -573,7 +573,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LGT-0008",
-    "name": "Aputure MC #2",
+    "name": "Aputure MC",
     "category": "Lighting",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -589,7 +589,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LGT-0009",
-    "name": "Aputure MC #3",
+    "name": "Aputure MC",
     "category": "Lighting",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -605,7 +605,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LGT-0010",
-    "name": "Aputure MC #4",
+    "name": "Aputure MC",
     "category": "Lighting",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -621,7 +621,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LGT-0011",
-    "name": "amaran PT4c 4ft #1",
+    "name": "amaran PT4c 4ft",
     "category": "Lighting",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -633,7 +633,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LGT-0012",
-    "name": "amaran PT4c 4ft #2",
+    "name": "amaran PT4c 4ft",
     "category": "Lighting",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -645,7 +645,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LGT-0013",
-    "name": "Aputure Accent B7c #1",
+    "name": "Aputure Accent B7c",
     "category": "Lighting",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -657,7 +657,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LGT-0014",
-    "name": "Aputure Accent B7c #2",
+    "name": "Aputure Accent B7c",
     "category": "Lighting",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -849,7 +849,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-GRP-0001",
-    "name": "GVM C240 #1",
+    "name": "GVM C240",
     "category": "Grip",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -861,7 +861,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-GRP-0002",
-    "name": "GVM C240 #2",
+    "name": "GVM C240",
     "category": "Grip",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -873,7 +873,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-GRP-0003",
-    "name": "Anautin YF-ST228 9.2ft #1",
+    "name": "Anautin YF-ST228 9.2ft",
     "category": "Grip",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -885,7 +885,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-GRP-0004",
-    "name": "Anautin YF-ST228 9.2ft #2",
+    "name": "Anautin YF-ST228 9.2ft",
     "category": "Grip",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -897,7 +897,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-GRP-0005",
-    "name": "Ceiling Mount #1",
+    "name": "Ceiling Mount",
     "category": "Grip",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -909,7 +909,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-GRP-0006",
-    "name": "Ceiling Mount #2",
+    "name": "Ceiling Mount",
     "category": "Grip",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -921,7 +921,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-GRP-0007",
-    "name": "Ceiling Mount #3",
+    "name": "Ceiling Mount",
     "category": "Grip",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -933,7 +933,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-GRP-0008",
-    "name": "Ceiling Mount #4",
+    "name": "Ceiling Mount",
     "category": "Grip",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1252,7 +1252,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-RIG-0005",
-    "name": "SNIPIZ EF-EOS R Adapter #1",
+    "name": "SNIPIZ EF-EOS R Adapter",
     "category": "Rigging",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1264,7 +1264,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-RIG-0006",
-    "name": "SNIPIZ EF-EOS R Adapter #2",
+    "name": "SNIPIZ EF-EOS R Adapter",
     "category": "Rigging",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1276,7 +1276,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0001",
-    "name": "NEEWER PS099E 99Wh #1",
+    "name": "NEEWER PS099E 99Wh",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1288,7 +1288,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0002",
-    "name": "NEEWER PS099E 99Wh #2",
+    "name": "NEEWER PS099E 99Wh",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1300,7 +1300,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0003",
-    "name": "NEEWER PS099E 99Wh #3",
+    "name": "NEEWER PS099E 99Wh",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1312,7 +1312,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0004",
-    "name": "NEEWER Basics V-Mount Battery #1",
+    "name": "NEEWER Basics V-Mount Battery",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1324,7 +1324,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0005",
-    "name": "NEEWER Basics V-Mount Battery #2",
+    "name": "NEEWER Basics V-Mount Battery",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1336,7 +1336,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0006",
-    "name": "NEEWER NP-F550 2600mAh #1",
+    "name": "NEEWER NP-F550 2600mAh",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1348,7 +1348,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0007",
-    "name": "NEEWER NP-F550 2600mAh #2",
+    "name": "NEEWER NP-F550 2600mAh",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1384,7 +1384,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0010",
-    "name": "amaran 45W USB-C PD Power Kit #1",
+    "name": "amaran 45W USB-C PD Power Kit",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1396,7 +1396,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0011",
-    "name": "amaran 45W USB-C PD Power Kit #2",
+    "name": "amaran 45W USB-C PD Power Kit",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1432,7 +1432,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-MED-0003",
-    "name": "SanDisk Extreme PRO 512GB #1",
+    "name": "SanDisk Extreme PRO 512GB",
     "category": "Media",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1444,7 +1444,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-MED-0004",
-    "name": "SanDisk Extreme PRO 512GB #2",
+    "name": "SanDisk Extreme PRO 512GB",
     "category": "Media",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1456,7 +1456,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-MED-0005",
-    "name": "SanDisk Extreme PRO 512GB #3",
+    "name": "SanDisk Extreme PRO 512GB",
     "category": "Media",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1480,7 +1480,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-MED-0007",
-    "name": "SanDisk Ultra 16GB #1",
+    "name": "SanDisk Ultra 16GB",
     "category": "Media",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1492,7 +1492,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-MED-0008",
-    "name": "SanDisk Ultra 16GB #2",
+    "name": "SanDisk Ultra 16GB",
     "category": "Media",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1516,7 +1516,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-MED-0010",
-    "name": "SanDisk Extreme PLUS 128GB #1",
+    "name": "SanDisk Extreme PLUS 128GB",
     "category": "Media",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1528,7 +1528,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-MED-0011",
-    "name": "SanDisk Extreme PLUS 128GB #2",
+    "name": "SanDisk Extreme PLUS 128GB",
     "category": "Media",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1540,7 +1540,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-MED-0012",
-    "name": "SanDisk microSD Adapter #1",
+    "name": "SanDisk microSD Adapter",
     "category": "Media",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1552,7 +1552,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-MED-0013",
-    "name": "SanDisk microSD Adapter #2",
+    "name": "SanDisk microSD Adapter",
     "category": "Media",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1564,7 +1564,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-MED-0014",
-    "name": "SanDisk microSD Adapter #3",
+    "name": "SanDisk microSD Adapter",
     "category": "Media",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1576,7 +1576,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-MED-0015",
-    "name": "SanDisk microSD Adapter #4",
+    "name": "SanDisk microSD Adapter",
     "category": "Media",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1696,7 +1696,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-CAS-0001",
-    "name": "Pelican 1720 #1",
+    "name": "Pelican 1720",
     "category": "Cases",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1708,7 +1708,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-CAS-0002",
-    "name": "Pelican 1720 #2",
+    "name": "Pelican 1720",
     "category": "Cases",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1720,7 +1720,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-CAS-0003",
-    "name": "Pelican Storm iM2400 #1",
+    "name": "Pelican Storm iM2400",
     "category": "Cases",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1732,7 +1732,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-CAS-0004",
-    "name": "Pelican Storm iM2400 #2",
+    "name": "Pelican Storm iM2400",
     "category": "Cases",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1744,7 +1744,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-CAS-0005",
-    "name": "Pelican iM2100 #1",
+    "name": "Pelican iM2100",
     "category": "Cases",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1756,7 +1756,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-CAS-0006",
-    "name": "Pelican iM2100 #2",
+    "name": "Pelican iM2100",
     "category": "Cases",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1768,7 +1768,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-LGT-0020",
-    "name": "GVM P80Pro 80W #2",
+    "name": "GVM P80Pro 80W",
     "category": "Lighting",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1876,7 +1876,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-RIG-0008",
-    "name": "SY38 Quick Release Plate Kit V2 #1",
+    "name": "SY38 Quick Release Plate Kit V2",
     "category": "Rigging",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1888,7 +1888,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-RIG-0009",
-    "name": "SY38 Quick Release Plate Kit V2 #2",
+    "name": "SY38 Quick Release Plate Kit V2",
     "category": "Rigging",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1960,7 +1960,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0013",
-    "name": "Kimaru LP-E17 Dummy Battery/AC Adapter Kit #1",
+    "name": "Kimaru LP-E17 Dummy Battery/AC Adapter Kit",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1972,7 +1972,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0014",
-    "name": "Kimaru LP-E17 Dummy Battery/AC Adapter Kit #2",
+    "name": "Kimaru LP-E17 Dummy Battery/AC Adapter Kit",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -1984,7 +1984,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0015",
-    "name": "Kimaru LP-E17 Dummy Battery/AC Adapter Kit #3",
+    "name": "Kimaru LP-E17 Dummy Battery/AC Adapter Kit",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -2032,7 +2032,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0016",
-    "name": "Refuel RFK-LPE17 #1",
+    "name": "Refuel RFK-LPE17",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -2044,7 +2044,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0017",
-    "name": "Refuel RFK-LPE17 #2",
+    "name": "Refuel RFK-LPE17",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -2056,7 +2056,7 @@ export const equipmentCatalog:EquipmentItem[] = [
   },
   {
     "id": "BB-PWR-0018",
-    "name": "Refuel RFK-LPE17 #3",
+    "name": "Refuel RFK-LPE17",
     "category": "Power",
     "inventoryStatus": "ready",
     "quantity": 1,
@@ -2118,7 +2118,8 @@ export const rentableCandidates=equipmentCatalog.filter(x=>x.inventoryStatus==='
 /** Exact-model matching to the already verified manufacturer's image sources.
  * No image bytes through PrimeCuts OS: browser loads vendor URL directly and lazily.
  */
-const canonical=(s:string)=>s.normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'');
+/** Unit ordinals belong to immutable asset IDs, never to the manufacturer's model title. */
+const canonical=(s:string)=>s.replace(/\s+#\d+$/,'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'');
 const verifiedPhotoLookup=new Map(photoSources.filter(photo=>
   photo.sourceStatus==='direct-image' && typeof photo.imageUrl==='string'
   && photo.imageUrl.startsWith('https://') && photo.officialUrl

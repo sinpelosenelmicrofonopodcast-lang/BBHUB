@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "name": "Canon RF 24-105mm F4 L IS USM",
+    "name": "Canon RF24-105mm F4 L IS USM",
     "category": "Lentes",
     "manufacturer": "Canon",
     "quantity": 1,
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "name": "Canon RF 28-70mm",
+    "name": "Canon RF28-70mm F2.8 IS STM",
     "category": "Lentes",
     "manufacturer": "Canon",
     "quantity": 1,
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "name": "Rokinon 14mm f/2.8",
+    "name": "Rokinon 14mm F2.8",
     "category": "Lentes",
     "manufacturer": "Rokinon",
     "quantity": 1,
@@ -177,7 +177,7 @@
   },
   {
     "id": 17,
-    "name": "LAOWA 24mm f/14 2X Macro Probe",
+    "name": "Laowa 24mm f/14 2X Macro Probe",
     "category": "Lentes",
     "manufacturer": "LAOWA",
     "quantity": 1,
@@ -188,7 +188,7 @@
   },
   {
     "id": 18,
-    "name": "Yongnuo 35mm f/2 AF",
+    "name": "Yongnuo 35mm F2 AF",
     "category": "Lentes",
     "manufacturer": "Yongnuo",
     "quantity": 1,
@@ -232,7 +232,7 @@
   },
   {
     "id": 22,
-    "name": "RØDE Wireless PRO Kit #1",
+    "name": "RØDE Wireless PRO",
     "category": "Audio",
     "manufacturer": "RØDE",
     "quantity": 1,
@@ -243,7 +243,7 @@
   },
   {
     "id": 23,
-    "name": "RØDE Wireless PRO Kit #2",
+    "name": "RØDE Wireless PRO",
     "category": "Audio",
     "manufacturer": "RØDE",
     "quantity": 1,
