@@ -1,5 +1,5 @@
 import {NextResponse} from 'next/server';
-import {requestIsSameOrigin,safeIp} from '@/lib/auth';
+import {requestIsSameOrigin,safeIp,sameOriginRedirect} from '@/lib/auth';
 import {identifyIp,normalizedEmail,clientAccountByEmail,clientLoginThrottled,recordClientLoginFailure} from '@/lib/db';
 import {setClientSession,verifyClientPassword} from '@/lib/client-auth';
 import {staffMemberForAccount} from '@/lib/operations-staff';
@@ -9,7 +9,7 @@ export async function POST(request:Request){
   const form=await request.formData();
   const email=normalizedEmail(String(form.get('email')||''));
   const password=String(form.get('password')||'');
-  const redirectTo=(name:string)=>NextResponse.redirect(new URL(`/client/login?status=${name}`,request.url),303);
+  const redirectTo=(name:string)=>NextResponse.redirect(sameOriginRedirect(request,`/client/login?status=${name}`),303);
   const hash=identifyIp(safeIp(request));
   if(await clientLoginThrottled(hash))return redirectTo('locked');
   if(!email||email.length>254||password.length>256)return redirectTo('invalid');
@@ -20,5 +20,5 @@ export async function POST(request:Request){
   }
   await setClientSession(account);
   const staff=await staffMemberForAccount(account.id);
-  return NextResponse.redirect(new URL(staff?'/team':'/client',request.url),303);
+  return NextResponse.redirect(sameOriginRedirect(request,staff?'/team':'/client'),303);
 }
